@@ -1,12 +1,7 @@
 {
   "name": "SUSHI and IG Publisher",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "WORKSPACE_PROJECT": "${containerWorkspaceFolder}",
-      "WORKSPACE_ROOT": "${containerWorkspaceFolder}/.."
-    }
-  },
+  "image": "local/ig-publisher:3.5.0-alpine",
+  "runArgs": ["--platform=linux/amd64"],
   "containerUser": "vscode",
   "remoteUser": "vscode",
   "remoteEnv": {
@@ -32,8 +27,5 @@
         "ms-vscode.live-server"
       ]
     }
-  },
-  "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.fhir,target=/home/vscode/.fhir,type=bind"
-  ]
+  }
 }
