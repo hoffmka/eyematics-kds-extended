@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_VA_Correction_Method",
+  "id": "va-correction-method",
+  "title": "Visual Acuity Correction Methods",
+  "description": "Methods of correction used during a visual acuity test.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-correction-method",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-02-26",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "420050001",
+            "display": "Uncorrected visual acuity"
+          },
+          {
+            "code": "50121007",
+            "display": "Eye glasses, device"
+          },
+          {
+            "code": "57368009",
+            "display": "Contact lenses, device"
+          },
+          {
+            "code": "257492003",
+            "display": "Pinhole Occluder"
+          }
+        ]
+      },
+      {
+        "system": "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods"
+      }
+    ]
+  }
+}

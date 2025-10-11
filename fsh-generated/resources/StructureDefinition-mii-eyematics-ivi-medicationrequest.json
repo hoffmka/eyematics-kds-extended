@@ -1,0 +1,81 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-eyematics-ivi-medicationrequest",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivi-medicationrequest",
+  "name": "MII_EyeMatics_IVI_MedicationRequest",
+  "title": "IVI-Medikationsverordnung",
+  "status": "draft",
+  "description": "Ein MedicationRequest beschreibt die Anordnung und die Anweisungen zur Verabreichung des Medikaments an einen Patienten, in diesem Fall die Gabe eines Medikaments mit einer IVOM-Spritze. Dieses Profil basiert auf dem MII-Medikations-Kerndatensatzprofil.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationRequest",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationRequest.medication[x]",
+        "path": "MedicationRequest.medication[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medication"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.extension:IVI_TreatmentRegimen",
+        "path": "MedicationRequest.dosageInstruction.extension",
+        "sliceName": "IVI_TreatmentRegimen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/extension-ivi-treatment-regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.site",
+        "path": "MedicationRequest.dosageInstruction.site",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality"
+        }
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.route",
+        "path": "MedicationRequest.dosageInstruction.route",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "20047000",
+              "system": "http://standardterms.edqm.eu",
+              "display": "Intravitreal use"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

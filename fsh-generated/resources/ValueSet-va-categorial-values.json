@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_VA_Categorial_Values",
+  "id": "va-categorial-values",
+  "title": "Visual Acuity Categorial Values",
+  "description": "ValueSet representing categorical values for visual acuity assessments.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-categorial-values",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-02-26",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "260295004",
+            "display": "Sees hand movements (finding)"
+          },
+          {
+            "code": "260297007",
+            "display": "Perception of light - accurate projection (finding)"
+          },
+          {
+            "code": "260298002",
+            "display": "Perception of light - inaccurate projection (finding)"
+          },
+          {
+            "code": "260296003",
+            "display": "Perceives light only (finding)"
+          },
+          {
+            "code": "63063006",
+            "display": "Visual acuity, no light perception (finding)"
+          },
+          {
+            "code": "261665006",
+            "display": "Unknown (qualifier value)"
+          },
+          {
+            "code": "262008008",
+            "display": "Not performed (qualifier value)"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA24679-5",
+            "display": "Count fingers (CF)"
+          },
+          {
+            "code": "LA25490-6",
+            "display": "Central steady maintain"
+          },
+          {
+            "code": "LA25491-4",
+            "display": "Central unsteady maintain"
+          },
+          {
+            "code": "LA25492-2",
+            "display": "Fix and follow"
+          },
+          {
+            "code": "LA25493-0",
+            "display": "Blinks for lights"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_SUN_Flare",
+  "id": "SUNFlare",
+  "title": "SUN Flare",
+  "description": "ValueSet of the allowed values for the Standardization of uveitis nomenclature (SUN) for Anterior Chamber Flare.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-03-12",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "2667000",
+            "display": "Absent (qualifier value)"
+          },
+          {
+            "code": "260347006",
+            "display": "Present + out of ++++ (qualifier value)"
+          },
+          {
+            "code": "260348001",
+            "display": "Present ++ out of ++++ (qualifier value)"
+          },
+          {
+            "code": "260349009",
+            "display": "Present +++ out of ++++ (qualifier value)"
+          },
+          {
+            "code": "260350009",
+            "display": "Present ++++ out of ++++ (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

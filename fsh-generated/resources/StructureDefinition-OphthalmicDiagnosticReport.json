@@ -1,0 +1,228 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "OphthalmicDiagnosticReport",
+  "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OphthalmicDiagnosticReport",
+  "name": "MII_EyeMatics_OphthalmicDiagnosticReport",
+  "title": "Ophthalmic Diagnostic Report",
+  "status": "draft",
+  "description": "A general diagnostic report for ophthalmological findings.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport.id",
+        "path": "DiagnosticReport.id",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.meta",
+        "path": "DiagnosticReport.meta",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.meta.source",
+        "path": "DiagnosticReport.meta.source",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.meta.profile",
+        "path": "DiagnosticReport.meta.profile",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.status",
+        "path": "DiagnosticReport.status",
+        "patternCode": "draft"
+      },
+      {
+        "id": "DiagnosticReport.category",
+        "path": "DiagnosticReport.category",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.category:exam",
+        "path": "DiagnosticReport.category",
+        "sliceName": "exam",
+        "short": "Category reused from Observation.category to indicate clinical exam context",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "exam",
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code",
+        "path": "DiagnosticReport.code",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding",
+        "path": "DiagnosticReport.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding:loinc",
+        "path": "DiagnosticReport.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "*",
+        "patternCoding": {
+          "code": "78573-3",
+          "system": "http://loinc.org",
+          "display": "Ophthalmology Diagnostic study note"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding:loinc.system",
+        "path": "DiagnosticReport.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding:loinc.code",
+        "path": "DiagnosticReport.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.subject",
+        "path": "DiagnosticReport.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.encounter",
+        "path": "DiagnosticReport.encounter",
+        "short": "The encounter during which the ophthalmic findings were recorded",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.effective[x]",
+        "path": "DiagnosticReport.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.performer",
+        "path": "DiagnosticReport.performer",
+        "short": "Practitioner, team or organization responsible for the ophthalmic diagnostic report",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+              "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.resultsInterpreter",
+        "path": "DiagnosticReport.resultsInterpreter",
+        "short": "Person or role who interpreted the ophthalmic findings",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.result",
+        "path": "DiagnosticReport.result",
+        "short": "References to individual ophthalmic observations that make up this report",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusion",
+        "path": "DiagnosticReport.conclusion",
+        "short": "A brief summary of the ophthalmic findings and interpretation",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode",
+        "path": "DiagnosticReport.conclusionCode",
+        "short": "Conclusion presented with structured codes",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode.coding",
+        "path": "DiagnosticReport.conclusionCode.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode.coding:icd10-gm",
+        "path": "DiagnosticReport.conclusionCode.coding",
+        "sliceName": "icd10-gm",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode.coding:icd10-gm.system",
+        "path": "DiagnosticReport.conclusionCode.coding.system",
+        "fixedUri": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "mustSupport": true
+      }
+    ]
+  }
+}
