@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-macular-edema-method"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vs-macular-edema-method</b></p><a name="vs-macular-edema-method"> </a><a name="hcvs-macular-edema-method"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/53524009">53524009</a></td><td>Ophthalmoscopy (procedure)</td></tr><tr><td><a href="http://snomed.info/id/410450009">410450009</a></td><td>Direct ophthalmoscopy (procedure)</td></tr><tr><td><a href="http://snomed.info/id/416369006">416369006</a></td><td>Integrated optical coherence tomography and scanning laser ophthalmoscopy (procedure)</td></tr><tr><td><a href="http://snomed.info/id/1303746000">1303746000</a></td><td>Optical coherence tomography of posterior segment of eye (procedure)</td></tr><tr><td><a href="http://snomed.info/id/700070005">700070005</a></td><td>Optical coherence tomography of retina (procedure)</td></tr><tr><td><a href="http://snomed.info/id/392010000">392010000</a></td><td>Optical coherence tomography (procedure)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_MacularEdema_Method"/>
+  <title value="Method of finding a macular edema"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-08-16"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet representing the methods for discovering a macular edema."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="53524009"/>
+        <display value="Ophthalmoscopy (procedure)"/>
+      </concept>
+      <concept>
+        <code value="410450009"/>
+        <display value="Direct ophthalmoscopy (procedure)"/>
+      </concept>
+      <concept>
+        <code value="416369006"/>
+        <display value="Integrated optical coherence tomography and scanning laser ophthalmoscopy (procedure)"/>
+      </concept>
+      <concept>
+        <code value="1303746000"/>
+        <display value="Optical coherence tomography of posterior segment of eye (procedure)"/>
+      </concept>
+      <concept>
+        <code value="700070005"/>
+        <display value="Optical coherence tomography of retina (procedure)"/>
+      </concept>
+      <concept>
+        <code value="392010000"/>
+        <display value="Optical coherence tomography (procedure)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

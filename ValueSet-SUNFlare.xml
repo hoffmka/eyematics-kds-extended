@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SUNFlare"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SUNFlare</b></p><a name="SUNFlare"> </a><a name="hcSUNFlare"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/2667000">2667000</a></td><td>Absent (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/260347006">260347006</a></td><td>Present + out of ++++ (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/260348001">260348001</a></td><td>Present ++ out of ++++ (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/260349009">260349009</a></td><td>Present +++ out of ++++ (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/260350009">260350009</a></td><td>Present ++++ out of ++++ (qualifier value)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_SUN_Flare"/>
+  <title value="SUN Flare"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-03-12"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet of the allowed values for the Standardization of uveitis nomenclature (SUN) for Anterior Chamber Flare."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="2667000"/>
+        <display value="Absent (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="260347006"/>
+        <display value="Present + out of ++++ (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="260348001"/>
+        <display value="Present ++ out of ++++ (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="260349009"/>
+        <display value="Present +++ out of ++++ (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="260350009"/>
+        <display value="Present ++++ out of ++++ (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

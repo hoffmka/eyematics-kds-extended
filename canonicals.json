@@ -1,0 +1,387 @@
+[
+  {
+    "id" : "OCTbinaryBiomarker",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OCT_Binary_Biomarker"
+  },
+  {
+    "id" : "oct-binary-bm-code",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_OCT_binary_BM_Code"
+  },
+  {
+    "id" : "iop-methods",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/iop-methods",
+    "version" : "2025.0.0-alpha",
+    "name" : "IOPMethods"
+  },
+  {
+    "id" : "ivi-treatment-regimen",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen",
+    "version" : "2025.0.0-alpha",
+    "name" : "IVI_TreatmentRegimen"
+  },
+  {
+    "id" : "oct-binary-biomarker",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
+    "version" : "2025.0.0-alpha",
+    "name" : "OCT_Binary_Biomarker"
+  },
+  {
+    "id" : "sun-grades",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades",
+    "version" : "2025.0.0-alpha",
+    "name" : "SUN_Grades"
+  },
+  {
+    "id" : "va-optotypes",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes",
+    "version" : "2025.0.0-alpha",
+    "name" : "VA_Optotypes"
+  },
+  {
+    "id" : "vs-units",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units",
+    "version" : "2025.0.0-alpha",
+    "name" : "VA_Units"
+  },
+  {
+    "id" : "vs-va-correction-methods",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods",
+    "version" : "2025.0.0-alpha",
+    "name" : "CS_VA_Correction_Methods"
+  },
+  {
+    "id" : "eyematics-kerndatensatz",
+    "type" : "ImplementationGuide",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz",
+    "version" : "2025.0.0-alpha",
+    "name" : "EyeMatics_KDS"
+  },
+  {
+    "id" : "Angiography",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/Angiography",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_Angiography"
+  },
+  {
+    "id" : "AnteriorChamberCells",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/AnteriorChamberCells",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_Anterior_Chamber_Cells"
+  },
+  {
+    "id" : "AnteriorChamberFlare",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/AnteriorChamberFlare",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_Anterior_Chamber_Flare"
+  },
+  {
+    "id" : "IOP",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/IOP",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IOP"
+  },
+  {
+    "id" : "IrisSynechiae",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/IrisSynechiae",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IrisSynechiae"
+  },
+  {
+    "id" : "LensDuringVATestSpecification",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/LensDuringVATestSpecification",
+    "version" : "2025.0.0-alpha",
+    "name" : "LensDuringVATestSpecification"
+  },
+  {
+    "id" : "MacularEdema",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/MacularEdema",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_MacularEdema"
+  },
+  {
+    "id" : "OphthalmicDiagnosticReport",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OphthalmicDiagnosticReport",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OphthalmicDiagnosticReport"
+  },
+  {
+    "id" : "OphthalmicObservation",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OphthalmicObservation",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OphthalmicObservation"
+  },
+  {
+    "id" : "OpticDiscDiameter",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OpticDiscDiameter",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OpticDiscDiameter"
+  },
+  {
+    "id" : "PapillEdema",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/PapillEdema",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_PapillEdema"
+  },
+  {
+    "id" : "RNFLThickness",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/RNFLThickness",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_RNFL_Thickness"
+  },
+  {
+    "id" : "RetinalThickness",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/RetinalThickness",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_RetinalThickness"
+  },
+  {
+    "id" : "RetinalVasculitis",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/RetinalVasculitis",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_RetinalVasculitis"
+  },
+  {
+    "id" : "extension-ivi-treatment-regimen",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/extension-ivi-treatment-regimen",
+    "version" : "2025.0.0-alpha",
+    "name" : "IVI_TreatmentRegimen"
+  },
+  {
+    "id" : "mii-eyematics-ivi-medicationrequest",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivi-medicationrequest",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IVI_MedicationRequest"
+  },
+  {
+    "id" : "mii-eyematics-ivom-hand-movement-perception",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-hand-movement-perception",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IVI_HandMovementPerception"
+  },
+  {
+    "id" : "mii-eyematics-ivom-medication",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medication",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IVI_Medication"
+  },
+  {
+    "id" : "mii-eyematics-ivom-medicationadministration",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medicationadministration",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IVI_MedicationAdministration"
+  },
+  {
+    "id" : "mii-eyematics-ivom-paracentesis",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-paracentesis",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_IVI_Paracentesis"
+  },
+  {
+    "id" : "observation-visual-acuity",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_VisualAcuity"
+  },
+  {
+    "id" : "IVIMedicationForm",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_IVI_MedicationForm"
+  },
+  {
+    "id" : "IVITeatmentRegimen",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_IVI_TreatmentRegimen"
+  },
+  {
+    "id" : "Performed-NotPerformed",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Performed-NotPerformed",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Performed_NotPerformed"
+  },
+  {
+    "id" : "Present-Absent",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Present_Absent"
+  },
+  {
+    "id" : "SUNCells",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_SUN_Cells"
+  },
+  {
+    "id" : "SUNFlare",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_SUN_Flare"
+  },
+  {
+    "id" : "Used-NotUsed",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Used_NotUsed"
+  },
+  {
+    "id" : "eye-laterality",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Eye_Laterality"
+  },
+  {
+    "id" : "imaging-methods",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/imaging-methods",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Imaging_Methods"
+  },
+  {
+    "id" : "iop-code",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/iop-code",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_IOP_Code"
+  },
+  {
+    "id" : "iop-methods",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/iop-methods",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_IOP_Methods"
+  },
+  {
+    "id" : "ivom-medication",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/ivom-medication",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_IVOM_Medication"
+  },
+  {
+    "id" : "lens-types",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/lens-types",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Lens_Types"
+  },
+  {
+    "id" : "va-categorial-values",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-categorial-values",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Categorial_Values"
+  },
+  {
+    "id" : "va-code",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-code",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Code"
+  },
+  {
+    "id" : "va-correction-method",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-correction-method",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Correction_Method"
+  },
+  {
+    "id" : "va-methods",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-methods",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Methods"
+  },
+  {
+    "id" : "va-optotypes",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-optotypes",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Optotypes"
+  },
+  {
+    "id" : "va-quantity-units",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-quantity-units",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Quantity_Units"
+  },
+  {
+    "id" : "va-special-testing-parameters",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-special-testing-parameters",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Special_Testing_Parameters"
+  },
+  {
+    "id" : "va-test-distance",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-test-distance",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_VA_Test_Distance"
+  },
+  {
+    "id" : "vs-macular-edema-method",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_MacularEdema_Method"
+  },
+  {
+    "id" : "vs-macular-oct-thickness-map",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-oct-thickness-map",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Macular_OCT_Thickness_Map"
+  },
+  {
+    "id" : "vs-rnfl-oct-thickness-map",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-rnfl-oct-thickness-map",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_RNFL_OCT_Thickness_Map"
+  }
+]

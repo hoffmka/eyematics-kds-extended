@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lens-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet lens-types</b></p><a name=\"lens-types\"> </a><a name=\"hclens-types\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span> where concept  descends from 57368009 (Contact lenses)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span> where concept  descends from 50121007 (Eye glasses, device (physical object))</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span> where concept  descends from 420330007 (Trial lens (physical object))</li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/lens-types",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_VA_Lens_Types",
+  "title" : "VA Lens Types",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-02-18",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "This ValueSet includes codes representing different types of lenses used in ophthalmology. It covers contact lenses, eyeglasses and trial lenses.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "57368009"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "50121007"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "420330007"
+      }]
+    }]
+  }
+}

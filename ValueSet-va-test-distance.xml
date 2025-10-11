@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="va-test-distance"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet va-test-distance</b></p><a name="va-test-distance"> </a><a name="hcva-test-distance"> </a><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA32578-9/">LA32578-9</a></td><td>Near</td></tr><tr><td><a href="https://loinc.org/LA32577-1/">LA32577-1</a></td><td>Far</td></tr><tr><td><a href="https://loinc.org/LA16550-8/">LA16550-8</a></td><td>Intermediate</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/va-test-distance"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_VA_Test_Distance"/>
+  <title value="Visual Acuity Test Distance"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-02-26"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet representing different test distances."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="LA32578-9"/>
+        <display value="Near"/>
+      </concept>
+      <concept>
+        <code value="LA32577-1"/>
+        <display value="Far"/>
+      </concept>
+      <concept>
+        <code value="LA16550-8"/>
+        <display value="Intermediate"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "va-quantity-units",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-quantity-units</b></p><a name=\"va-quantity-units\"> </a><a name=\"hcva-quantity-units\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-vs-units.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">&#x1F4E6;2025.0.0-alpha</span></li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-quantity-units",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_VA_Quantity_Units",
+  "title" : "Visual Acuity Units",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-02-26",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ValueSet representing the units of measurement used in visual acuity assessments.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units"
+    }]
+  }
+}

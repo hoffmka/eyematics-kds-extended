@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "va-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-code</b></p><a name=\"va-code\"> </a><a name=\"hcva-code\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span> where concept  descends from 363983007 (Visual acuity)</li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-code",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_VA_Code",
+  "title" : "Visual Acuity Code",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-02-26",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "SNOMED or LOINC code",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "363983007"
+      }]
+    }]
+  }
+}

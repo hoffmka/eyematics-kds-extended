@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lens-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet lens-types</b></p><a name="lens-types"> </a><a name="hclens-types"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span> where concept  descends from 57368009 (Contact lenses)</li><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span> where concept  descends from 50121007 (Eye glasses, device (physical object))</li><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span> where concept  descends from 420330007 (Trial lens (physical object))</li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/lens-types"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_VA_Lens_Types"/>
+  <title value="VA Lens Types"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-02-18"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="This ValueSet includes codes representing different types of lenses used in ophthalmology. It covers contact lenses, eyeglasses and trial lenses."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="57368009"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="50121007"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="420330007"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

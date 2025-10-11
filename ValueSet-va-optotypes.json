@@ -1,0 +1,101 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "va-optotypes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-optotypes</b></p><a name=\"va-optotypes\"> </a><a name=\"hcva-optotypes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-va-optotypes.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">&#x1F4E6;2025.0.0-alpha</span></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/400911007\">400911007</a></td><td>E test</td></tr><tr><td><a href=\"http://snomed.info/id/252982005\">252982005</a></td><td>Kay picture test</td></tr><tr><td><a href=\"http://snomed.info/id/252977003\">252977003</a></td><td>Cambridge crowded letter charts</td></tr><tr><td><a href=\"http://snomed.info/id/252976007\">252976007</a></td><td>Sonsken charts</td></tr><tr><td><a href=\"http://snomed.info/id/252978008\">252978008</a></td><td>Sheridan Gardiner test (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/252884005\">252884005</a></td><td>Stycar vision test</td></tr><tr><td><a href=\"http://snomed.info/id/285805006\">285805006</a></td><td>Cardiff acuity cards (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/285803004\">285803004</a></td><td>Teller acuity cards</td></tr><tr><td><a href=\"http://snomed.info/id/285804005\">285804005</a></td><td>Keeler acuity cards</td></tr><tr><td><a href=\"http://snomed.info/id/400914004\">400914004</a></td><td>Early Treatment of Diabetic Retinopathy Study visual acuity chart (physical object)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA25494-8/\">LA25494-8</a></td><td>Teller</td></tr><tr><td><a href=\"https://loinc.org/LA25495-5/\">LA25495-5</a></td><td>Allen figure</td></tr><tr><td><a href=\"https://loinc.org/LA25496-3/\">LA25496-3</a></td><td>HOTV</td></tr><tr><td><a href=\"https://loinc.org/LA25497-1/\">LA25497-1</a></td><td>Numbers</td></tr><tr><td><a href=\"https://loinc.org/LA25498-9/\">LA25498-9</a></td><td>Snellen</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-optotypes",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_VA_Optotypes",
+  "title" : "Visual Acuity Optotypes",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-02-26",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ValueSet representing various optotypes used in visual acuity testing.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "400911007",
+        "display" : "E test"
+      },
+      {
+        "code" : "252982005",
+        "display" : "Kay picture test"
+      },
+      {
+        "code" : "252977003",
+        "display" : "Cambridge crowded letter charts"
+      },
+      {
+        "code" : "252976007",
+        "display" : "Sonsken charts"
+      },
+      {
+        "code" : "252978008",
+        "display" : "Sheridan Gardiner test (procedure)"
+      },
+      {
+        "code" : "252884005",
+        "display" : "Stycar vision test"
+      },
+      {
+        "code" : "285805006",
+        "display" : "Cardiff acuity cards (procedure)"
+      },
+      {
+        "code" : "285803004",
+        "display" : "Teller acuity cards"
+      },
+      {
+        "code" : "285804005",
+        "display" : "Keeler acuity cards"
+      },
+      {
+        "code" : "400914004",
+        "display" : "Early Treatment of Diabetic Retinopathy Study visual acuity chart (physical object)"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA25494-8",
+        "display" : "Teller"
+      },
+      {
+        "code" : "LA25495-5",
+        "display" : "Allen figure"
+      },
+      {
+        "code" : "LA25496-3",
+        "display" : "HOTV"
+      },
+      {
+        "code" : "LA25497-1",
+        "display" : "Numbers"
+      },
+      {
+        "code" : "LA25498-9",
+        "display" : "Snellen"
+      }]
+    }]
+  }
+}

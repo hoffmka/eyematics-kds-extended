@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oct-binary-bm-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet oct-binary-bm-code</b></p><a name="oct-binary-bm-code"> </a><a name="hcoct-binary-bm-code"> </a><ul><li>Include all codes defined in <a href="CodeSystem-oct-binary-biomarker.html"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;2025.0.0-alpha</span></li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_OCT_binary_BM_Code"/>
+  <title value="OCT Binary Biomarker Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-10"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"/>
+    </include>
+  </compose>
+</ValueSet>

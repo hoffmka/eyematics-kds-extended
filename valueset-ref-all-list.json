@@ -1,0 +1,1352 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.de/ValueSet/ask",
+      "version" : "1.5.4",
+      "status" : "active",
+      "name" : "ASK",
+      "title" : "ASK ValueSet",
+      "description" : "Arzneimittel-Stoffkatalog (ASK) Nummern",
+      "systems" : ["http://fhir.de/CodeSystem/ask"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "http://fhir.de/ValueSet/bfarm/atc",
+      "version" : "1.5.4",
+      "status" : "active",
+      "name" : "ATC",
+      "title" : "ATC ValueSet",
+      "description" : "Anatomisch-therapeutisch-chemische Klassifkation (ATC) mit Tagesdosen deutsche Fassung",
+      "systems" : ["http://fhir.de/CodeSystem/bfarm/atc"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "http://fhir.de/ValueSet/ifa/pzn",
+      "version" : "1.5.4",
+      "status" : "active",
+      "name" : "PZN",
+      "title" : "PZN ValueSet",
+      "description" : "Die Pharmazentralnummer (PZN) ist ein in Deutschland bundeseinheitlicher Identifikationsschlüssel für Arzneimittel, Hilfsmittel und andere Apothekenprodukte. Sie ist eine achtstellige Nummer (7 Ziffern + Prüfziffer) mit vorangestelltem Minus-Zeichen, die Arzneimittel nach Bezeichnung, Darreichungsform, Wirkstoffstärke und Packungsgröße eindeutig kennzeichnet. Sie wird im Klartext (Zahlen) mit vorangestelltem „PZN“ und als Strichcode (Code39) auf jede Arzneimittelpackung aufgedruckt, wobei die Zeichenfolge „PZN“ nicht im Strichcode enthalten ist.",
+      "systems" : ["http://fhir.de/CodeSystem/ifa/pzn"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/additional-instruction-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAdditionalDosageInstructions",
+      "title" : "SNOMED CT Additional Dosage Instructions",
+      "description" : "This value set includes all SNOMED CT Additional Dosage Instructions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.95"],
+      "sources" : ["2.16.840.1.113883.4.642.3.95"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAdministrationMethodCodes",
+      "title" : "SNOMED CT Administration Method Codes",
+      "description" : "This value set includes some method codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.97"],
+      "sources" : ["2.16.840.1.113883.4.642.3.97"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/common-tags",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonTags",
+      "title" : "Common Tags",
+      "description" : "Common Tag Codes defined by FHIR project",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/common-tags"],
+      "oids" : ["2.16.840.1.113883.4.642.3.79"],
+      "sources" : ["2.16.840.1.113883.4.642.3.79"],
+      "uses" : {
+      },
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-action",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureDeviceActionCodes",
+      "title" : "Procedure Device Action Codes",
+      "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.425"],
+      "sources" : ["2.16.840.1.113883.4.642.3.425"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceTypes",
+      "title" : "FHIR Device Types",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.208"],
+      "sources" : ["2.16.840.1.113883.4.642.3.208"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticReportStatus",
+      "title" : "DiagnosticReportStatus",
+      "description" : "The status of the diagnostic report.",
+      "systems" : ["http://hl7.org/fhir/diagnostic-report-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.235"],
+      "sources" : ["2.16.840.1.113883.4.642.3.235"],
+      "uses" : {
+      },
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticServiceSectionCodes",
+      "title" : "Diagnostic Service Section Codes",
+      "description" : "This value set includes all the codes in HL7 V2 table 0074.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
+      "oids" : ["2.16.840.1.113883.4.642.3.234"],
+      "sources" : ["2.16.840.1.113883.4.642.3.234"],
+      "uses" : {
+      },
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DoseAndRateType",
+      "title" : "DoseAndRateType",
+      "description" : "The kind of dose or rate specified.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/dose-rate-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.981"],
+      "sources" : ["2.16.840.1.113883.4.642.3.981"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.109"],
+      "sources" : ["2.16.840.1.113883.4.642.3.109"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-timing",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "EventTiming",
+      "title" : "EventTiming",
+      "description" : "Real world event relating to the schedule.",
+      "systems" : [
+        "http://hl7.org/fhir/event-timing",
+        "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.75"],
+      "sources" : ["2.16.840.1.113883.4.642.3.75"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/med-admin-perform-function",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Performer Function Codes",
+      "title" : "Medication administration  performer  function  codes",
+      "description" : "MedicationAdministration Performer Function Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/med-admin-perform-function"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.349"],
+      "sources" : ["2.16.840.1.113883.4.642.3.349"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Category Codes",
+      "title" : "Medication administration  category  codes",
+      "description" : "MedicationAdministration Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.347"],
+      "sources" : ["2.16.840.1.113883.4.642.3.347"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Status Codes",
+      "title" : "Medication administration  status  codes",
+      "description" : "MedicationAdministration Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.340"],
+      "sources" : ["2.16.840.1.113883.4.642.3.340"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationAsNeededReasonCodes",
+      "title" : "SNOMED CT Medication As Needed Reason Codes",
+      "description" : "This value set includes all clinical findings from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.96"],
+      "sources" : ["2.16.840.1.113883.4.642.3.96"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication Status Codes",
+      "title" : "Medication  status  codes",
+      "description" : "Medication Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.376"],
+      "sources" : ["2.16.840.1.113883.4.642.3.376"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Category Codes",
+      "title" : "Medication request  category  codes",
+      "description" : "MedicationRequest Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1322"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Course of Therapy Codes",
+      "title" : "Medication request  course of  therapy  codes",
+      "description" : "MedicationRequest Course of Therapy Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1326"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Intent",
+      "title" : "Medication request  intent",
+      "description" : "MedicationRequest Intent Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1321"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1321"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationrequest Status",
+      "title" : "Medicationrequest  status",
+      "description" : "MedicationRequest Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1320"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Status Reason Codes",
+      "title" : "Medication request  status  reason  codes",
+      "description" : "MedicationRequest Status Reason Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1324"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+      "title" : "Procedure Category Codes (SNOMED CT)",
+      "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.430"],
+      "sources" : ["2.16.840.1.113883.4.642.3.430"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+      "title" : "Procedure Follow up Codes (SNOMED CT)",
+      "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.429"],
+      "sources" : ["2.16.840.1.113883.4.642.3.429"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+      "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.431"],
+      "sources" : ["2.16.840.1.113883.4.642.3.431"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+      "title" : "Procedure Outcome Codes (SNOMED CT)",
+      "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.428"],
+      "sources" : ["2.16.840.1.113883.4.642.3.428"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-given-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ReasonMedicationGivenCodes",
+      "title" : "Reason Medication Given Codes",
+      "description" : "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication process.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/reason-medication-given"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.344"],
+      "sources" : ["2.16.840.1.113883.4.642.3.344"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-not-given-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTReasonMedicationNotGivenCodes",
+      "title" : "SNOMED CT Reason Medication Not Given Codes",
+      "description" : "This value set includes all medication refused, medication not administered, and non-administration of necessary drug or medicine codes from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.342"],
+      "sources" : ["2.16.840.1.113883.4.642.3.342"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/report-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCDiagnosticReportCodes",
+      "title" : "LOINC Diagnostic Report Codes",
+      "description" : "This value set includes LOINC codes that relate to Diagnostic Observations.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.233"],
+      "sources" : ["2.16.840.1.113883.4.642.3.233"],
+      "uses" : {
+      },
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/route-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTRouteCodes",
+      "title" : "SNOMED CT Route Codes",
+      "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.98"],
+      "sources" : ["2.16.840.1.113883.4.642.3.98"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/security-labels",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "All Security Labels",
+      "title" : "SecurityLabels",
+      "description" : "A single value set for all security labels defined by FHIR.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw",
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.47"],
+      "sources" : ["2.16.840.1.113883.4.642.3.47"],
+      "uses" : {
+      },
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-OphthalmicDiagnosticReport.html" : "Ophthalmic Diagnostic Report",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-mii-eyematics-ivom-paracentesis.html" : "IVI-Paracentesis",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/timing-abbreviation",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TimingAbbreviation",
+      "title" : "TimingAbbreviation",
+      "description" : "Code for a known / defined timing pattern.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"],
+      "oids" : ["2.16.840.1.113883.4.642.3.78"],
+      "sources" : ["2.16.840.1.113883.4.642.3.78"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/units-of-time",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "UnitsOfTime",
+      "title" : "UnitsOfTime",
+      "description" : "A unit of time (units from UCUM).",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.77"],
+      "sources" : ["2.16.840.1.113883.4.642.3.77"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/medicine-route-of-administration",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "MedicineRouteOfAdministrationUvIps",
+      "title" : "Medicine Route of Administration - IPS",
+      "description" : "EDQM (European Directorate for the Quality of Medicines and Healthcare) Route of Administration codes.  This Value Set includes all the EDQM Standard Terms having:  \n[Concept Status] = ‘Current’ AND  \n[Concept Class] = 'ROA' AND  \n[Domain] = 'Human and Veterinary'  \n\nROA = 'Route of administration'",
+      "systems" : ["http://standardterms.edqm.eu"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/target-site-uv-ips",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "TargetSiteUvIps",
+      "title" : "Target Site - IPS",
+      "description" : "This value set includes codes from SNOMED Clinical Terms®: all descendants of 442083009 | Anatomical or acquired body structure (body structure)|.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActSubstanceAdminSubstitutionCode",
+      "title" : "ActSubstanceAdminSubstitutionCode",
+      "description" : "***No description***",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16621"],
+      "sources" : ["2.16.840.1.113883.1.11.16621"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "SubstanceAdminSubstitutionReason",
+      "title" : "SubstanceAdminSubstitutionReason",
+      "description" : "***No description***",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason"],
+      "oids" : ["2.16.840.1.113883.1.11.19377"],
+      "sources" : ["2.16.840.1.113883.1.11.19377"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_OCT_binary_BM_Code",
+      "title" : "OCT Binary Biomarker Codes",
+      "description" : "Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent.",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_IVI_MedicationForm",
+      "title" : "IVI Medication Form",
+      "description" : "ValueSet of the IVI Medication Form",
+      "systems" : ["http://standardterms.edqm.eu"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-eyematics-ivom-medication.html" : "IVI-Medikament"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_IVI_TreatmentRegimen",
+      "title" : "IVI Treatment Regimen",
+      "description" : "ValueSet of the IVI Treatment Regimen/Protocol",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-extension-ivi-treatment-regimen.html" : "IVI Treatment Regimen Extension"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Performed-NotPerformed",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Performed_NotPerformed",
+      "title" : "Performed NotPerformed",
+      "description" : "ValueSet representing the status of a procedure or action, indicating whether it has been performed or not.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Present_Absent",
+      "title" : "Present Absent",
+      "description" : "ValueSet containing codes that indicate the presence, absence, or unknown status of a clinical finding or condition.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_SUN_Cells",
+      "title" : "SUN Cells",
+      "description" : "ValueSet of the allowed values for the Standardization of uveitis nomenclature (SUN) for Anterior Chamber Cells.",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_SUN_Flare",
+      "title" : "SUN Flare",
+      "description" : "ValueSet of the allowed values for the Standardization of uveitis nomenclature (SUN) for Anterior Chamber Flare.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-SUNCells.html" : "SUN Cells",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Used_NotUsed",
+      "title" : "Used NotUsed",
+      "description" : "ValueSet representing the status of a device, indicating whether it has been used or not.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Eye_Laterality",
+      "title" : "Eye Laterality",
+      "description" : "Describes which eye of the patient was analyzed.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-AnteriorChamberCells.html" : "Anterior Chamber Cells",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness",
+      "StructureDefinition-OpticDiscDiameter.html" : "Optic Disc Diameter",
+      "StructureDefinition-Angiography.html" : "Angiography",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/imaging-methods",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Imaging_Methods",
+      "title" : "Imaging Methods",
+      "description" : "ValueSet containing standardized imaging procedures used in ophthalmology.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-Angiography.html" : "Angiography"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/iop-code",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_IOP_Code",
+      "title" : "IOP Code",
+      "description" : "Codes used to specify the laterality of the eye.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/iop-methods",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_IOP_Methods",
+      "title" : "IOP Methods",
+      "description" : "Describes the various methods of capturing IOP (Intraocular Pressure).",
+      "systems" : [
+        "http://snomed.info/sct",
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/iop-methods"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-IOP.html" : "Intraocular Pressure"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/ivom-medication",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_IVOM_Medication",
+      "title" : "IVOM Medication",
+      "description" : "ValueSet representing various optotypes used in visual acuity testing.",
+      "systems" : ["http://fhir.de/CodeSystem/bfarm/atc"]
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/lens-types",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Lens_Types",
+      "title" : "VA Lens Types",
+      "description" : "This ValueSet includes codes representing different types of lenses used in ophthalmology. It covers contact lenses, eyeglasses and trial lenses.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-LensDuringVATestSpecification.html" : "LensDuringVATestSpecification"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-categorial-values",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Categorial_Values",
+      "title" : "Visual Acuity Categorial Values",
+      "description" : "ValueSet representing categorical values for visual acuity assessments.",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-code",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Code",
+      "title" : "Visual Acuity Code",
+      "description" : "SNOMED or LOINC code",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-correction-method",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Correction_Method",
+      "title" : "Visual Acuity Correction Methods",
+      "description" : "Methods of correction used during a visual acuity test.",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-methods",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Methods",
+      "title" : "VA Methods",
+      "description" : "Describes the various charts that can be used to assess visual acuity where concept descends from 400912000 (Visual acuity test equipment (physical object)).",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-optotypes",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Optotypes",
+      "title" : "Visual Acuity Optotypes",
+      "description" : "ValueSet representing various optotypes used in visual acuity testing.",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes",
+        "http://loinc.org",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-quantity-units",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Quantity_Units",
+      "title" : "Visual Acuity Units",
+      "description" : "ValueSet representing the units of measurement used in visual acuity assessments.",
+      "systems" : [
+        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-special-testing-parameters",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Special_Testing_Parameters",
+      "title" : "Visual Acuity Special Testing Parameters",
+      "description" : "ValueSet representing special parameters used in visual acuity testing that go beyond standard acuity measures.",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-test-distance",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_VA_Test_Distance",
+      "title" : "Visual Acuity Test Distance",
+      "description" : "ValueSet representing different test distances.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_MacularEdema_Method",
+      "title" : "Method of finding a macular edema",
+      "description" : "ValueSet representing the methods for discovering a macular edema.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-MacularEdema.html" : "Macular Edema"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-oct-thickness-map",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Macular_OCT_Thickness_Map",
+      "title" : "Macular OCT Thickness Map",
+      "description" : "ValueSet representing the various subfield thickness measurements of the macula obtained through OCT.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-RetinalThickness.html" : "Retinal Thickness"
+    },
+    {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-rnfl-oct-thickness-map",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_RNFL_OCT_Thickness_Map",
+      "title" : "Retinal nerve fiber layer OCT Thickness Map",
+      "description" : "ValueSet representing the various thickness measurements of the retinal nerve fiber layer (RNFL) obtained through OCT.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-RNFLThickness.html" : "RNFL Thickness"
+    }
+  ]
+}

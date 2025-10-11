@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="iop-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet iop-code</b></p><a name="iop-code"> </a><a name="hciop-code"> </a><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a> version <span title="Version is not explicity stated. No matching Code System found">Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/79893-4/">79893-4</a></td><td>Left eye Intraocular pressure</td></tr><tr><td><a href="https://loinc.org/79892-6/">79892-6</a></td><td>Right eye Intraocular pressure</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/iop-code"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_IOP_Code"/>
+  <title value="IOP Code"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-02-11"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Codes used to specify the laterality of the eye."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="79893-4"/>
+        <display value="Left eye Intraocular pressure"/>
+      </concept>
+      <concept>
+        <code value="79892-6"/>
+        <display value="Right eye Intraocular pressure"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

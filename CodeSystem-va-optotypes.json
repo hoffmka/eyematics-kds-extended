@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "va-optotypes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem va-optotypes</b></p><a name=\"va-optotypes\"> </a><a name=\"hcva-optotypes\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LandoltC<a name=\"va-optotypes-LandoltC\"> </a></td><td>Landolt C</td></tr><tr><td style=\"white-space:nowrap\">Sjogren<a name=\"va-optotypes-Sjogren\"> </a></td><td>Sjogren's Hand Test</td></tr><tr><td style=\"white-space:nowrap\">Lea<a name=\"va-optotypes-Lea\"> </a></td><td>Lea Symbol Test</td></tr></table></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes",
+  "version" : "2025.0.0-alpha",
+  "name" : "VA_Optotypes",
+  "title" : "Visual Acuity Optotypes",
+  "status" : "draft",
+  "date" : "2025-02-26",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "A CodeSystem that includes codes representing optotype used during visual acuity testing, that are not covered by loinc or snomed",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "copyright" : "MII",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "versionNeeded" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "LandoltC",
+    "display" : "Landolt C"
+  },
+  {
+    "code" : "Sjogren",
+    "display" : "Sjogren's Hand Test"
+  },
+  {
+    "code" : "Lea",
+    "display" : "Lea Symbol Test"
+  }]
+}
