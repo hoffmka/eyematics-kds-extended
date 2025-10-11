@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_VA_Quantity_Units",
+  "id": "va-quantity-units",
+  "title": "Visual Acuity Units",
+  "description": "ValueSet representing the units of measurement used in visual acuity assessments.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-quantity-units",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-02-26",
+  "compose": {
+    "include": [
+      {
+        "system": "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_Present_Absent",
+  "id": "Present-Absent",
+  "title": "Present Absent",
+  "description": "ValueSet containing codes that indicate the presence, absence, or unknown status of a clinical finding or condition.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-04-01",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "52101004",
+            "display": "Present (qualifier value)"
+          },
+          {
+            "code": "2667000",
+            "display": "Absent (qualifier value)"
+          },
+          {
+            "code": "261665006",
+            "display": "Unknown (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

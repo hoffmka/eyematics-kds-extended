@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "CS_VA_Correction_Methods",
+  "id": "vs-va-correction-methods",
+  "title": "Visual Acuity Correction Methods",
+  "description": "Correction Methods not covered by snomed",
+  "url": "https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods",
+  "concept": [
+    {
+      "code": "trial-lenses-autorefraction",
+      "display": "Trial Lenses - Values from Autorefraction",
+      "definition": "Trial lenses used for visual acuity testing based on values obtained from an autorefractor."
+    },
+    {
+      "code": "trial-lenses-manifest-without-cycloplegia",
+      "display": "Trial Lenses - Values from Manifest Refraction without Cycloplegia",
+      "definition": "Trial lenses used for visual acuity testing based on values from manifest refraction without cycloplegia."
+    },
+    {
+      "code": "trial-lenses-manifest-with-cycloplegia",
+      "display": "Trial Lenses - Values from Manifest Refraction with Cycloplegia",
+      "definition": "Trial lenses used for visual acuity testing based on values from manifest refraction with cycloplegia."
+    },
+    {
+      "code": "trial-lenses-retinoscopy",
+      "display": "Trial Lenses - Values from Retinoscopy",
+      "definition": "Trial lenses used for visual acuity testing based on values from retinoscopy."
+    },
+    {
+      "code": "trial-lenses-unspecified-origin",
+      "display": "Trial Lenses - Values of Unspecified Origin",
+      "definition": "Trial lenses used for visual acuity testing where the origin of the refractive values is unspecified."
+    }
+  ],
+  "version": "0.1.0",
+  "date": "2025-02-26",
+  "publisher": "EyeMatics AP03 Working Group",
+  "contact": [
+    {
+      "name": "Johannes Oehm"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "001",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm"
+        }
+      ]
+    }
+  ],
+  "copyright": "MII",
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "count": 5
+}

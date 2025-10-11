@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-eyematics-ivom-medication",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medication",
+  "name": "MII_EyeMatics_IVI_Medication",
+  "title": "IVI-Medikament",
+  "status": "draft",
+  "description": "Die Medikation, die angesetzt, geplant oder verabreicht wird. Es kann sich um ein Fertigarzneimittel oder eine Rezeptur handeln. Auch die Angabe nur des Wirkstoffes ist möglich. Mindestens ein Wirkstoff MUSS angegeben werden.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Medication",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/Medication",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Medication.form",
+        "path": "Medication.form",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm"
+        }
+      }
+    ]
+  }
+}

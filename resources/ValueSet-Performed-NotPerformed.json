@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_Performed_NotPerformed",
+  "id": "Performed-NotPerformed",
+  "title": "Performed NotPerformed",
+  "description": "ValueSet representing the status of a procedure or action, indicating whether it has been performed or not.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/Performed-NotPerformed",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-03-12",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "398166005",
+            "display": "Performed (qualifier value)"
+          },
+          {
+            "code": "262008008",
+            "display": "Not performed (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

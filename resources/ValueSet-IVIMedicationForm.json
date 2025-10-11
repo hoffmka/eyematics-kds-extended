@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_IVI_MedicationForm",
+  "id": "IVIMedicationForm",
+  "title": "IVI Medication Form",
+  "description": "ValueSet of the IVI Medication Form",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-04-18",
+  "compose": {
+    "include": [
+      {
+        "system": "http://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "30029000",
+            "display": "Injection syringe"
+          },
+          {
+            "code": "13191000",
+            "display": "Intravitreal implant"
+          }
+        ]
+      }
+    ]
+  }
+}

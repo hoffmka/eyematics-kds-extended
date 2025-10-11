@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_MacularEdema_Method",
+  "id": "vs-macular-edema-method",
+  "title": "Method of finding a macular edema",
+  "description": "ValueSet representing the methods for discovering a macular edema.",
+  "url": "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method",
+  "version": "0.1.0",
+  "experimental": true,
+  "date": "2025-08-16",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53524009",
+            "display": "Ophthalmoscopy (procedure)"
+          },
+          {
+            "code": "410450009",
+            "display": "Direct ophthalmoscopy (procedure)"
+          },
+          {
+            "code": "416369006",
+            "display": "Integrated optical coherence tomography and scanning laser ophthalmoscopy (procedure)"
+          },
+          {
+            "code": "1303746000",
+            "display": "Optical coherence tomography of posterior segment of eye (procedure)"
+          },
+          {
+            "code": "700070005",
+            "display": "Optical coherence tomography of retina (procedure)"
+          },
+          {
+            "code": "392010000",
+            "display": "Optical coherence tomography (procedure)"
+          }
+        ]
+      }
+    ]
+  }
+}
