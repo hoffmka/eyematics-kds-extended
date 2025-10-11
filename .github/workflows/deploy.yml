@@ -30,7 +30,7 @@ jobs:
           curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher/publisher.jar
 
       - name: Run IG Publisher
-        run: java -jar publisher/publisher.jar -ig . -nojekyll || true
+        run: java -jar publisher/publisher.jar -ig . -nojekyll -debug || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
