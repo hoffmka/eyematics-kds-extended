@@ -2,7 +2,7 @@ name: Build and Deploy FHIR IG
 
 on:
   push:
-    branches: [ oct-biomarkers, main ]
+    branches: [ oct-biomarkers ]
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
           curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher/publisher.jar
 
       - name: Run IG Publisher
-        run: java -jar publisher/publisher.jar -ig ./
+        run: java -jar publisher/publisher.jar -ig . -nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
