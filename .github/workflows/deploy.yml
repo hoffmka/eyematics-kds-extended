@@ -1,0 +1,39 @@
+name: Build and Deploy FHIR IG
+
+on:
+  push:
+    branches: [ oct-biomarkers, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+
+      - name: Run SUSHI to generate IG files
+        run: sushi . -o fsh-generated
+
+      - name: Download IG Publisher
+        run: |
+          mkdir -p publisher
+          curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher/publisher.jar
+
+      - name: Run IG Publisher
+        run: java -jar publisher/publisher.jar -ig ./
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./fsh-generated
