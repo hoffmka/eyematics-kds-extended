@@ -1,0 +1,15 @@
+{
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz",
+  "name" : "EyeMatics_KDS",
+  "title" : "Eyematics Core Data Set",
+  "description" : "Medizininformatik Initiative - EyeMatics",
+  "status" : "draft",
+  "package-id" : "eyematics-kerndatensatz",
+  "ig-ver" : "2025.0.0-alpha",
+  "date" : "Sat, 11 Oct, 2025 19:15:37 +0000",
+  "dateISO8601" : "2025-10-11T19:15:37+00:00",
+  "exception" : "Cannot run program \"jekyll\" (in directory \"/home/runner/work/eyematics-kds-extended/eyematics-kds-extended/temp/pages\"): error=2, No such file or directory",
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1260557288
+}
