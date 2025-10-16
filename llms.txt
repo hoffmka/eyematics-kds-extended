@@ -3,8 +3,8 @@
 ## Pages
 
 * [Home](index.md)
-* [Artifacts Summary](artifacts.md)
 * [Medication](medication.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 
@@ -70,6 +70,7 @@
 * [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
 * [OCT Biomarker DRIL](StructureDefinition-oct-dril.md)
 * [OCT Biomarker HRF](StructureDefinition-oct-hrf.md)
+* [OCT Biomarker VMT](StructureDefinition-oct-vmt.md)
 
 ### Extensions
 

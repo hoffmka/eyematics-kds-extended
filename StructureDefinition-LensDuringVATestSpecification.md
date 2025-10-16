@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-LensDuringVATestSpec
   "version" : "2025.0.0-alpha",
   "name" : "LensDuringVATestSpecification",
   "status" : "draft",
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-oct-hrf.csv), [Excel
   "name" : "MII_EyeMatics_OCT_HRF",
   "title" : "OCT Biomarker HRF",
   "status" : "draft",
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -140,7 +140,7 @@ Other representations of profile: [CSV](StructureDefinition-oct-hrf.csv), [Excel
         "fixedCodeableConcept" : {
           "coding" : [
             {
-              "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
+              "system" : "https://eyematics.org/fhir/eyematics-kds-extended/CodeSystem/oct-biomarker",
               "code" : "HRF",
               "display" : "Hyperreflective Foci"
             }

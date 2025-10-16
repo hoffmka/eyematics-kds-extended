@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-visual-a
   "title" : "Visual Acuity (VA)",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

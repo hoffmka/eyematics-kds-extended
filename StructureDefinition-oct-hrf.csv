@@ -88,7 +88,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
 ","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker""/>
+    <system value=""https://eyematics.org/fhir/eyematics-kds-extended/CodeSystem/oct-biomarker""/>
     <code value=""HRF""/>
     <display value=""Hyperreflective Foci""/>
   </coding>

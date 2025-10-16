@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-oct-dril.csv), [Exce
   "name" : "MII_EyeMatics_OCT_DRIL",
   "title" : "OCT Biomarker DRIL",
   "status" : "draft",
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -140,7 +140,7 @@ Other representations of profile: [CSV](StructureDefinition-oct-dril.csv), [Exce
         "fixedCodeableConcept" : {
           "coding" : [
             {
-              "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
+              "system" : "https://eyematics.org/fhir/eyematics-kds-extended/CodeSystem/oct-biomarker",
               "code" : "DRIL",
               "display" : "Disorganization of Retinal Inner Layers"
             }

@@ -26,6 +26,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Macular Edema](StructureDefinition-MacularEdema.md) | An observation determining the presence or absence of macular edema in the retina. |
 | [OCT Biomarker DRIL](StructureDefinition-oct-dril.md) | OCT biomarker DRIL indicating presence or absence measured by OCT |
 | [OCT Biomarker HRF](StructureDefinition-oct-hrf.md) | OCT biomarker HRF indicating presence or absence measured by OCT |
+| [OCT Biomarker VMT](StructureDefinition-oct-vmt.md) | OCT biomarker VMT indicating presence or absence measured by OCT |
 | [Ophthalmic Diagnostic Report](StructureDefinition-OphthalmicDiagnosticReport.md) | A general diagnostic report for ophthalmological findings. |
 | [Ophthalmic Observation Base Profile](StructureDefinition-OphthalmicObservation.md) | This is a profile as a common ground for all the other profiles, so it should not be used directly. |
 | [Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md) | Optic disc diameter measured via OCT. |

@@ -48,8 +48,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
-      "StructureDefinition-IOP.html" : "Intraocular Pressure"
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
@@ -61,13 +61,14 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-PapillEdema.html" : "Papill Edema",
-      "StructureDefinition-oct-hrf.html" : "OCT Biomarker HRF",
-      "StructureDefinition-MacularEdema.html" : "Macular Edema",
-      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
       "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-oct-dril.html" : "OCT Biomarker DRIL",
+      "StructureDefinition-oct-vmt.html" : "OCT Biomarker VMT",
       "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
-      "StructureDefinition-oct-dril.html" : "OCT Biomarker DRIL"
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-oct-hrf.html" : "OCT Biomarker HRF"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
@@ -94,8 +95,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "ValueSet-SUNCells.html" : "SUN Cells",
-      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare",
+      "ValueSet-SUNCells.html" : "SUN Cells"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
@@ -119,9 +120,9 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
       "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
       "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
       "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
     },
     {

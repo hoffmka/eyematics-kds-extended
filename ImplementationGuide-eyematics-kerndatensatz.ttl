@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T21:03:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T21:17:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -1343,6 +1343,24 @@
        ] ;
        fhir:name [ fhir:v "OCT Biomarker HRF" ] ;
        fhir:description [ fhir:v "OCT biomarker HRF indicating presence or absence measured by OCT" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-vmt> ;
+         fhir:reference [ fhir:v "StructureDefinition/oct-vmt" ]
+       ] ;
+       fhir:name [ fhir:v "OCT Biomarker VMT" ] ;
+       fhir:description [ fhir:v "OCT biomarker VMT indicating presence or absence measured by OCT" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -28,7 +28,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -1141,6 +1141,20 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
         },
         "name" : "OCT Biomarker HRF",
         "description" : "OCT biomarker HRF indicating presence or absence measured by OCT",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/oct-vmt"
+        },
+        "name" : "OCT Biomarker VMT",
+        "description" : "OCT biomarker VMT indicating presence or absence measured by OCT",
         "exampleBoolean" : false
       },
       {

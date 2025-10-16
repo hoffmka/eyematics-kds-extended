@@ -18,6 +18,7 @@ ValueSet containing codes that indicate the presence, absence, or unknown status
 
 * [OCT Biomarker DRIL](StructureDefinition-oct-dril.md)
 * [OCT Biomarker HRF](StructureDefinition-oct-hrf.md)
+* [OCT Biomarker VMT](StructureDefinition-oct-vmt.md)
 * [Synechiae of Iris](StructureDefinition-IrisSynechiae.md)
 * [Macular Edema](StructureDefinition-MacularEdema.md)
 * [Papill Edema](StructureDefinition-PapillEdema.md)

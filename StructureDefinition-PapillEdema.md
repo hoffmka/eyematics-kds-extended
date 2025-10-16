@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-PapillEdema.csv), [E
   "name" : "MII_EyeMatics_PapillEdema",
   "title" : "Papill Edema",
   "status" : "draft",
-  "date" : "2025-10-16T21:03:26+00:00",
+  "date" : "2025-10-16T21:17:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
