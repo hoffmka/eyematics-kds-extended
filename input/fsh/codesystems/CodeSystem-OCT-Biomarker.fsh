@@ -1,7 +1,7 @@
-CodeSystem: OCT_Binary_Biomarker
-Id: oct-binary-biomarker
-Title: "OCT Binary Biomarker"
-Description: "OCT Binary Biomarker that has no"
+CodeSystem: OCT_Biomarker
+Id: oct-biomarker
+Title: "OCT Biomarker"
+Description: "Local codes for OCT-based biomarkers not yet represented in SNOMED CT."
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2025-10-10"
