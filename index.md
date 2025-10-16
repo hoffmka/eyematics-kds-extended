@@ -28,7 +28,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-16T19:47:02+00:00",
+  "date" : "2025-10-16T21:03:26+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -1105,42 +1105,42 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/OCTbinaryBiomarker"
-        },
-        "name" : "OCT Binary Biomarker",
-        "description" : "Binary retinal biomarker indicating presence or absence measured by OCT",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "CodeSystem"
           }
         ],
         "reference" : {
-          "reference" : "CodeSystem/oct-binary-biomarker"
+          "reference" : "CodeSystem/oct-biomarker"
         },
-        "name" : "OCT Binary Biomarker",
-        "description" : "OCT Binary Biomarker that has no",
+        "name" : "OCT Biomarker",
+        "description" : "Local codes for OCT-based biomarkers not yet represented in SNOMED CT.",
         "exampleBoolean" : false
       },
       {
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
+            "valueString" : "StructureDefinition:resource"
           }
         ],
         "reference" : {
-          "reference" : "ValueSet/oct-binary-bm-code"
+          "reference" : "StructureDefinition/oct-dril"
         },
-        "name" : "OCT Binary Biomarker Codes",
-        "description" : "Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent.",
+        "name" : "OCT Biomarker DRIL",
+        "description" : "OCT biomarker DRIL indicating presence or absence measured by OCT",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/oct-hrf"
+        },
+        "name" : "OCT Biomarker HRF",
+        "description" : "OCT biomarker HRF indicating presence or absence measured by OCT",
         "exampleBoolean" : false
       },
       {

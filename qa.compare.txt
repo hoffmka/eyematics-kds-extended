@@ -1,13 +1,13 @@
 EyeMatics_KDS : Validation Results
 =========================================
 
-err = 8, warn = 116, info = 141
+err = 13, warn = 123, info = 147
 $--
 Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = https://eyematics.org/fhir/eyematics-kds)
  Build Errors : 0 / 4 / 0
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-iop-methods : 0 / 1 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-ivi-treatment-regimen : 0 / 1 / 1
- /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-oct-binary-biomarker : 0 / 1 / 1
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-oct-biomarker : 0 / 1 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-sun-grades : 0 / 1 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-va-optotypes : 0 / 1 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-vs-units : 0 / 1 / 1
@@ -20,7 +20,6 @@ Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = htt
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-IrisSynechiae : 0 / 4 / 8
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-LensDuringVATestSpecification : 0 / 3 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-MacularEdema : 0 / 6 / 8
- /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OCTbinaryBiomarker : 2 / 6 / 3
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OphthalmicDiagnosticReport : 0 / 3 / 10
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OphthalmicObservation : 0 / 5 / 5
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OpticDiscDiameter : 0 / 2 / 8
@@ -34,8 +33,10 @@ Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = htt
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-medication : 0 / 3 / 13
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-medicationadministration : 1 / 3 / 9
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-paracentesis : 0 / 3 / 1
- /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption : 0 / 2 / 5
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption : 3 / 5 / 5
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-visual-acuity : 0 / 15 / 17
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-dril : 3 / 5 / 5
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-hrf : 3 / 5 / 5
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-IVIMedicationForm : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-IVITeatmentRegimen : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-Performed-NotPerformed : 0 / 0 / 1
@@ -49,7 +50,6 @@ Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = htt
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-iop-methods : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-ivom-medication : 0 / 1 / 2
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-lens-types : 0 / 0 / 1
- /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-oct-binary-bm-code : 2 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-va-categorial-values : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-va-code : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-va-correction-method : 0 / 0 / 1
@@ -72,8 +72,8 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 WARNING: CodeSystem/iop-methods: CodeSystem: Das ShareableCodeSystem-Profil sagt, dass das experimental-Element obligatorisch ist, aber es ist nicht vorhanden. Veröffentlichte Codesysteme SOLLTEN mit dem ShareableCodeSystem-Profil übereinstimmen
 == fsh-generated/resources/CodeSystem-ivi-treatment-regimen.json ==
 WARNING: CodeSystem/ivi-treatment-regimen: CodeSystem: Das ShareableCodeSystem-Profil sagt, dass das experimental-Element obligatorisch ist, aber es ist nicht vorhanden. Veröffentlichte Codesysteme SOLLTEN mit dem ShareableCodeSystem-Profil übereinstimmen
-== fsh-generated/resources/CodeSystem-oct-binary-biomarker.json ==
-WARNING: CodeSystem/oct-binary-biomarker: CodeSystem: Das ShareableCodeSystem-Profil sagt, dass das experimental-Element obligatorisch ist, aber es ist nicht vorhanden. Veröffentlichte Codesysteme SOLLTEN mit dem ShareableCodeSystem-Profil übereinstimmen
+== fsh-generated/resources/CodeSystem-oct-biomarker.json ==
+WARNING: CodeSystem/oct-biomarker: CodeSystem: Das ShareableCodeSystem-Profil sagt, dass das experimental-Element obligatorisch ist, aber es ist nicht vorhanden. Veröffentlichte Codesysteme SOLLTEN mit dem ShareableCodeSystem-Profil übereinstimmen
 == fsh-generated/resources/CodeSystem-sun-grades.json ==
 WARNING: CodeSystem/sun-grades: CodeSystem: Das ShareableCodeSystem-Profil sagt, dass das experimental-Element obligatorisch ist, aber es ist nicht vorhanden. Veröffentlichte Codesysteme SOLLTEN mit dem ShareableCodeSystem-Profil übereinstimmen
 == fsh-generated/resources/CodeSystem-va-optotypes.json ==
@@ -172,17 +172,6 @@ INFORMATION: StructureDefinition/MacularEdema: StructureDefinition.snapshot.elem
 WARNING: StructureDefinition/MacularEdema: StructureDefinition.snapshot.element[50].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/MacularEdema: StructureDefinition.snapshot.element[52].binding: The definition for the element 'Observation.method' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/MacularEdema'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-OCTbinaryBiomarker.json ==
-ERROR: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OCTbinaryBiomarker.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OCTbinaryBiomarker) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker). Use the special-url parameter if you really mean for it not to match
-WARNING: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.differential.element[7].binding: The definition for the element 'Observation.code.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.differential.element[9].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
-INFORMATION: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-WARNING: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.snapshot.element[26].binding: The definition for the element 'Observation.code.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.snapshot.element[34].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
-INFORMATION: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-WARNING: StructureDefinition/OCTbinaryBiomarker: StructureDefinition.snapshot.element[42].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker'): The Implementation Guide contains no examples for this profile
-ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-OCTbinaryBiomarker: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OCTbinaryBiomarker vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker
 == fsh-generated/resources/StructureDefinition-OphthalmicDiagnosticReport.json ==
 INFORMATION: StructureDefinition/OphthalmicDiagnosticReport: StructureDefinition.snapshot.element[26].pattern.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#78573-3 for language(s) 'de-DE'. The display is 'Ophthalmology Diagnostic study note' the default language display
 WARNING: StructureDefinition/OphthalmicDiagnosticReport: StructureDefinition.snapshot.element[26].pattern.ofType(Coding): There are no valid display names found for the code http://loinc.org#78573-3 for language(s) 'de-DE'. The display is 'Ophthalmology Diagnostic study note' the default language display für 'http://loinc.org#78573-3'
@@ -314,12 +303,18 @@ WARNING: StructureDefinition/mii-eyematics-ivom-paracentesis: StructureDefinitio
 WARNING: StructureDefinition/mii-eyematics-ivom-paracentesis: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/ops' could not be found, so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-paracentesis'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-observation-elm-disruption.json ==
-INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
-INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
-INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
-INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[30].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption'): The Implementation Guide contains no examples for this profile
+ERROR: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption). Use the special-url parameter if you really mean for it not to match
+ERROR: StructureDefinition.url: Resource id/url mismatch: observation-elm-disruption/https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.differential.element[6].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.differential.element[8].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
+WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[30].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[38].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption'): The Implementation Guide contains no examples for this profile
+ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption
 == fsh-generated/resources/StructureDefinition-observation-visual-acuity.json ==
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept).coding[0].display: 'Visual Acuity finding' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[80].fixed.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#29073-4 for language(s) 'de-DE'. The display is 'Right eye Position' the default language display
@@ -352,6 +347,32 @@ WARNING: StructureDefinition/observation-visual-acuity: StructureDefinition.snap
 WARNING: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot: The slice 'valueCodeableConcept' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 WARNING: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot: The slice 'valueString' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-oct-dril.json ==
+ERROR: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-dril.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-dril) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL). Use the special-url parameter if you really mean for it not to match
+ERROR: StructureDefinition.url: Resource id/url mismatch: oct-dril/https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL
+INFORMATION: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Reference to draft CodeSystem https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker|2025.0.0-alpha
+INFORMATION: StructureDefinition/oct-dril: StructureDefinition.differential.element[6].fixed.ofType(CodeableConcept): Reference to draft CodeSystem https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker|2025.0.0-alpha
+WARNING: StructureDefinition/oct-dril: StructureDefinition.differential.element[8].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
+WARNING: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[30].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/oct-dril: StructureDefinition.snapshot.element[38].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL'): The Implementation Guide contains no examples for this profile
+ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-dril: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-dril vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL
+== fsh-generated/resources/StructureDefinition-oct-hrf.json ==
+ERROR: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-hrf.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-hrf) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF). Use the special-url parameter if you really mean for it not to match
+ERROR: StructureDefinition.url: Resource id/url mismatch: oct-hrf/https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF
+INFORMATION: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Reference to draft CodeSystem https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker|2025.0.0-alpha
+INFORMATION: StructureDefinition/oct-hrf: StructureDefinition.differential.element[6].fixed.ofType(CodeableConcept): Reference to draft CodeSystem https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker|2025.0.0-alpha
+WARNING: StructureDefinition/oct-hrf: StructureDefinition.differential.element[8].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
+WARNING: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[30].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/oct-hrf: StructureDefinition.snapshot.element[38].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF'): The Implementation Guide contains no examples for this profile
+ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-hrf: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-hrf vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF
 == fsh-generated/resources/ValueSet-IVIMedicationForm.json ==
 == fsh-generated/resources/ValueSet-IVITeatmentRegimen.json ==
 == fsh-generated/resources/ValueSet-Performed-NotPerformed.json ==
@@ -367,9 +388,6 @@ WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-k
 INFORMATION: ValueSet/ivom-medication: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet.where(id = 'ivom-medication'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/bfarm/atc
 == fsh-generated/resources/ValueSet-lens-types.json ==
-== fsh-generated/resources/ValueSet-oct-binary-bm-code.json ==
-ERROR: ValueSet.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-oct-binary-bm-code.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/ValueSet/oct-binary-bm-code) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code). Use the special-url parameter if you really mean for it not to match
-ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-oct-binary-bm-code: URL Mismatch https://eyematics.org/fhir/eyematics-kds/ValueSet/oct-binary-bm-code vs https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code
 == fsh-generated/resources/ValueSet-va-categorial-values.json ==
 == fsh-generated/resources/ValueSet-va-code.json ==
 == fsh-generated/resources/ValueSet-va-correction-method.json ==

@@ -1,17 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
-      "version" : "2025.0.0-alpha",
-      "status" : "draft",
-      "name" : "VS_OCT_binary_BM_Code",
-      "title" : "OCT Binary Biomarker Codes",
-      "description" : "Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent.",
-      "systems" : [
-        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"
-      ]
-    },
-    {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm",
       "version" : "2025.0.0-alpha",
       "status" : "draft",

@@ -4,11 +4,11 @@
 * [**Artifacts Summary**](artifacts.md)
 * **ELM disruption**
 
-## Resource Profile: ELM disruption ( Experimental ) 
+## Resource Profile: ELM disruption 
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption | *Version*:2025.0.0-alpha |
+| *Official URL*:https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption | *Version*:2025.0.0-alpha |
 | Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_OCT_ELM_Disruption |
 
  
@@ -36,13 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
 {
   "resourceType" : "StructureDefinition",
   "id" : "observation-elm-disruption",
-  "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption",
+  "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption",
   "version" : "2025.0.0-alpha",
   "name" : "MII_EyeMatics_OCT_ELM_Disruption",
   "title" : "ELM disruption",
   "status" : "draft",
-  "experimental" : true,
-  "date" : "2025-10-16T19:47:02+00:00",
+  "date" : "2025-10-16T21:03:26+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -111,6 +110,31 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
         "path" : "Observation"
       },
       {
+        "id" : "Observation.id",
+        "path" : "Observation.id",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.meta",
+        "path" : "Observation.meta",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.meta.source",
+        "path" : "Observation.meta.source",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.meta.profile",
+        "path" : "Observation.meta.profile",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.status",
+        "path" : "Observation.status",
+        "patternCode" : "draft"
+      },
+      {
         "id" : "Observation.code",
         "path" : "Observation.code",
         "fixedCodeableConcept" : {
@@ -121,14 +145,23 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
               "display" : "Structure of external limiting membrane of retina"
             }
           ]
-        }
+        },
+        "mustSupport" : true
       },
       {
-        "id" : "Observation.value[x]:valueCodeableConcept",
+        "id" : "Observation.effective[x]",
+        "path" : "Observation.effective[x]",
+        "type" : [
+          {
+            "code" : "dateTime"
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.value[x]",
         "path" : "Observation.value[x]",
-        "sliceName" : "valueCodeableConcept",
         "short" : "ELM disruption status",
-        "definition" : "Status of the ELM: Normal or Abnormal",
         "type" : [
           {
             "code" : "CodeableConcept"
@@ -148,14 +181,28 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
         "mustSupport" : true
       },
       {
-        "id" : "Observation.bodySite",
-        "path" : "Observation.bodySite",
-        "definition" : "Which eye(s) were used for the visual acuity test? note that both eyes refers to a binocular visuin test, it does not mean that each of the eyes alone has the specified VA value! Also, when a Patient uses an extrocular device such as a worn camera devicefor the VA test, please use \"Topography not assigned\" and use specify the device in observation.device",
-        "min" : 1,
-        "binding" : {
-          "strength" : "required",
-          "valueSet" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality"
-        }
+        "id" : "Observation.device",
+        "path" : "Observation.device",
+        "short" : "OCT device used for the measurement",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device"]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.derivedFrom",
+        "path" : "Observation.derivedFrom",
+        "short" : "Reference to the OCT ImagingStudy used for this measurement",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ImagingStudy"]
+          }
+        ],
+        "mustSupport" : true
       }
     ]
   }

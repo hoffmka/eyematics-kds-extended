@@ -24,7 +24,8 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [IVI-Paracentesis](StructureDefinition-mii-eyematics-ivom-paracentesis.md) | A Paracentesis procedure if it was necessary after IVI administration. |
 | [Intraocular Pressure](StructureDefinition-IOP.md) | A measurement of a patient's intraocular pressure (in mmHg). |
 | [Macular Edema](StructureDefinition-MacularEdema.md) | An observation determining the presence or absence of macular edema in the retina. |
-| [OCT Binary Biomarker](StructureDefinition-OCTbinaryBiomarker.md) | Binary retinal biomarker indicating presence or absence measured by OCT |
+| [OCT Biomarker DRIL](StructureDefinition-oct-dril.md) | OCT biomarker DRIL indicating presence or absence measured by OCT |
+| [OCT Biomarker HRF](StructureDefinition-oct-hrf.md) | OCT biomarker HRF indicating presence or absence measured by OCT |
 | [Ophthalmic Diagnostic Report](StructureDefinition-OphthalmicDiagnosticReport.md) | A general diagnostic report for ophthalmological findings. |
 | [Ophthalmic Observation Base Profile](StructureDefinition-OphthalmicObservation.md) | This is a profile as a common ground for all the other profiles, so it should not be used directly. |
 | [Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md) | Optic disc diameter measured via OCT. |
@@ -60,7 +61,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Macular OCT Thickness Map](ValueSet-vs-macular-oct-thickness-map.md) | ValueSet representing the various subfield thickness measurements of the macula obtained through OCT. |
 | [Method of finding a macular edema](ValueSet-vs-macular-edema-method.md) | ValueSet representing the methods for discovering a macular edema. |
 | [Normal Abnormal](ValueSet-vs-normal-abnormal.md) | ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)). |
-| [OCT Binary Biomarker Codes](ValueSet-oct-binary-bm-code.md) | Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent. |
 | [Performed NotPerformed](ValueSet-Performed-NotPerformed.md) | ValueSet representing the status of a procedure or action, indicating whether it has been performed or not. |
 | [Present Absent](ValueSet-Present-Absent.md) | ValueSet containing codes that indicate the presence, absence, or unknown status of a clinical finding or condition. |
 | [Retinal nerve fiber layer OCT Thickness Map](ValueSet-vs-rnfl-oct-thickness-map.md) | ValueSet representing the various thickness measurements of the retinal nerve fiber layer (RNFL) obtained through OCT. |
@@ -85,7 +85,7 @@ These define new code systems used by systems conforming to this implementation 
 | :--- | :--- |
 | [IOP Methods Code System](CodeSystem-iop-methods.md) | IOP additional method types |
 | [IVI Treatment Regimen](CodeSystem-ivi-treatment-regimen.md) | IVI Treatment Regimen or Protocol |
-| [OCT Binary Biomarker](CodeSystem-oct-binary-biomarker.md) | OCT Binary Biomarker that has no |
+| [OCT Biomarker](CodeSystem-oct-biomarker.md) | Local codes for OCT-based biomarkers not yet represented in SNOMED CT. |
 | [SUN Grades](CodeSystem-sun-grades.md) | Grades of the Standardization of uveitis nomenclature |
 | [Visual Acuity Correction Methods](CodeSystem-vs-va-correction-methods.md) | Correction Methods not covered by snomed |
 | [Visual Acuity Optotypes](CodeSystem-va-optotypes.md) | A CodeSystem that includes codes representing optotype used during visual acuity testing, that are not covered by loinc or snomed |

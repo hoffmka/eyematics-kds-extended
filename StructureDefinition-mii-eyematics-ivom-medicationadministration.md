@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-mii-eyematics-ivom-m
   "name" : "MII_EyeMatics_IVI_MedicationAdministration",
   "title" : "IVI-MedicationAdministration",
   "status" : "draft",
-  "date" : "2025-10-16T19:47:02+00:00",
+  "date" : "2025-10-16T21:03:26+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

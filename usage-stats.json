@@ -87,10 +87,6 @@
   "profiles": {
     "Observation": [
       {
-        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption",
-        "title": "ELM disruption"
-      },
-      {
         "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity",
         "title": "Visual Acuity (VA)"
       }

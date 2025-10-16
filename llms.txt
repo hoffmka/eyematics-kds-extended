@@ -12,7 +12,7 @@
 
 * [IOP Methods Code System](CodeSystem-iop-methods.md)
 * [IVI Treatment Regimen](CodeSystem-ivi-treatment-regimen.md)
-* [OCT Binary Biomarker](CodeSystem-oct-binary-biomarker.md)
+* [OCT Biomarker](CodeSystem-oct-biomarker.md)
 * [SUN Grades](CodeSystem-sun-grades.md)
 * [Visual Acuity Optotypes](CodeSystem-va-optotypes.md)
 * [Visual Acuity Units](CodeSystem-vs-units.md)
@@ -33,7 +33,6 @@
 * [IOP Methods](ValueSet-iop-methods.md)
 * [IVOM Medication](ValueSet-ivom-medication.md)
 * [VA Lens Types](ValueSet-lens-types.md)
-* [OCT Binary Biomarker Codes](ValueSet-oct-binary-bm-code.md)
 * [Visual Acuity Categorial Values](ValueSet-va-categorial-values.md)
 * [Visual Acuity Code](ValueSet-va-code.md)
 * [Visual Acuity Correction Methods](ValueSet-va-correction-method.md)
@@ -55,7 +54,6 @@
 * [Intraocular Pressure](StructureDefinition-IOP.md)
 * [Synechiae of Iris](StructureDefinition-IrisSynechiae.md)
 * [Macular Edema](StructureDefinition-MacularEdema.md)
-* [OCT Binary Biomarker](StructureDefinition-OCTbinaryBiomarker.md)
 * [Ophthalmic Diagnostic Report](StructureDefinition-OphthalmicDiagnosticReport.md)
 * [Ophthalmic Observation Base Profile](StructureDefinition-OphthalmicObservation.md)
 * [Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md)
@@ -70,6 +68,8 @@
 * [IVI-Paracentesis](StructureDefinition-mii-eyematics-ivom-paracentesis.md)
 * [ELM disruption](StructureDefinition-observation-elm-disruption.md)
 * [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
+* [OCT Biomarker DRIL](StructureDefinition-oct-dril.md)
+* [OCT Biomarker HRF](StructureDefinition-oct-hrf.md)
 
 ### Extensions
 

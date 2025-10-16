@@ -1,5 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code,2025.0.0-alpha,draft,,VS_OCT_binary_BM_Code,OCT Binary Biomarker Codes,"Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent.",,"Internal"
 https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm,2025.0.0-alpha,draft,,VS_IVI_MedicationForm,IVI Medication Form,"ValueSet of the IVI Medication Form",,"Other"
 https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen,2025.0.0-alpha,draft,,VS_IVI_TreatmentRegimen,IVI Treatment Regimen,"ValueSet of the IVI Treatment Regimen/Protocol",,"Internal"
 https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal,2025.0.0-alpha,draft,,VS_Normal_Abnormal,Normal Abnormal,"ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)).",,"SCT"

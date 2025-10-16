@@ -12,7 +12,7 @@
   <name value="EyeMatics_KDS"/>
   <title value="Eyematics Core Data Set"/>
   <status value="draft"/>
-  <date value="2025-10-16T19:47:02+00:00"/>
+  <date value="2025-10-16T21:03:26+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -738,35 +738,35 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/OCTbinaryBiomarker"/>
-      </reference>
-      <name value="OCT Binary Biomarker"/>
-      <description value="Binary retinal biomarker indicating presence or absence measured by OCT"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/oct-binary-biomarker"/>
+        <reference value="CodeSystem/oct-biomarker"/>
       </reference>
-      <name value="OCT Binary Biomarker"/>
-      <description value="OCT Binary Biomarker that has no"/>
+      <name value="OCT Biomarker"/>
+      <description value="Local codes for OCT-based biomarkers not yet represented in SNOMED CT."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="ValueSet/oct-binary-bm-code"/>
+        <reference value="StructureDefinition/oct-dril"/>
       </reference>
-      <name value="OCT Binary Biomarker Codes"/>
-      <description value="Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent."/>
+      <name value="OCT Biomarker DRIL"/>
+      <description value="OCT biomarker DRIL indicating presence or absence measured by OCT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/oct-hrf"/>
+      </reference>
+      <name value="OCT Biomarker HRF"/>
+      <description value="OCT biomarker HRF indicating presence or absence measured by OCT"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

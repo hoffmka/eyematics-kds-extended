@@ -1,20 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
-      "version" : "2025.0.0-alpha",
-      "status" : "draft",
-      "name" : "VS_OCT_binary_BM_Code",
-      "title" : "OCT Binary Biomarker Codes",
-      "description" : "Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent.",
-      "systems" : [
-        "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker"
-    },
-    {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVIMedicationForm",
       "version" : "2025.0.0-alpha",
       "status" : "draft",
@@ -62,8 +48,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-IOP.html" : "Intraocular Pressure",
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-IOP.html" : "Intraocular Pressure"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
@@ -75,12 +61,13 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
       "StructureDefinition-PapillEdema.html" : "Papill Edema",
-      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-oct-hrf.html" : "OCT Biomarker HRF",
       "StructureDefinition-MacularEdema.html" : "Macular Edema",
-      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
-      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis"
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-oct-dril.html" : "OCT Biomarker DRIL"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
@@ -107,8 +94,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare",
-      "ValueSet-SUNCells.html" : "SUN Cells"
+      "ValueSet-SUNCells.html" : "SUN Cells",
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
@@ -132,9 +119,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
-      "StructureDefinition-observation-elm-disruption.html" : "ELM disruption",
       "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
       "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
       "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration"
     },

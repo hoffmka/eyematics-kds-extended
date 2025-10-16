@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T19:47:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T21:03:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -1298,33 +1298,15 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OCTbinaryBiomarker> ;
-         fhir:reference [ fhir:v "StructureDefinition/OCTbinaryBiomarker" ]
-       ] ;
-       fhir:name [ fhir:v "OCT Binary Biomarker" ] ;
-       fhir:description [ fhir:v "Binary retinal biomarker indicating presence or absence measured by OCT" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker> ;
-         fhir:reference [ fhir:v "CodeSystem/oct-binary-biomarker" ]
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker> ;
+         fhir:reference [ fhir:v "CodeSystem/oct-biomarker" ]
        ] ;
-       fhir:name [ fhir:v "OCT Binary Biomarker" ] ;
-       fhir:description [ fhir:v "OCT Binary Biomarker that has no" ] ;
+       fhir:name [ fhir:v "OCT Biomarker" ] ;
+       fhir:description [ fhir:v "Local codes for OCT-based biomarkers not yet represented in SNOMED CT." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1334,15 +1316,33 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "ValueSet"
+           fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://eyematics.org/fhir/eyematics-kds/ValueSet/oct-binary-bm-code> ;
-         fhir:reference [ fhir:v "ValueSet/oct-binary-bm-code" ]
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-dril> ;
+         fhir:reference [ fhir:v "StructureDefinition/oct-dril" ]
        ] ;
-       fhir:name [ fhir:v "OCT Binary Biomarker Codes" ] ;
-       fhir:description [ fhir:v "Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent." ] ;
+       fhir:name [ fhir:v "OCT Biomarker DRIL" ] ;
+       fhir:description [ fhir:v "OCT biomarker DRIL indicating presence or absence measured by OCT" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/oct-hrf> ;
+         fhir:reference [ fhir:v "StructureDefinition/oct-hrf" ]
+       ] ;
+       fhir:name [ fhir:v "OCT Biomarker HRF" ] ;
+       fhir:description [ fhir:v "OCT biomarker HRF indicating presence or absence measured by OCT" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1b132573-c5df-4b72-97ab-263d9b9050a6",
+  "id" : "17d09985-7677-4951-8cb2-e1ecd57169ed",
   "meta" : {
-    "lastUpdated" : "2025-10-16T19:48:00.879+00:00"
+    "lastUpdated" : "2025-10-16T21:04:17.760+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:60f0b638-bd35-4ea7-ad59-8087c61469e0",
-        "timestamp" : "2025-10-16T19:49:41+00:00",
+        "identifier" : "urn:uuid:14588bbe-8a46-4f05-8f40-d0577c6870ee",
+        "timestamp" : "2025-10-16T21:05:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -96,8 +96,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ded81d10-0402-43cc-8b4d-16a2f71dd77c",
-        "timestamp" : "2025-10-16T19:49:41+00:00",
+        "identifier" : "urn:uuid:2cbe81ca-35b5-4410-8fa9-0bffb7adb3e4",
+        "timestamp" : "2025-10-16T21:05:24+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -157,8 +157,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4b5f0e7c-ab31-4981-bca8-860a31074933",
-        "timestamp" : "2025-10-16T19:49:24+00:00",
+        "identifier" : "urn:uuid:9c292c8d-c9fb-4dae-a722-9135f5a4b71b",
+        "timestamp" : "2025-10-16T21:05:10+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -222,8 +222,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dac00105-a0cf-43dd-abe6-fd5ce1f80ec7",
-        "timestamp" : "2025-10-16T19:49:26+00:00",
+        "identifier" : "urn:uuid:1a8068f6-a1bb-4b16-abf9-0da7c8d3d7f1",
+        "timestamp" : "2025-10-16T21:05:11+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -291,8 +291,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f90ff69d-b84f-4be1-8103-64f08e9c043e",
-        "timestamp" : "2025-10-16T19:49:20+00:00",
+        "identifier" : "urn:uuid:045dd01b-ce69-4fad-897d-cd34a9562292",
+        "timestamp" : "2025-10-16T21:05:08+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -380,8 +380,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:39c9c1ac-7742-49f0-919b-5f0bff0e4e01",
-        "timestamp" : "2025-10-16T19:49:21+00:00",
+        "identifier" : "urn:uuid:6f8d4af2-7d9b-4e50-a6a1-244458bfc760",
+        "timestamp" : "2025-10-16T21:05:08+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -457,8 +457,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:23dec178-2237-4243-801c-e3932a4c7054",
-        "timestamp" : "2025-10-16T19:49:38+00:00",
+        "identifier" : "urn:uuid:7984f6a5-18f7-4186-acf5-0216ab0425c4",
+        "timestamp" : "2025-10-16T21:05:22+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -522,8 +522,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a889d865-25f4-4755-a254-50fb10bfdf03",
-        "timestamp" : "2025-10-16T19:49:35+00:00",
+        "identifier" : "urn:uuid:be3ecf02-aaee-483b-b350-1fb21cd2a052",
+        "timestamp" : "2025-10-16T21:05:23+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -587,8 +587,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:910f7c54-fed2-4062-bf3b-3d7eef3b6d78",
-        "timestamp" : "2025-10-16T19:49:18+00:00",
+        "identifier" : "urn:uuid:940eb918-9e9a-4d1b-8b01-36761c0ed117",
+        "timestamp" : "2025-10-16T21:05:06+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -656,8 +656,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cfe7f3b0-1b93-460c-8a66-2c48c9441cf5",
-        "timestamp" : "2025-10-16T19:49:41+00:00",
+        "identifier" : "urn:uuid:2021c917-9ad0-4511-a2b1-864ab2c0628c",
+        "timestamp" : "2025-10-16T21:05:25+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -725,8 +725,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:9d0b916d-ecda-4c98-aa71-db19148ae2ec",
-        "timestamp" : "2025-10-16T19:49:25+00:00",
+        "identifier" : "urn:uuid:b55e1a29-e34c-43dc-a4c0-e6e47b3c579b",
+        "timestamp" : "2025-10-16T21:05:11+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -865,8 +865,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:e3dd86be-b01a-4115-86ba-7fb668c96bbf",
-        "timestamp" : "2025-10-16T19:49:43+00:00",
+        "identifier" : "urn:uuid:144d0266-0ccb-423a-9570-3fd10d06f9e4",
+        "timestamp" : "2025-10-16T21:05:25+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1180,67 +1180,6 @@
     }
   },
   {
-    "fullUrl" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-oct-binary-biomarker.html\">codesystem OCT Binary Biomarker v2025.0.0-alpha (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker|2025.0.0-alpha\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker-DRIL\"> </a><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-oct-binary-biomarker.html#oct-binary-biomarker-DRIL\">DRIL</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;, &quot;version&quot;: &quot;2025.0.0-alpha&quot;, &quot;code&quot;: &quot;DRIL&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;&gt;&lt;version value=&quot;2025.0.0-alpha&quot;&gt;&lt;code value=&quot;DRIL&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker-HRF\"> </a><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-oct-binary-biomarker.html#oct-binary-biomarker-HRF\">HRF</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;, &quot;version&quot;: &quot;2025.0.0-alpha&quot;, &quot;code&quot;: &quot;HRF&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;&gt;&lt;version value=&quot;2025.0.0-alpha&quot;&gt;&lt;code value=&quot;HRF&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker-VMT\"> </a><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-oct-binary-biomarker.html#oct-binary-biomarker-VMT\">VMT</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;, &quot;version&quot;: &quot;2025.0.0-alpha&quot;, &quot;code&quot;: &quot;VMT&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;&gt;&lt;version value=&quot;2025.0.0-alpha&quot;&gt;&lt;code value=&quot;VMT&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
-      "version" : "2025.0.0-alpha",
-      "name" : "VS_OCT_binary_BM_Code",
-      "title" : "OCT Binary Biomarker Codes",
-      "status" : "draft",
-      "experimental" : true,
-      "date" : "2025-10-10",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "276"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:85ead2af-8e31-4b3d-81b6-90970d5dcb0a",
-        "timestamp" : "2025-10-16T19:49:44+00:00",
-        "total" : 3,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "de"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker|2025.0.0-alpha"
-        }],
-        "contains" : [{
-          "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
-          "code" : "DRIL"
-        },
-        {
-          "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
-          "code" : "HRF"
-        },
-        {
-          "system" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
-          "code" : "VMT"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-categorial-values",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -1262,8 +1201,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:62a855d4-1e8d-4178-81f2-d8d7fe3c0dfe",
-        "timestamp" : "2025-10-16T19:49:36+00:00",
+        "identifier" : "urn:uuid:a83b6fda-c5e2-4913-a759-da40d29581cb",
+        "timestamp" : "2025-10-16T21:05:21+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -1383,8 +1322,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:3cc8fd2a-9f2b-48ec-baf4-ea3b4f4dfbd5",
-        "timestamp" : "2025-10-16T19:49:35+00:00",
+        "identifier" : "urn:uuid:f86562ae-af70-40f0-832c-283b132d4dcd",
+        "timestamp" : "2025-10-16T21:05:21+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1579,8 +1518,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b81720d5-aa8e-47ff-9940-0e5dbb482c4a",
-        "timestamp" : "2025-10-16T19:49:37+00:00",
+        "identifier" : "urn:uuid:244e4ed4-8679-492c-b02d-3a8eeb5d559a",
+        "timestamp" : "2025-10-16T21:05:21+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1676,8 +1615,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ad6c1ea4-a44d-4b87-a4bf-7ba74bfd0b80",
-        "timestamp" : "2025-10-16T19:49:40+00:00",
+        "identifier" : "urn:uuid:3eaf35b0-5698-4a09-98f1-02a68d0a8aae",
+        "timestamp" : "2025-10-16T21:05:23+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1741,8 +1680,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6e84c89e-8f20-4ff4-84ee-08bf46bc589d",
-        "timestamp" : "2025-10-16T19:49:38+00:00",
+        "identifier" : "urn:uuid:292b2525-da71-442c-91ef-a1ca7e2e7305",
+        "timestamp" : "2025-10-16T21:05:22+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -1886,8 +1825,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bedfc927-04a1-4878-86d6-b64d8c69c479",
-        "timestamp" : "2025-10-16T19:49:36+00:00",
+        "identifier" : "urn:uuid:3f9a1edc-813e-4182-aa80-efdeaa56b7d8",
+        "timestamp" : "2025-10-16T21:05:21+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1959,8 +1898,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3c629ee-d508-49ca-98da-ac2c9aec0744",
-        "timestamp" : "2025-10-16T19:49:39+00:00",
+        "identifier" : "urn:uuid:1ef75d7e-c582-45bb-b40f-eaea0418e7b5",
+        "timestamp" : "2025-10-16T21:05:22+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2044,8 +1983,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1039c641-d320-49f3-927f-f805555300db",
-        "timestamp" : "2025-10-16T19:49:37+00:00",
+        "identifier" : "urn:uuid:69fe5f32-0d30-4d6a-a633-c64908641315",
+        "timestamp" : "2025-10-16T21:05:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2113,8 +2052,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f6872e93-43f7-45f8-a743-3da83c845688",
-        "timestamp" : "2025-10-16T19:49:27+00:00",
+        "identifier" : "urn:uuid:779e6e95-d9c7-4083-b4fb-22d8c89b6b98",
+        "timestamp" : "2025-10-16T21:05:12+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2194,8 +2133,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b791d0e2-169f-4275-96b3-9c3647802f05",
-        "timestamp" : "2025-10-16T19:49:45+00:00",
+        "identifier" : "urn:uuid:67733503-f414-46a3-b355-e562a5e73904",
+        "timestamp" : "2025-10-16T21:05:29+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -2291,8 +2230,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c71883b1-909b-4501-b7ae-270e952c4433",
-        "timestamp" : "2025-10-16T19:49:34+00:00",
+        "identifier" : "urn:uuid:a8d3bdf1-76ca-4bb2-bcdd-984e214f4e67",
+        "timestamp" : "2025-10-16T21:05:20+00:00",
         "total" : 14,
         "offset" : 0,
         "parameter" : [{
@@ -2404,8 +2343,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:137f5ede-b092-4878-8d1f-9425aa2426fc",
-        "timestamp" : "2025-10-16T19:49:45+00:00",
+        "identifier" : "urn:uuid:b95d8e4f-39b4-4680-9775-91c6fb98319d",
+        "timestamp" : "2025-10-16T21:05:29+00:00",
         "total" : 42,
         "offset" : 0,
         "parameter" : [{

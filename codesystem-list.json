@@ -17,12 +17,12 @@
       "description" : "IVI Treatment Regimen or Protocol"
     },
     {
-      "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
+      "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
       "version" : "2025.0.0-alpha",
       "status" : "draft",
-      "name" : "OCT_Binary_Biomarker",
-      "title" : "OCT Binary Biomarker",
-      "description" : "OCT Binary Biomarker that has no"
+      "name" : "OCT_Biomarker",
+      "title" : "OCT Biomarker",
+      "description" : "Local codes for OCT-based biomarkers not yet represented in SNOMED CT."
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades",

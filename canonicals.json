@@ -1,17 +1,24 @@
 [
   {
-    "id" : "OCTbinaryBiomarker",
+    "id" : "oct-dril",
     "type" : "StructureDefinition",
-    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCTbinaryBiomarker",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL",
     "version" : "2025.0.0-alpha",
-    "name" : "MII_EyeMatics_OCT_Binary_Biomarker"
+    "name" : "MII_EyeMatics_OCT_DRIL"
   },
   {
-    "id" : "oct-binary-bm-code",
-    "type" : "ValueSet",
-    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/ValueSet/oct-binary-bm-code",
+    "id" : "observation-elm-disruption",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption",
     "version" : "2025.0.0-alpha",
-    "name" : "VS_OCT_binary_BM_Code"
+    "name" : "MII_EyeMatics_OCT_ELM_Disruption"
+  },
+  {
+    "id" : "oct-hrf",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OCT_HRF"
   },
   {
     "id" : "iop-methods",
@@ -28,11 +35,11 @@
     "name" : "IVI_TreatmentRegimen"
   },
   {
-    "id" : "oct-binary-biomarker",
+    "id" : "oct-biomarker",
     "type" : "CodeSystem",
-    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
     "version" : "2025.0.0-alpha",
-    "name" : "OCT_Binary_Biomarker"
+    "name" : "OCT_Biomarker"
   },
   {
     "id" : "sun-grades",
@@ -208,13 +215,6 @@
     "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-paracentesis",
     "version" : "2025.0.0-alpha",
     "name" : "MII_EyeMatics_IVI_Paracentesis"
-  },
-  {
-    "id" : "observation-elm-disruption",
-    "type" : "StructureDefinition",
-    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption",
-    "version" : "2025.0.0-alpha",
-    "name" : "MII_EyeMatics_OCT_ELM_Disruption"
   },
   {
     "id" : "observation-visual-acuity",
