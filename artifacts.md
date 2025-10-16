@@ -59,7 +59,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Imaging Methods](ValueSet-imaging-methods.md) | ValueSet containing standardized imaging procedures used in ophthalmology. |
 | [Macular OCT Thickness Map](ValueSet-vs-macular-oct-thickness-map.md) | ValueSet representing the various subfield thickness measurements of the macula obtained through OCT. |
 | [Method of finding a macular edema](ValueSet-vs-macular-edema-method.md) | ValueSet representing the methods for discovering a macular edema. |
-| [Normal Abnormal](ValueSet-vs-normal-abnormal.md) | ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition. |
+| [Normal Abnormal](ValueSet-vs-normal-abnormal.md) | ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)). |
 | [OCT Binary Biomarker Codes](ValueSet-oct-binary-bm-code.md) | Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent. |
 | [Performed NotPerformed](ValueSet-Performed-NotPerformed.md) | ValueSet representing the status of a procedure or action, indicating whether it has been performed or not. |
 | [Present Absent](ValueSet-Present-Absent.md) | ValueSet containing codes that indicate the presence, absence, or unknown status of a clinical finding or condition. |

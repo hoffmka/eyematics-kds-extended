@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-mii-eyematics-ivom-h
   "name" : "MII_EyeMatics_IVI_HandMovementPerception",
   "title" : "IVI-HandMovementPerception",
   "status" : "draft",
-  "date" : "2025-10-16T19:20:50+00:00",
+  "date" : "2025-10-16T19:47:02+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

@@ -21,13 +21,13 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-va-test-distance.html" : "Visual Acuity Test Distance",
+      "ValueSet-va-optotypes.html" : "Visual Acuity Optotypes",
       "ValueSet-iop-code.html" : "IOP Code",
       "ValueSet-vs-macular-oct-thickness-map.html" : "Macular OCT Thickness Map",
       "ValueSet-va-categorial-values.html" : "Visual Acuity Categorial Values",
-      "ValueSet-va-special-testing-parameters.html" : "Visual Acuity Special Testing Parameters",
       "ValueSet-vs-rnfl-oct-thickness-map.html" : "Retinal nerve fiber layer OCT Thickness Map",
-      "ValueSet-va-optotypes.html" : "Visual Acuity Optotypes"
+      "ValueSet-va-special-testing-parameters.html" : "Visual Acuity Special Testing Parameters",
+      "ValueSet-va-test-distance.html" : "Visual Acuity Test Distance"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -39,22 +39,22 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
+      "ValueSet-va-optotypes.html" : "Visual Acuity Optotypes",
+      "ValueSet-Used-NotUsed.html" : "Used NotUsed",
+      "ValueSet-lens-types.html" : "VA Lens Types",
+      "ValueSet-vs-macular-edema-method.html" : "Method of finding a macular edema",
       "ValueSet-iop-methods.html" : "IOP Methods",
-      "ValueSet-va-categorial-values.html" : "Visual Acuity Categorial Values",
-      "ValueSet-va-special-testing-parameters.html" : "Visual Acuity Special Testing Parameters",
+      "ValueSet-imaging-methods.html" : "Imaging Methods",
       "ValueSet-SUNFlare.html" : "SUN Flare",
       "ValueSet-Present-Absent.html" : "Present Absent",
-      "ValueSet-imaging-methods.html" : "Imaging Methods",
-      "ValueSet-vs-macular-edema-method.html" : "Method of finding a macular edema",
+      "ValueSet-va-categorial-values.html" : "Visual Acuity Categorial Values",
       "ValueSet-Performed-NotPerformed.html" : "Performed NotPerformed",
-      "ValueSet-Used-NotUsed.html" : "Used NotUsed",
-      "ValueSet-va-code.html" : "Visual Acuity Code",
-      "ValueSet-va-optotypes.html" : "Visual Acuity Optotypes",
+      "ValueSet-eye-laterality.html" : "Eye Laterality",
       "ValueSet-vs-normal-abnormal.html" : "Normal Abnormal",
-      "ValueSet-va-methods.html" : "VA Methods",
       "ValueSet-va-correction-method.html" : "Visual Acuity Correction Methods",
-      "ValueSet-lens-types.html" : "VA Lens Types",
-      "ValueSet-eye-laterality.html" : "Eye Laterality"
+      "ValueSet-va-special-testing-parameters.html" : "Visual Acuity Special Testing Parameters",
+      "ValueSet-va-methods.html" : "VA Methods",
+      "ValueSet-va-code.html" : "Visual Acuity Code"
     },
     {
       "url" : "http://standardterms.edqm.eu",

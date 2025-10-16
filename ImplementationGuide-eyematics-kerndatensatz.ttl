@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T19:20:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T19:47:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -1288,7 +1288,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-normal-abnormal" ]
        ] ;
        fhir:name [ fhir:v "Normal Abnormal" ] ;
-       fhir:description [ fhir:v "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition." ] ;
+       fhir:description [ fhir:v "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value))." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "eyematics-kerndatensatz",
   "ig-ver" : "2025.0.0-alpha",
-  "date" : "Thu, 16 Oct, 2025 19:21:47 +0000",
-  "dateISO8601" : "2025-10-16T19:21:47+00:00",
+  "date" : "Thu, 16 Oct, 2025 19:48:00 +0000",
+  "dateISO8601" : "2025-10-16T19:48:00+00:00",
   "errs" : 8,
   "warnings" : 116,
   "hints" : 141,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2149001960
+  "maxMemory" : 2262453928
 }

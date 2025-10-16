@@ -37,7 +37,7 @@
       "status" : "draft",
       "name" : "VS_Normal_Abnormal",
       "title" : "Normal Abnormal",
-      "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
+      "description" : "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)).",
       "systems" : ["http://snomed.info/sct"]
     },
     {

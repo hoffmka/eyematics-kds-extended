@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "dbcbf866-eb52-4c90-bc3c-6c601daddd1b",
+  "id" : "1b132573-c5df-4b72-97ab-263d9b9050a6",
   "meta" : {
-    "lastUpdated" : "2025-10-16T19:21:47.421+00:00"
+    "lastUpdated" : "2025-10-16T19:48:00.879+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e41558c6-e306-4606-b708-f54d82fdff31",
-        "timestamp" : "2025-10-16T19:23:26+00:00",
+        "identifier" : "urn:uuid:60f0b638-bd35-4ea7-ad59-8087c61469e0",
+        "timestamp" : "2025-10-16T19:49:41+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -96,8 +96,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:243dbc2f-efb1-4359-8f9b-999732a0c662",
-        "timestamp" : "2025-10-16T19:23:26+00:00",
+        "identifier" : "urn:uuid:ded81d10-0402-43cc-8b4d-16a2f71dd77c",
+        "timestamp" : "2025-10-16T19:49:41+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -157,8 +157,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c5870929-ac29-4fd5-a034-259dac5935a3",
-        "timestamp" : "2025-10-16T19:23:08+00:00",
+        "identifier" : "urn:uuid:4b5f0e7c-ab31-4981-bca8-860a31074933",
+        "timestamp" : "2025-10-16T19:49:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -222,8 +222,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44726050-9f9a-4331-9f35-d00dc328e9cd",
-        "timestamp" : "2025-10-16T19:23:10+00:00",
+        "identifier" : "urn:uuid:dac00105-a0cf-43dd-abe6-fd5ce1f80ec7",
+        "timestamp" : "2025-10-16T19:49:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -291,8 +291,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee314fbb-0ce3-4113-b599-767a25d4baa9",
-        "timestamp" : "2025-10-16T19:23:05+00:00",
+        "identifier" : "urn:uuid:f90ff69d-b84f-4be1-8103-64f08e9c043e",
+        "timestamp" : "2025-10-16T19:49:20+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -380,8 +380,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ed70320c-9e94-481e-b10b-b30613c6e2dd",
-        "timestamp" : "2025-10-16T19:23:06+00:00",
+        "identifier" : "urn:uuid:39c9c1ac-7742-49f0-919b-5f0bff0e4e01",
+        "timestamp" : "2025-10-16T19:49:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -457,8 +457,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9d8307eb-9205-49ef-894e-2052f4e5a174",
-        "timestamp" : "2025-10-16T19:23:23+00:00",
+        "identifier" : "urn:uuid:23dec178-2237-4243-801c-e3932a4c7054",
+        "timestamp" : "2025-10-16T19:49:38+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -522,8 +522,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5f2bbae1-a6a6-4fb0-aa40-f6dc9c149012",
-        "timestamp" : "2025-10-16T19:23:20+00:00",
+        "identifier" : "urn:uuid:a889d865-25f4-4755-a254-50fb10bfdf03",
+        "timestamp" : "2025-10-16T19:49:35+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -587,8 +587,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ad9bc053-0fa2-4029-b2eb-e294a56248c1",
-        "timestamp" : "2025-10-16T19:23:03+00:00",
+        "identifier" : "urn:uuid:910f7c54-fed2-4062-bf3b-3d7eef3b6d78",
+        "timestamp" : "2025-10-16T19:49:18+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -656,8 +656,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:33368021-10ca-4fef-8eb5-c7d88609b830",
-        "timestamp" : "2025-10-16T19:23:26+00:00",
+        "identifier" : "urn:uuid:cfe7f3b0-1b93-460c-8a66-2c48c9441cf5",
+        "timestamp" : "2025-10-16T19:49:41+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -725,8 +725,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:bf96937d-db5b-4503-9ff5-a49b16e80704",
-        "timestamp" : "2025-10-16T19:23:09+00:00",
+        "identifier" : "urn:uuid:9d0b916d-ecda-4c98-aa71-db19148ae2ec",
+        "timestamp" : "2025-10-16T19:49:25+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -865,8 +865,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:9fa6789a-9735-4961-935f-edca392f80b8",
-        "timestamp" : "2025-10-16T19:23:27+00:00",
+        "identifier" : "urn:uuid:e3dd86be-b01a-4115-86ba-7fb668c96bbf",
+        "timestamp" : "2025-10-16T19:49:43+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1201,8 +1201,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8df183cd-2b69-4fa4-be28-f30437469786",
-        "timestamp" : "2025-10-16T19:23:29+00:00",
+        "identifier" : "urn:uuid:85ead2af-8e31-4b3d-81b6-90970d5dcb0a",
+        "timestamp" : "2025-10-16T19:49:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1262,8 +1262,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:96574ca7-56c5-4f98-b5ef-c62683a23d3c",
-        "timestamp" : "2025-10-16T19:23:21+00:00",
+        "identifier" : "urn:uuid:62a855d4-1e8d-4178-81f2-d8d7fe3c0dfe",
+        "timestamp" : "2025-10-16T19:49:36+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -1383,8 +1383,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:487ecc6c-7ca5-4c94-baa3-c5217786320f",
-        "timestamp" : "2025-10-16T19:23:20+00:00",
+        "identifier" : "urn:uuid:3cc8fd2a-9f2b-48ec-baf4-ea3b4f4dfbd5",
+        "timestamp" : "2025-10-16T19:49:35+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1579,8 +1579,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:12855cac-edfc-46ed-87c4-1124a7439f85",
-        "timestamp" : "2025-10-16T19:23:22+00:00",
+        "identifier" : "urn:uuid:b81720d5-aa8e-47ff-9940-0e5dbb482c4a",
+        "timestamp" : "2025-10-16T19:49:37+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1676,8 +1676,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7eaa03e8-c06c-4300-bfc7-7cc8cb9523fa",
-        "timestamp" : "2025-10-16T19:23:25+00:00",
+        "identifier" : "urn:uuid:ad6c1ea4-a44d-4b87-a4bf-7ba74bfd0b80",
+        "timestamp" : "2025-10-16T19:49:40+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1741,8 +1741,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e8ff8776-b00b-40ac-9a99-b38d692b8a64",
-        "timestamp" : "2025-10-16T19:23:23+00:00",
+        "identifier" : "urn:uuid:6e84c89e-8f20-4ff4-84ee-08bf46bc589d",
+        "timestamp" : "2025-10-16T19:49:38+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -1886,8 +1886,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f68a7723-ebc3-4af8-a69a-49485f7b81af",
-        "timestamp" : "2025-10-16T19:23:21+00:00",
+        "identifier" : "urn:uuid:bedfc927-04a1-4878-86d6-b64d8c69c479",
+        "timestamp" : "2025-10-16T19:49:36+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1959,8 +1959,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8266ef21-6449-4ff4-b716-b305ed63a5be",
-        "timestamp" : "2025-10-16T19:23:24+00:00",
+        "identifier" : "urn:uuid:c3c629ee-d508-49ca-98da-ac2c9aec0744",
+        "timestamp" : "2025-10-16T19:49:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2044,8 +2044,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d7509fc5-3f84-4936-b011-f2f98fa89478",
-        "timestamp" : "2025-10-16T19:23:22+00:00",
+        "identifier" : "urn:uuid:1039c641-d320-49f3-927f-f805555300db",
+        "timestamp" : "2025-10-16T19:49:37+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2113,8 +2113,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e7ad1c30-6e22-4613-9199-2b7d2132cc95",
-        "timestamp" : "2025-10-16T19:23:11+00:00",
+        "identifier" : "urn:uuid:f6872e93-43f7-45f8-a743-3da83c845688",
+        "timestamp" : "2025-10-16T19:49:27+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2194,8 +2194,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7da54a2f-5d8b-4a47-9090-0197d5c3ed65",
-        "timestamp" : "2025-10-16T19:23:29+00:00",
+        "identifier" : "urn:uuid:b791d0e2-169f-4275-96b3-9c3647802f05",
+        "timestamp" : "2025-10-16T19:49:45+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -2275,7 +2275,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set expansion contains 14 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-17621005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/17621005\">17621005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;17621005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;17621005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-40885006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/40885006\">40885006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;40885006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;40885006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-43261007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/43261007\">43261007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;43261007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;43261007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-260377000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/260377000\">260377000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;260377000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;260377000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-263654008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/263654008\">263654008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;263654008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;263654008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264909001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264909001\">264909001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264909001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264909001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264914002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264914002\">264914002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264914002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264914002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264916000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264916000\">264916000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264916000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264916000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371879000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371879000\">371879000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371879000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371879000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371880002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371880002\">371880002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371880002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371880002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371932001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371932001\">371932001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371932001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371932001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371934000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371934000\">371934000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371934000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371934000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-394845008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/394845008\">394845008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;394845008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;394845008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1340204007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1340204007\">1340204007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1340204007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1340204007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 14 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-263654008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/263654008\">263654008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;263654008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;263654008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-43261007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/43261007\">43261007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;43261007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;43261007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371879000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371879000\">371879000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371879000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371879000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371880002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371880002\">371880002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371880002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371880002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-260377000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/260377000\">260377000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;260377000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;260377000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1340204007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1340204007\">1340204007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1340204007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1340204007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371932001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371932001\">371932001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371932001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371932001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-17621005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/17621005\">17621005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;17621005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;17621005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-371934000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/371934000\">371934000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371934000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371934000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264909001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264909001\">264909001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264909001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264909001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-394845008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/394845008\">394845008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;394845008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;394845008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264914002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264914002\">264914002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264914002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264914002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-264916000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/264916000\">264916000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264916000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264916000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-40885006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/40885006\">40885006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;40885006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;40885006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal",
       "version" : "2025.0.0-alpha",
@@ -2291,12 +2291,9 @@
         }]
       }],
       "expansion" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
-          "valueBoolean" : true
-        }],
-        "identifier" : "urn:uuid:18e8f32a-b3b9-4466-bd32-21a9272bea9a",
-        "timestamp" : "2025-10-16T19:23:19+00:00",
+        "identifier" : "urn:uuid:c71883b1-909b-4501-b7ae-270e952c4433",
+        "timestamp" : "2025-10-16T19:49:34+00:00",
+        "total" : 14,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2328,35 +2325,11 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "17621005"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "40885006"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "43261007"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "260377000"
-        },
-        {
-          "system" : "http://snomed.info/sct",
           "code" : "263654008"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "264909001"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "264914002"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "264916000"
+          "code" : "43261007"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -2368,7 +2341,19 @@
         },
         {
           "system" : "http://snomed.info/sct",
+          "code" : "260377000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1340204007"
+        },
+        {
+          "system" : "http://snomed.info/sct",
           "code" : "371932001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "17621005"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -2376,11 +2361,23 @@
         },
         {
           "system" : "http://snomed.info/sct",
+          "code" : "264909001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
           "code" : "394845008"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "1340204007"
+          "code" : "264914002"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "264916000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "40885006"
         }]
       }
     }
@@ -2407,8 +2404,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6b37f130-b569-4c38-b586-280bb4cae7df",
-        "timestamp" : "2025-10-16T19:23:30+00:00",
+        "identifier" : "urn:uuid:137f5ede-b092-4878-8d1f-9425aa2426fc",
+        "timestamp" : "2025-10-16T19:49:45+00:00",
         "total" : 42,
         "offset" : 0,
         "parameter" : [{

@@ -28,7 +28,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-16T19:20:50+00:00",
+  "date" : "2025-10-16T19:47:02+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -1098,7 +1098,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
           "reference" : "ValueSet/vs-normal-abnormal"
         },
         "name" : "Normal Abnormal",
-        "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
+        "description" : "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)).",
         "exampleBoolean" : false
       },
       {

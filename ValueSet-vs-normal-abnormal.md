@@ -12,7 +12,7 @@
 | Draft as of 2025-10-16 | *Computable Name*:VS_Normal_Abnormal |
 
  
-ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition. 
+ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)). 
 
  **References** 
 
@@ -20,15 +20,13 @@ ValueSet containing codes that indicate the normality, absence, or unknown statu
 
 ### Logical Definition (CLD)
 
-* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) where concept descends from 276800000 (Normality findings)
-
  
 
 ### Expansion
 
 Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
 
-This value set expansion contains 14 concepts.
+This value set contains 14 concepts
 
 -------
 
@@ -70,7 +68,7 @@ This value set expansion contains 14 concepts.
       ]
     }
   ],
-  "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
+  "description" : "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)).",
   "jurisdiction" : [
     {
       "coding" : [
@@ -85,11 +83,62 @@ This value set expansion contains 14 concepts.
     "include" : [
       {
         "system" : "http://snomed.info/sct",
-        "filter" : [
+        "concept" : [
           {
-            "property" : "concept",
-            "op" : "descendent-of",
-            "value" : "276800000"
+            "code" : "263654008",
+            "display" : "Abnormal (qualifier value)"
+          },
+          {
+            "code" : "43261007",
+            "display" : "Abnormal presence of (qualifier value)"
+          },
+          {
+            "code" : "371879000",
+            "display" : "Abnormally high (qualifier value)"
+          },
+          {
+            "code" : "371880002",
+            "display" : "Abnormally low (qualifier value)"
+          },
+          {
+            "code" : "260377000",
+            "display" : "Exaggerated (qualifier value)"
+          },
+          {
+            "code" : "1340204007",
+            "display" : "Slightly abnormal (qualifier value)"
+          },
+          {
+            "code" : "371932001",
+            "display" : "Borderline normal (qualifier value)"
+          },
+          {
+            "code" : "17621005",
+            "display" : "Normal (qualifier value)"
+          },
+          {
+            "code" : "371934000",
+            "display" : "Normality undetermined (qualifier value)"
+          },
+          {
+            "code" : "264909001",
+            "display" : "Post-receptor abnormality (qualifier value)"
+          },
+          {
+            "code" : "394845008",
+            "display" : "Potentially abnormal (qualifier value)"
+          },
+          {
+            "code" : "264914002",
+            "display" : "Receptor abnormality (qualifier value)"
+          },
+          {
+            "code" : "264916000",
+            "display" : "Receptor defective (qualifier value)"
+          },
+          {
+            "code" : "40885006",
+            "display" : "Variant (qualifier value)"
           }
         ]
       }

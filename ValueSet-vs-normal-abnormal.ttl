@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "vs-normal-abnormal"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-normal-abnormal</b></p><a name=\"vs-normal-abnormal\"> </a><a name=\"hcvs-normal-abnormal\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  descends from 276800000 (Normality findings)</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-normal-abnormal</b></p><a name=\"vs-normal-abnormal\"> </a><a name=\"hcvs-normal-abnormal\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/263654008\">263654008</a></td><td>Abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/43261007\">43261007</a></td><td>Abnormal presence of (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371879000\">371879000</a></td><td>Abnormally high (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371880002\">371880002</a></td><td>Abnormally low (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/260377000\">260377000</a></td><td>Exaggerated (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/1340204007\">1340204007</a></td><td>Slightly abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371932001\">371932001</a></td><td>Borderline normal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/17621005\">17621005</a></td><td>Normal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371934000\">371934000</a></td><td>Normality undetermined (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264909001\">264909001</a></td><td>Post-receptor abnormality (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/394845008\">394845008</a></td><td>Potentially abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264914002\">264914002</a></td><td>Receptor abnormality (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264916000\">264916000</a></td><td>Receptor defective (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/40885006\">40885006</a></td><td>Variant (qualifier value)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
@@ -28,7 +28,7 @@
        fhir:value [ fhir:v "https://www.medizininformatik-initiative.de" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition."] ; # 
+  fhir:description [ fhir:v "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value))."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
@@ -38,10 +38,48 @@
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "concept" ] ;
-         fhir:op [ fhir:v "descendent-of" ] ;
-         fhir:value [ fhir:v "276800000" ]
+       fhir:concept ( [
+         fhir:code [ fhir:v "263654008" ] ;
+         fhir:display [ fhir:v "Abnormal (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "43261007" ] ;
+         fhir:display [ fhir:v "Abnormal presence of (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "371879000" ] ;
+         fhir:display [ fhir:v "Abnormally high (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "371880002" ] ;
+         fhir:display [ fhir:v "Abnormally low (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "260377000" ] ;
+         fhir:display [ fhir:v "Exaggerated (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "1340204007" ] ;
+         fhir:display [ fhir:v "Slightly abnormal (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "371932001" ] ;
+         fhir:display [ fhir:v "Borderline normal (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "17621005" ] ;
+         fhir:display [ fhir:v "Normal (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "371934000" ] ;
+         fhir:display [ fhir:v "Normality undetermined (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "264909001" ] ;
+         fhir:display [ fhir:v "Post-receptor abnormality (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "394845008" ] ;
+         fhir:display [ fhir:v "Potentially abnormal (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "264914002" ] ;
+         fhir:display [ fhir:v "Receptor abnormality (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "264916000" ] ;
+         fhir:display [ fhir:v "Receptor defective (qualifier value)" ]
+       ] [
+         fhir:code [ fhir:v "40885006" ] ;
+         fhir:display [ fhir:v "Variant (qualifier value)" ]
        ] )
      ] )
   ] . # 

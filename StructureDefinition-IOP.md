@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-IOP.csv), [Excel](St
   "name" : "MII_EyeMatics_IOP",
   "title" : "Intraocular Pressure",
   "status" : "draft",
-  "date" : "2025-10-16T19:20:50+00:00",
+  "date" : "2025-10-16T19:47:02+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

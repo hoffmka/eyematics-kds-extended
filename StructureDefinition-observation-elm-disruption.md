@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
   "title" : "ELM disruption",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-10-16T19:20:50+00:00",
+  "date" : "2025-10-16T19:47:02+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
