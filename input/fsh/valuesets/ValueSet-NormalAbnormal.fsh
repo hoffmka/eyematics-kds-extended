@@ -1,5 +1,5 @@
 ValueSet: VS_Normal_Abnormal
-Id: Normal_Abnormal
+Id: normal-abnormal
 Title: "Normal Abnormal"
 Description: "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition."
 * ^url = "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal"
