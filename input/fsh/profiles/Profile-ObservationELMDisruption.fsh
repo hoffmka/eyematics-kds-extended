@@ -6,9 +6,8 @@ Description: "OCT finding describing disruption of the external limiting membran
 * ^status = #draft
 * ^experimental = true
 * code = $SCT#76710003 "Structure of external limiting membrane of retina" (exactly)
-* value[x] only CodeableConcept
 * value[x] MS
-* valueCodeableConcept only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from VS_Normal_Abnormal
 * valueCodeableConcept ^sliceName = "valueCodeableConcept"
 * valueCodeableConcept ^short = "ELM disruption status"
