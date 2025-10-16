@@ -1,24 +1,24 @@
 Alias: $OCT_Biomarker = https://eyematics.org/fhir/eyematics-kds-extended/CodeSystem/oct-biomarker
 
-Profile: MII_EyeMatics_OCT_HRF
+Profile: MII_EyeMatics_OCT_VMT
 Parent: MII_EyeMatics_OphthalmicObservation
-Id: oct-hrf
-Title: "OCT Biomarker HRF"
-Description: "OCT biomarker HRF indicating presence or absence measured by OCT"
-* ^url = "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF"
+Id: oct-vmt
+Title: "OCT Biomarker VMT"
+Description: "OCT biomarker VMT indicating presence or absence measured by OCT"
+* ^url = "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-VMT"
 * id MS
 * meta MS
 * meta.source MS
 * meta.profile MS
 * status = #draft
 * code MS
-* code = $OCT_Biomarker#HRF "Hyperreflective Foci" (exactly)
+* code = $OCT_Biomarker#VMT "Vitreomacular Traction" (exactly)
 * effective[x] only dateTime
 * effectiveDateTime MS
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from VS_Present_Absent
-* valueCodeableConcept ^short = "Indicates whether HRF is present or not"
+* valueCodeableConcept ^short = "Indicates whether VMT is present or not"
 * note MS
 * note ^short = "Free text note or Comments about the OTC observation"
 * note ^definition = "Free text note or Comments about the OTC observation"
