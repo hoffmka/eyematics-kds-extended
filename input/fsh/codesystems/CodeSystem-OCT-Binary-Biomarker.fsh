@@ -14,5 +14,5 @@ Description: "OCT Binary Biomarker that has no"
 * ^versionNeeded = true
 * ^content = #complete
 * #DRIL "Disorganization of Retinal Inner Layers"
-* #HIF "Hyperreflective Foci"
+* #HRF "Hyperreflective Foci"
 * #VMT "Vitreomacular Traction"
