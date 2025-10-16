@@ -30,25 +30,13 @@ jobs:
       - name: Run SUSHI to generate IG files
         run: sushi . -o fsh-generated
 
-      - name: Expand ValueSets (SNOMED Displays)
-        run: |
-          mkdir -p fsh-generated/expanded
-          for f in fsh-generated/resources/ValueSet-*.json; do
-            echo "Expanding $f ..."
-            curl -s -X POST "https://tx.fhir.org/r4/ValueSet/\$expand" \
-              -H "Content-Type: application/fhir+json" \
-              -d @"$f" \
-              -o "fsh-generated/expanded/$(basename "$f")"
-          done
-          echo "Expanded ValueSets saved to fsh-generated/expanded/"
-
       - name: Download IG Publisher
         run: |
           mkdir -p publisher
           curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher/publisher.jar
 
       - name: Run IG Publisher
-        run: java -jar publisher/publisher.jar -ig . -no-pdf || true
+        run: java -jar publisher/publisher.jar -ig . -no-pdf -tx https://tx.fhir.org || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
