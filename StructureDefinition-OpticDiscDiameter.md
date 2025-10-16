@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-OpticDiscDiameter.cs
   "name" : "MII_EyeMatics_OpticDiscDiameter",
   "title" : "Optic Disc Diameter",
   "status" : "draft",
-  "date" : "2025-10-16T14:33:00+00:00",
+  "date" : "2025-10-16T19:07:33+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

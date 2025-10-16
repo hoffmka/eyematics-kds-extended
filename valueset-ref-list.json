@@ -62,8 +62,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
-      "StructureDefinition-IOP.html" : "Intraocular Pressure"
+      "StructureDefinition-IOP.html" : "Intraocular Pressure",
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Present-Absent",
@@ -75,12 +75,12 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
-      "StructureDefinition-MacularEdema.html" : "Macular Edema",
-      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
-      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
       "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
-      "StructureDefinition-PapillEdema.html" : "Papill Edema"
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
@@ -133,10 +133,10 @@
       "uses" : {
       },
       "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
       "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
       "StructureDefinition-observation-elm-disruption.html" : "ELM disruption",
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
-      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile"
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/imaging-methods",

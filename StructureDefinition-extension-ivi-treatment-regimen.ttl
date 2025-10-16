@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "IVI_TreatmentRegimen"] ; # 
   fhir:title [ fhir:v "IVI Treatment Regimen Extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T14:33:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T19:07:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
