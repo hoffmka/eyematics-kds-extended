@@ -9,7 +9,7 @@ Description: "OCT finding describing disruption of the external limiting membran
 * value[x] only CodeableConcept
 * value[x] MS
 * valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from VS_Normal_Abnormal (exactly)
+* valueCodeableConcept from VS_Normal_Abnormal
 * valueCodeableConcept ^sliceName = "valueCodeableConcept"
 * valueCodeableConcept ^short = "ELM disruption status"
 * valueCodeableConcept ^definition = "Status of the ELM: Normal or Abnormal"
