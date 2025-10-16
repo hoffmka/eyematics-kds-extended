@@ -1,4 +1,4 @@
-Alias: $OCT_Biomarker = CodeSystem/OCT_Biomarker
+Alias: $OCT_Biomarker = https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker
 
 Profile: MII_EyeMatics_OCT_DRIL
 Parent: MII_EyeMatics_OphthalmicObservation
