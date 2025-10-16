@@ -9,7 +9,6 @@ Description: "OCT finding describing disruption of the external limiting membran
 * meta.source MS
 * meta.profile MS
 * status = #draft
-* experimental = true
 * code MS
 * code = $SCT#76710003 "Structure of external limiting membrane of retina" (exactly)
 * effective[x] only dateTime
