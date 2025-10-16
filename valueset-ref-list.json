@@ -75,12 +75,12 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
-      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
       "StructureDefinition-MacularEdema.html" : "Macular Edema",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
       "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
-      "StructureDefinition-PapillEdema.html" : "Papill Edema",
-      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception"
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-PapillEdema.html" : "Papill Edema"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
@@ -132,10 +132,10 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
-      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
-      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
       "StructureDefinition-observation-elm-disruption.html" : "ELM disruption",
+      "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
       "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)"
     },
     {

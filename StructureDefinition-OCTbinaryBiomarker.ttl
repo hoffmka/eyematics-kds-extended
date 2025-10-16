@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "MII_EyeMatics_OCT_Binary_Biomarker"] ; # 
   fhir:title [ fhir:v "OCT Binary Biomarker"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T19:07:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T19:20:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;

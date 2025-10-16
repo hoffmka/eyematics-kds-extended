@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-RetinalThickness.csv
   "name" : "MII_EyeMatics_RetinalThickness",
   "title" : "Retinal Thickness",
   "status" : "draft",
-  "date" : "2025-10-16T19:07:33+00:00",
+  "date" : "2025-10-16T19:20:50+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

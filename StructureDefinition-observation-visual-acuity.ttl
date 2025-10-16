@@ -21,7 +21,7 @@
   fhir:title [ fhir:v "Visual Acuity (VA)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-10-16T19:07:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T19:20:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;

@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-OCTbinaryBiomarker.c
   "name" : "MII_EyeMatics_OCT_Binary_Biomarker",
   "title" : "OCT Binary Biomarker",
   "status" : "draft",
-  "date" : "2025-10-16T19:07:33+00:00",
+  "date" : "2025-10-16T19:20:50+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
