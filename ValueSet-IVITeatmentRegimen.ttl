@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "IVITeatmentRegimen"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet IVITeatmentRegimen</b></p><a name=\"IVITeatmentRegimen\"> </a><a name=\"hcIVITeatmentRegimen\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ivi-treatment-regimen.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">?2025.0.0-alpha</span></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet IVITeatmentRegimen</b></p><a name=\"IVITeatmentRegimen\"> </a><a name=\"hcIVITeatmentRegimen\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ivi-treatment-regimen.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.0.0-alpha</span></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.0.0-alpha"] ; # 

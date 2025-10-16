@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="42339ca7-6a9a-457e-ae5a-bd01ebb7468d"/>
+  <id value="0dd40c5d-9e4c-470c-a056-5ed78ee3fc74"/>
   <meta>
-    <lastUpdated value="2025-10-11T19:44:55.907+00:00"/>
+    <lastUpdated value="2025-10-16T14:33:47.183+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -103,8 +103,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:af87849c-0634-4ae3-8803-7ab4162fee7e"/>
-          <timestamp value="2025-10-11T19:46:21+00:00"/>
+          <identifier value="urn:uuid:7d708e0a-b2e2-44a3-ab65-2511840195fb"/>
+          <timestamp value="2025-10-16T14:34:50+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -267,8 +267,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:011eae35-5982-443e-b7dd-98bee2d43459"/>
-          <timestamp value="2025-10-11T19:46:21+00:00"/>
+          <identifier value="urn:uuid:da30b309-6efc-4ef6-a327-fe5dadd60c40"/>
+          <timestamp value="2025-10-16T14:34:50+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -396,8 +396,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:45a9cc91-de6c-4c65-ab0a-b144bb273a7d"/>
-          <timestamp value="2025-10-11T19:46:08+00:00"/>
+          <identifier value="urn:uuid:09103310-f35b-4a5f-80f0-79f380a63038"/>
+          <timestamp value="2025-10-16T14:34:38+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -549,8 +549,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:938aa9b5-4ff7-4152-b9bb-56e3ffc625f2"/>
-          <timestamp value="2025-10-11T19:46:09+00:00"/>
+          <identifier value="urn:uuid:39effd75-6d7d-4d69-bf5f-79914c1f9d0c"/>
+          <timestamp value="2025-10-16T14:34:39+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -783,8 +783,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:53004a83-4e21-49d0-bb43-ee86f20cc60d"/>
-          <timestamp value="2025-10-11T19:46:05+00:00"/>
+          <identifier value="urn:uuid:ac3e0181-afd1-40a3-9067-512632b18b73"/>
+          <timestamp value="2025-10-16T14:34:35+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1000,8 +1000,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e16abc63-67c2-4199-8cd5-22c67baf8a97"/>
-          <timestamp value="2025-10-11T19:46:06+00:00"/>
+          <identifier value="urn:uuid:cde4553a-8258-463a-a99e-55846b34f921"/>
+          <timestamp value="2025-10-16T14:34:36+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1145,8 +1145,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cdca8934-4a1e-4a3a-ad02-7c5af29524fa"/>
-          <timestamp value="2025-10-11T19:46:19+00:00"/>
+          <identifier value="urn:uuid:7b87c306-0764-4645-901c-341559dbd141"/>
+          <timestamp value="2025-10-16T14:34:49+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1278,8 +1278,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9f9dd607-5ffd-42f5-bf50-cfbb8e782838"/>
-          <timestamp value="2025-10-11T19:46:20+00:00"/>
+          <identifier value="urn:uuid:615af7b5-a959-4fa1-a269-d523403b7ee2"/>
+          <timestamp value="2025-10-16T14:34:47+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1431,8 +1431,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:08a651cb-20ce-491d-900f-cf305a39116e"/>
-          <timestamp value="2025-10-11T19:46:03+00:00"/>
+          <identifier value="urn:uuid:6d29b561-e651-4718-a018-9bc7a00d94cb"/>
+          <timestamp value="2025-10-16T14:34:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1568,8 +1568,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7f587b6b-65ad-47c2-a0f0-caa9968b3c34"/>
-          <timestamp value="2025-10-11T19:46:21+00:00"/>
+          <identifier value="urn:uuid:f96c91a6-dc04-4359-ac33-95c166719ca8"/>
+          <timestamp value="2025-10-16T14:34:51+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2055,8 +2055,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:88ad21e5-a6af-4a98-b0a9-5521dccb3b8c"/>
-          <timestamp value="2025-10-11T19:46:08+00:00"/>
+          <identifier value="urn:uuid:5f742a6d-5547-4130-a76a-776ae330fd2d"/>
+          <timestamp value="2025-10-16T14:34:38+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -3602,8 +3602,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:28b51872-08c4-4cc3-bc7b-29d70b5ed494"/>
-          <timestamp value="2025-10-11T19:46:22+00:00"/>
+          <identifier value="urn:uuid:6c51308a-4c49-48fd-aa09-abd1b1ee2a76"/>
+          <timestamp value="2025-10-16T14:34:51+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -3976,22 +3976,22 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker-HIF"> </a>
+                  <a name="x-https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker-HRF"> </a>
                   <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-oct-binary-biomarker.html#oct-binary-biomarker-HIF">HIF</a>
+                  <a href="CodeSystem-oct-binary-biomarker.html#oct-binary-biomarker-HRF">HRF</a>
                 </td>
                 <td/>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;, &quot;version&quot;: &quot;2025.0.0-alpha&quot;, &quot;code&quot;: &quot;HIF&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;, &quot;version&quot;: &quot;2025.0.0-alpha&quot;, &quot;code&quot;: &quot;HRF&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;&gt;&lt;version value=&quot;2025.0.0-alpha&quot;&gt;&lt;code value=&quot;HIF&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker&quot;&gt;&lt;version value=&quot;2025.0.0-alpha&quot;&gt;&lt;code value=&quot;HRF&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -4033,8 +4033,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4a4271f-7aab-4e6e-9ac6-116443fe4356"/>
-          <timestamp value="2025-10-11T19:46:23+00:00"/>
+          <identifier value="urn:uuid:1eabe9a4-19d9-4c0e-b757-f828b7b7e1fe"/>
+          <timestamp value="2025-10-16T14:34:52+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4063,7 +4063,7 @@
           </contains>
           <contains>
             <system value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"/>
-            <code value="HIF"/>
+            <code value="HRF"/>
           </contains>
           <contains>
             <system value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"/>
@@ -4372,8 +4372,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:880d5ebd-ae63-493d-a496-fe2222188ce7"/>
-          <timestamp value="2025-10-11T19:46:18+00:00"/>
+          <identifier value="urn:uuid:c3512054-977f-4281-9f56-6265ab6fd2c3"/>
+          <timestamp value="2025-10-16T14:34:48+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -5220,8 +5220,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:b38d5fdb-2b63-400b-bd2f-8c08ba9fd984"/>
-          <timestamp value="2025-10-11T19:46:18+00:00"/>
+          <identifier value="urn:uuid:6f9803f4-d9ba-4f68-8375-5baa51ad4fbe"/>
+          <timestamp value="2025-10-16T14:34:48+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -5635,8 +5635,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6b07187f-da73-4a86-9fc1-b84a7d8dd898"/>
-          <timestamp value="2025-10-11T19:46:19+00:00"/>
+          <identifier value="urn:uuid:babbb3eb-7034-44eb-83a2-b6d7d04ce57c"/>
+          <timestamp value="2025-10-16T14:34:48+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -5800,8 +5800,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8b087ba5-bea7-42fe-b84c-d9213ec16308"/>
-          <timestamp value="2025-10-11T19:46:20+00:00"/>
+          <identifier value="urn:uuid:a4b9e5c7-1d2a-4141-a3e0-bf3696a31414"/>
+          <timestamp value="2025-10-16T14:34:50+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -6290,8 +6290,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2faba2f4-0454-4dec-8e04-4ff519b5dc96"/>
-          <timestamp value="2025-10-11T19:46:19+00:00"/>
+          <identifier value="urn:uuid:a15d2ba2-7bb4-4708-bd98-0400761f2f29"/>
+          <timestamp value="2025-10-16T14:34:49+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -6593,8 +6593,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a1ecb7c-f524-49f8-8d9b-a768edba89d8"/>
-          <timestamp value="2025-10-11T19:46:18+00:00"/>
+          <identifier value="urn:uuid:5154a085-bb71-4e70-ad10-ccc6eef07429"/>
+          <timestamp value="2025-10-16T14:34:48+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -6784,8 +6784,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d535fa55-0ed4-4b1c-aa50-77de0a7c47fb"/>
-          <timestamp value="2025-10-11T19:46:20+00:00"/>
+          <identifier value="urn:uuid:942ca446-d505-4f13-bcb0-1faf651017f4"/>
+          <timestamp value="2025-10-16T14:34:49+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -6957,8 +6957,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:12029494-aada-4bbe-9ee4-c40b5ba2ef77"/>
-          <timestamp value="2025-10-11T19:46:19+00:00"/>
+          <identifier value="urn:uuid:06aba0d6-83c8-4180-bce7-7b60235776ae"/>
+          <timestamp value="2025-10-16T14:34:49+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -7174,8 +7174,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8460d0bb-05db-49a2-84f7-baed3d4a8cb2"/>
-          <timestamp value="2025-10-11T19:46:10+00:00"/>
+          <identifier value="urn:uuid:77c13a0a-b47b-4c12-9277-ce9db5e33989"/>
+          <timestamp value="2025-10-16T14:34:40+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -7483,8 +7483,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a81b71a3-2d7a-4b38-b82d-62369f996a93"/>
-          <timestamp value="2025-10-11T19:46:23+00:00"/>
+          <identifier value="urn:uuid:69c8af97-d810-416d-aee7-026c84b610f9"/>
+          <timestamp value="2025-10-16T14:34:52+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -7554,6 +7554,429 @@
           <contains>
             <system value="http://loinc.org"/>
             <code value="57117-4"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set expansion contains 14 concepts.</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-17621005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/17621005">17621005</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;17621005&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;17621005&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-40885006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/40885006">40885006</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;40885006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;40885006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-43261007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/43261007">43261007</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;43261007&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;43261007&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-260377000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/260377000">260377000</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;260377000&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;260377000&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-263654008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/263654008">263654008</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;263654008&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;263654008&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-264909001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/264909001">264909001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264909001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264909001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-264914002"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/264914002">264914002</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264914002&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264914002&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-264916000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/264916000">264916000</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;264916000&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;264916000&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371879000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371879000">371879000</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371879000&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371879000&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371880002"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371880002">371880002</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371880002&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371880002&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371932001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371932001">371932001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371932001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371932001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371934000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371934000">371934000</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371934000&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371934000&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-394845008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/394845008">394845008</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;394845008&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;394845008&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-1340204007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/1340204007">1340204007</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1340204007&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1340204007&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal"/>
+        <version value="2025.0.0-alpha"/>
+        <name value="VS_Normal_Abnormal"/>
+        <title value="Normal Abnormal"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-10-16"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="276"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:e44be616-6419-4e6b-8aa2-c5f11f48b9ba"/>
+          <timestamp value="2025-10-16T14:34:47+00:00"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17621005"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40885006"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43261007"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260377000"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="263654008"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="264909001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="264914002"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="264916000"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371879000"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371880002"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371932001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371934000"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="394845008"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1340204007"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -8448,8 +8871,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8ad7046b-5539-483f-a6ed-3bb8e0820997"/>
-          <timestamp value="2025-10-11T19:46:23+00:00"/>
+          <identifier value="urn:uuid:6f2a62ff-fe55-465a-aba4-44d7c4d424b3"/>
+          <timestamp value="2025-10-16T14:34:53+00:00"/>
           <total value="42"/>
           <offset value="0"/>
           <parameter>

@@ -20,7 +20,7 @@ Value set representing qualitative OCT biomarkers used in retinal imaging, inclu
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker`](CodeSystem-oct-binary-biomarker.md) version 📦2025.0.0-alpha
+* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker`](CodeSystem-oct-binary-biomarker.md)version 📦2025.0.0-alpha
 
  
 

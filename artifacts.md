@@ -16,6 +16,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Angiography](StructureDefinition-Angiography.md) | Profile for recording ophthalmologic angiographic observations including reference to imaging studies and the device used. |
 | [Anterior Chamber Cells](StructureDefinition-AnteriorChamberCells.md) | A profile to capture anterior chamber cells observations in ophthalmology. |
 | [Anterior Chamber Flare](StructureDefinition-AnteriorChamberFlare.md) | A profile to capture anterior chamber flare observations in ophthalmology. |
+| [ELM disruption](StructureDefinition-observation-elm-disruption.md) | OCT finding describing disruption of the external limiting membrane (ELM) in the retina. |
 | [IVI-HandMovementPerception](StructureDefinition-mii-eyematics-ivom-hand-movement-perception.md) | After IVI, it is checked if the patient can see his hand movements, otherwise Paracentesis might be necessary |
 | [IVI-MedicationAdministration](StructureDefinition-mii-eyematics-ivom-medicationadministration.md) | A MedicationAdministration resource describes that a drug (in our case in form of an IVI) has actually been administred. |
 | [IVI-Medikament](StructureDefinition-mii-eyematics-ivom-medication.md) | Die Medikation, die angesetzt, geplant oder verabreicht wird. Es kann sich um ein Fertigarzneimittel oder eine Rezeptur handeln. Auch die Angabe nur des Wirkstoffes ist möglich. Mindestens ein Wirkstoff MUSS angegeben werden. |
@@ -58,6 +59,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Imaging Methods](ValueSet-imaging-methods.md) | ValueSet containing standardized imaging procedures used in ophthalmology. |
 | [Macular OCT Thickness Map](ValueSet-vs-macular-oct-thickness-map.md) | ValueSet representing the various subfield thickness measurements of the macula obtained through OCT. |
 | [Method of finding a macular edema](ValueSet-vs-macular-edema-method.md) | ValueSet representing the methods for discovering a macular edema. |
+| [Normal Abnormal](ValueSet-vs-normal-abnormal.md) | ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition. |
 | [OCT Binary Biomarker Codes](ValueSet-oct-binary-bm-code.md) | Value set representing qualitative OCT biomarkers used in retinal imaging, including structural indicators assessed as present or absent. |
 | [Performed NotPerformed](ValueSet-Performed-NotPerformed.md) | ValueSet representing the status of a procedure or action, indicating whether it has been performed or not. |
 | [Present Absent](ValueSet-Present-Absent.md) | ValueSet containing codes that indicate the presence, absence, or unknown status of a clinical finding or condition. |

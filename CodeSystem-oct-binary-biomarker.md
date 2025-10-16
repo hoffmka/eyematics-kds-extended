@@ -68,7 +68,7 @@ OCT Binary Biomarker that has no
       "display" : "Disorganization of Retinal Inner Layers"
     },
     {
-      "code" : "HIF",
+      "code" : "HRF",
       "display" : "Hyperreflective Foci"
     },
     {

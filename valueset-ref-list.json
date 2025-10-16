@@ -41,6 +41,18 @@
       "StructureDefinition-extension-ivi-treatment-regimen.html" : "IVI Treatment Regimen Extension"
     },
     {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Normal_Abnormal",
+      "title" : "Normal Abnormal",
+      "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-observation-elm-disruption.html" : "ELM disruption"
+    },
+    {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Performed-NotPerformed",
       "version" : "2025.0.0-alpha",
       "status" : "draft",
@@ -63,11 +75,11 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-MacularEdema.html" : "Macular Edema",
-      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
       "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
-      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
       "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
+      "StructureDefinition-OCTbinaryBiomarker.html" : "OCT Binary Biomarker",
       "StructureDefinition-PapillEdema.html" : "Papill Edema"
     },
     {
@@ -95,8 +107,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "ValueSet-SUNCells.html" : "SUN Cells",
-      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare",
+      "ValueSet-SUNCells.html" : "SUN Cells"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
@@ -120,9 +132,10 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
-      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
       "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-observation-elm-disruption.html" : "ELM disruption",
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
       "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile"
     },
     {

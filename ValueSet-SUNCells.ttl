@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "SUNCells"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SUNCells</b></p><a name=\"SUNCells\"> </a><a name=\"hcSUNCells\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-SUNFlare.html\">SUN Flare</a></li><li>Include all codes defined in <a href=\"CodeSystem-sun-grades.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">?2025.0.0-alpha</span></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SUNCells</b></p><a name=\"SUNCells\"> </a><a name=\"hcSUNCells\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-SUNFlare.html\">SUN Flare</a></li><li>Include all codes defined in <a href=\"CodeSystem-sun-grades.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.0.0-alpha</span></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.0.0-alpha"] ; # 

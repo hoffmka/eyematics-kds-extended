@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-11 | *Computable Name*:MII_EyeMatics_VisualAcuity |
+| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_VisualAcuity |
 
  
 An assessment of a patients ability to see. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-visual-a
   "title" : "Visual Acuity (VA)",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-10-11T19:44:14+00:00",
+  "date" : "2025-10-16T14:33:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="va-quantity-units"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet va-quantity-units</b></p><a name="va-quantity-units"> </a><a name="hcva-quantity-units"> </a><ul><li>Include all codes defined in <a href="CodeSystem-vs-units.html"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;2025.0.0-alpha</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet va-quantity-units</b></p><a name="va-quantity-units"> </a><a name="hcva-quantity-units"> </a><ul><li>Include all codes defined in <a href="CodeSystem-vs-units.html"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2025.0.0-alpha</span></li></ul></div>
   </text>
   <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/va-quantity-units"/>
   <version value="2025.0.0-alpha"/>

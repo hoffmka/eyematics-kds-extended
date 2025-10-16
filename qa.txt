@@ -1,9 +1,9 @@
 EyeMatics_KDS : Validation Results
 =========================================
 
-err = 5, warn = 114, info = 137
-IG Publisher Version: 2.0.20
-Generated Sat Oct 11 19:47:25 UTC 2025. FHIR version 4.0.1 for eyematics-kerndatensatz#2025.0.0-alpha (canonical = https://eyematics.org/fhir/eyematics-kds)
+err = 8, warn = 116, info = 141
+IG Publisher Version: 2.0.21
+Generated Thu Oct 16 14:35:47 UTC 2025. FHIR version 4.0.1 for eyematics-kerndatensatz#2025.0.0-alpha (canonical = https://eyematics.org/fhir/eyematics-kds)
  Build Errors : 0 / 4 / 0
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-iop-methods : 0 / 1 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/CodeSystem-ivi-treatment-regimen : 0 / 1 / 1
@@ -34,6 +34,7 @@ Generated Sat Oct 11 19:47:25 UTC 2025. FHIR version 4.0.1 for eyematics-kerndat
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-medication : 0 / 3 / 13
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-medicationadministration : 1 / 3 / 9
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-paracentesis : 0 / 3 / 1
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption : 0 / 2 / 5
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-visual-acuity : 0 / 15 / 17
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-IVIMedicationForm : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-IVITeatmentRegimen : 0 / 0 / 1
@@ -59,6 +60,7 @@ Generated Sat Oct 11 19:47:25 UTC 2025. FHIR version 4.0.1 for eyematics-kerndat
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-va-test-distance : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-macular-edema-method : 0 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-macular-oct-thickness-map : 0 / 0 / 1
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-normal-abnormal : 3 / 0 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-rnfl-oct-thickness-map : 0 / 0 / 1
 </table>
 == n/a ==
@@ -311,6 +313,13 @@ WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-k
 WARNING: StructureDefinition/mii-eyematics-ivom-paracentesis: StructureDefinition.snapshot.element[25].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/ops' could not be found, so the code cannot be validated
 WARNING: StructureDefinition/mii-eyematics-ivom-paracentesis: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/ops' could not be found, so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-paracentesis'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-observation-elm-disruption.json ==
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of external limiting membrane of retina' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
+INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[30].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-observation-visual-acuity.json ==
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept).coding[0].display: 'Visual Acuity finding' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[80].fixed.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#29073-4 for language(s) 'de-DE'. The display is 'Right eye Position' the default language display
@@ -372,4 +381,8 @@ INFORMATION: ValueSet/va-optotypes: ValueSet.compose.include[1]: This SNOMED-CT 
 == fsh-generated/resources/ValueSet-va-test-distance.json ==
 == fsh-generated/resources/ValueSet-vs-macular-edema-method.json ==
 == fsh-generated/resources/ValueSet-vs-macular-oct-thickness-map.json ==
+== fsh-generated/resources/ValueSet-vs-normal-abnormal.json ==
+ERROR: ValueSet.where(url = 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-normal-abnormal.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-normal-abnormal) does not match the URL (https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal). Use the special-url parameter if you really mean for it not to match
+ERROR: ValueSet.url: Resource id/url mismatch: vs-normal-abnormal/https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal
+ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/ValueSet-vs-normal-abnormal: URL Mismatch https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-normal-abnormal vs https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal
 == fsh-generated/resources/ValueSet-vs-rnfl-oct-thickness-map.json ==

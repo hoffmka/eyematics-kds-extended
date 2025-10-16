@@ -19,6 +19,7 @@ Describes which eye of the patient was analyzed.
 * [Ophthalmic Observation Base Profile](StructureDefinition-OphthalmicObservation.md)
 * [IVI-Medikationsverordnung](StructureDefinition-mii-eyematics-ivi-medicationrequest.md)
 * [IVI-MedicationAdministration](StructureDefinition-mii-eyematics-ivom-medicationadministration.md)
+* [ELM disruption](StructureDefinition-observation-elm-disruption.md)
 * [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
 
 ### Logical Definition (CLD)

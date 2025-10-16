@@ -20,7 +20,7 @@ ValueSet of the IVI Treatment Regimen/Protocol
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen`](CodeSystem-ivi-treatment-regimen.md) version 📦2025.0.0-alpha
+* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen`](CodeSystem-ivi-treatment-regimen.md)version 📦2025.0.0-alpha
 
  
 

@@ -210,6 +210,13 @@
     "name" : "MII_EyeMatics_IVI_Paracentesis"
   },
   {
+    "id" : "observation-elm-disruption",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OCT_ELM_Disruption"
+  },
+  {
     "id" : "observation-visual-acuity",
     "type" : "StructureDefinition",
     "url" : "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity",
@@ -229,6 +236,13 @@
     "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen",
     "version" : "2025.0.0-alpha",
     "name" : "VS_IVI_TreatmentRegimen"
+  },
+  {
+    "id" : "vs-normal-abnormal",
+    "type" : "ValueSet",
+    "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal",
+    "version" : "2025.0.0-alpha",
+    "name" : "VS_Normal_Abnormal"
   },
   {
     "id" : "Performed-NotPerformed",

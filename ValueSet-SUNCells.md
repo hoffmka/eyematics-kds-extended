@@ -23,7 +23,7 @@ ValueSet of the allowed values for the Standardization of uveitis nomenclature (
 This value set includes codes based on the following rules:
 
 * Import all the codes that are contained in [SUN Flare](ValueSet-SUNFlare.md)
-* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades`](CodeSystem-sun-grades.md) version 📦2025.0.0-alpha
+* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades`](CodeSystem-sun-grades.md)version 📦2025.0.0-alpha
 
  
 

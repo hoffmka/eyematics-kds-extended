@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-normal-abnormal"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vs-normal-abnormal</b></p><a name="vs-normal-abnormal"> </a><a name="hcvs-normal-abnormal"> </a><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where concept  descends from 276800000 (Normality findings)</li></ul></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="VS_Normal_Abnormal"/>
+  <title value="Normal Abnormal"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-16"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="276800000"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

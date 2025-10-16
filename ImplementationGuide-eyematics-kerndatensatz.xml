@@ -12,7 +12,7 @@
   <name value="EyeMatics_KDS"/>
   <title value="Eyematics Core Data Set"/>
   <status value="draft"/>
-  <date value="2025-10-11T19:44:14+00:00"/>
+  <date value="2025-10-16T14:33:00+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -496,6 +496,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-elm-disruption"/>
+      </reference>
+      <name value="ELM disruption"/>
+      <description value="OCT finding describing disruption of the external limiting membrane (ELM) in the retina."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -712,6 +723,17 @@
       </reference>
       <name value="Method of finding a macular edema"/>
       <description value="ValueSet representing the methods for discovering a macular edema."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-normal-abnormal"/>
+      </reference>
+      <name value="Normal Abnormal"/>
+      <description value="ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

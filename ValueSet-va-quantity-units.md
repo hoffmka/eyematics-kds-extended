@@ -20,7 +20,7 @@ ValueSet representing the units of measurement used in visual acuity assessments
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units`](CodeSystem-vs-units.md) version 📦2025.0.0-alpha
+* Include all codes defined in [`https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units`](CodeSystem-vs-units.md)version 📦2025.0.0-alpha
 
  
 

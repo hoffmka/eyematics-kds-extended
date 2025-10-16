@@ -44,6 +44,7 @@
 * [Visual Acuity Test Distance](ValueSet-va-test-distance.md)
 * [Method of finding a macular edema](ValueSet-vs-macular-edema-method.md)
 * [Macular OCT Thickness Map](ValueSet-vs-macular-oct-thickness-map.md)
+* [Normal Abnormal](ValueSet-vs-normal-abnormal.md)
 * [Retinal nerve fiber layer OCT Thickness Map](ValueSet-vs-rnfl-oct-thickness-map.md)
 
 ### Resource Profiles
@@ -67,6 +68,7 @@
 * [IVI-Medikament](StructureDefinition-mii-eyematics-ivom-medication.md)
 * [IVI-MedicationAdministration](StructureDefinition-mii-eyematics-ivom-medicationadministration.md)
 * [IVI-Paracentesis](StructureDefinition-mii-eyematics-ivom-paracentesis.md)
+* [ELM disruption](StructureDefinition-observation-elm-disruption.md)
 * [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
 
 ### Extensions

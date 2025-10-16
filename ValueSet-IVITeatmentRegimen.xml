@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="IVITeatmentRegimen"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet IVITeatmentRegimen</b></p><a name="IVITeatmentRegimen"> </a><a name="hcIVITeatmentRegimen"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ivi-treatment-regimen.html"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;2025.0.0-alpha</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet IVITeatmentRegimen</b></p><a name="IVITeatmentRegimen"> </a><a name="hcIVITeatmentRegimen"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ivi-treatment-regimen.html"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2025.0.0-alpha</span></li></ul></div>
   </text>
   <url value="https://eyematics.org/fhir/eyematics-kds/ValueSet/IVITeatmentRegimen"/>
   <version value="2025.0.0-alpha"/>

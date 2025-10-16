@@ -32,6 +32,15 @@
       ]
     },
     {
+      "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "VS_Normal_Abnormal",
+      "title" : "Normal Abnormal",
+      "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Performed-NotPerformed",
       "version" : "2025.0.0-alpha",
       "status" : "draft",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/LensDuringVATestSpecification | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-11 | *Computable Name*:LensDuringVATestSpecification |
+| Draft as of 2025-10-16 | *Computable Name*:LensDuringVATestSpecification |
 
 Specification any Lens that was n front of an eye during a Visual Acuity test test
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-LensDuringVATestSpec
   "version" : "2025.0.0-alpha",
   "name" : "LensDuringVATestSpecification",
   "status" : "draft",
-  "date" : "2025-10-11T19:44:14+00:00",
+  "date" : "2025-10-16T14:33:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

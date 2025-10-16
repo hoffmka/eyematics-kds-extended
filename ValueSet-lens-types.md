@@ -22,9 +22,9 @@ This ValueSet includes codes representing different types of lenses used in opht
 
 This value set includes codes based on the following rules:
 
-* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/) version Not Stated (use latest from terminology server) where concept descends from 57368009 (Contact lenses)
-* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/) version Not Stated (use latest from terminology server) where concept descends from 50121007 (Eye glasses, device (physical object))
-* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/) version Not Stated (use latest from terminology server) where concept descends from 420330007 (Trial lens (physical object))
+* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) where concept descends from 57368009 (Contact lenses)
+* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) where concept descends from 50121007 (Eye glasses, device (physical object))
+* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) where concept descends from 420330007 (Trial lens (physical object))
 
  
 

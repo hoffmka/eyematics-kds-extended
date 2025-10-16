@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "oct-binary-biomarker"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem oct-binary-biomarker</b></p><a name=\"oct-binary-biomarker\"> </a><a name=\"hcoct-binary-biomarker\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DRIL<a name=\"oct-binary-biomarker-DRIL\"> </a></td><td>Disorganization of Retinal Inner Layers</td></tr><tr><td style=\"white-space:nowrap\">HIF<a name=\"oct-binary-biomarker-HIF\"> </a></td><td>Hyperreflective Foci</td></tr><tr><td style=\"white-space:nowrap\">VMT<a name=\"oct-binary-biomarker-VMT\"> </a></td><td>Vitreomacular Traction</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem oct-binary-biomarker</b></p><a name=\"oct-binary-biomarker\"> </a><a name=\"hcoct-binary-biomarker\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DRIL<a name=\"oct-binary-biomarker-DRIL\"> </a></td><td>Disorganization of Retinal Inner Layers</td></tr><tr><td style=\"white-space:nowrap\">HRF<a name=\"oct-binary-biomarker-HRF\"> </a></td><td>Hyperreflective Foci</td></tr><tr><td style=\"white-space:nowrap\">VMT<a name=\"oct-binary-biomarker-VMT\"> </a></td><td>Vitreomacular Traction</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-binary-biomarker"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
@@ -44,7 +44,7 @@
      fhir:code [ fhir:v "DRIL" ] ;
      fhir:display [ fhir:v "Disorganization of Retinal Inner Layers" ]
   ] [
-     fhir:code [ fhir:v "HIF" ] ;
+     fhir:code [ fhir:v "HRF" ] ;
      fhir:display [ fhir:v "Hyperreflective Foci" ]
   ] [
      fhir:code [ fhir:v "VMT" ] ;

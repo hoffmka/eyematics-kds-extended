@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-11 | *Computable Name*:EyeMatics_KDS |
+| Draft as of 2025-10-16 | *Computable Name*:EyeMatics_KDS |
 
 # EyeMatics-Kerndatensatz
 
@@ -28,7 +28,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-11T19:44:14+00:00",
+  "date" : "2025-10-16T14:33:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -797,6 +797,20 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/observation-elm-disruption"
+        },
+        "name" : "ELM disruption",
+        "description" : "OCT finding describing disruption of the external limiting membrane (ELM) in the retina.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -1071,6 +1085,20 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
         },
         "name" : "Method of finding a macular edema",
         "description" : "ValueSet representing the methods for discovering a macular edema.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "ValueSet"
+          }
+        ],
+        "reference" : {
+          "reference" : "ValueSet/vs-normal-abnormal"
+        },
+        "name" : "Normal Abnormal",
+        "description" : "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition.",
         "exampleBoolean" : false
       },
       {

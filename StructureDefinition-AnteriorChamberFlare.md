@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/AnteriorChamberFlare | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-11 | *Computable Name*:MII_EyeMatics_Anterior_Chamber_Flare |
+| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_Anterior_Chamber_Flare |
 
  
 A profile to capture anterior chamber flare observations in ophthalmology. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-AnteriorChamberFlare
   "name" : "MII_EyeMatics_Anterior_Chamber_Flare",
   "title" : "Anterior Chamber Flare",
   "status" : "draft",
-  "date" : "2025-10-11T19:44:14+00:00",
+  "date" : "2025-10-16T14:33:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

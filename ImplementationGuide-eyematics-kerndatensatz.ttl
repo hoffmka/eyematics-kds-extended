@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-11T19:44:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T14:33:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -902,6 +902,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption> ;
+         fhir:reference [ fhir:v "StructureDefinition/observation-elm-disruption" ]
+       ] ;
+       fhir:name [ fhir:v "ELM disruption" ] ;
+       fhir:description [ fhir:v "OCT finding describing disruption of the external limiting membrane (ELM) in the retina." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -1253,6 +1271,24 @@
        ] ;
        fhir:name [ fhir:v "Method of finding a macular edema" ] ;
        fhir:description [ fhir:v "ValueSet representing the methods for discovering a macular edema." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-normal-abnormal> ;
+         fhir:reference [ fhir:v "ValueSet/vs-normal-abnormal" ]
+       ] ;
+       fhir:name [ fhir:v "Normal Abnormal" ] ;
+       fhir:description [ fhir:v "ValueSet containing codes that indicate the normality, absence, or unknown status of a clinical finding or condition." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

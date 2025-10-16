@@ -20,7 +20,7 @@ SNOMED or LOINC code
 
 ### Logical Definition (CLD)
 
-* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/) version Not Stated (use latest from terminology server) where concept descends from 363983007 (Visual acuity)
+* Include codes from[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) where concept descends from 363983007 (Visual acuity)
 
  
 

@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OphthalmicObservation | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-11 | *Computable Name*:MII_EyeMatics_OphthalmicObservation |
+| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_OphthalmicObservation |
 
  
 This is a profile as a common ground for all the other profiles, so it should not be used directly. 
 
 **Usages:**
 
-* Derived from this Profile: [Angiography](StructureDefinition-Angiography.md), [Anterior Chamber Cells](StructureDefinition-AnteriorChamberCells.md), [Anterior Chamber Flare](StructureDefinition-AnteriorChamberFlare.md), [Intraocular Pressure](StructureDefinition-IOP.md)...Show 9 more,[Synechiae of Iris](StructureDefinition-IrisSynechiae.md),[Macular Edema](StructureDefinition-MacularEdema.md),[OCT Binary Biomarker](StructureDefinition-OCTbinaryBiomarker.md),[Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md),[Papill Edema](StructureDefinition-PapillEdema.md),[RNFL Thickness](StructureDefinition-RNFLThickness.md),[Retinal Thickness](StructureDefinition-RetinalThickness.md),[Retinal Vasculitis](StructureDefinition-RetinalVasculitis.md)and[Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
+* Derived from this Profile: [Angiography](StructureDefinition-Angiography.md), [Anterior Chamber Cells](StructureDefinition-AnteriorChamberCells.md), [Anterior Chamber Flare](StructureDefinition-AnteriorChamberFlare.md), [Intraocular Pressure](StructureDefinition-IOP.md)...Show 10 more,[Synechiae of Iris](StructureDefinition-IrisSynechiae.md),[Macular Edema](StructureDefinition-MacularEdema.md),[OCT Binary Biomarker](StructureDefinition-OCTbinaryBiomarker.md),[Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md),[Papill Edema](StructureDefinition-PapillEdema.md),[RNFL Thickness](StructureDefinition-RNFLThickness.md),[Retinal Thickness](StructureDefinition-RetinalThickness.md),[Retinal Vasculitis](StructureDefinition-RetinalVasculitis.md),[ELM disruption](StructureDefinition-observation-elm-disruption.md)and[Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/eyematics-kerndatensatz|current/StructureDefinition/OphthalmicObservation)
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-OphthalmicObservatio
   "name" : "MII_EyeMatics_OphthalmicObservation",
   "title" : "Ophthalmic Observation Base Profile",
   "status" : "draft",
-  "date" : "2025-10-11T19:44:14+00:00",
+  "date" : "2025-10-16T14:33:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

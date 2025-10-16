@@ -3,7 +3,7 @@
   "id" : "va-code",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-code</b></p><a name=\"va-code\"> </a><a name=\"hcva-code\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span> where concept  descends from 363983007 (Visual acuity)</li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-code</b></p><a name=\"va-code\"> </a><a name=\"hcva-code\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  descends from 363983007 (Visual acuity)</li></ul></div>"
   },
   "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-code",
   "version" : "2025.0.0-alpha",
