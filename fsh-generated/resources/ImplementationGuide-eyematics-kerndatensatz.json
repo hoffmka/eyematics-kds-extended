@@ -2,10 +2,10 @@
   "resourceType": "ImplementationGuide",
   "id": "eyematics-kerndatensatz",
   "language": "de-DE",
-  "url": "https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz",
+  "url": "https://eyematics.org/fhir/eyematics-kds-extended/ImplementationGuide/eyematics-kerndatensatz",
   "version": "2025.0.0-alpha",
-  "name": "EyeMatics_KDS",
-  "title": "Eyematics Core Data Set",
+  "name": "EyeMatics_KDS_Extended",
+  "title": "Eyematics Core Data Set (extended)",
   "status": "draft",
   "publisher": "Medizininformatik-Initiative",
   "contact": [
@@ -30,7 +30,7 @@
       ]
     }
   ],
-  "packageId": "eyematics-kerndatensatz",
+  "packageId": "eyematics-kerndatensatz-erweitert",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
