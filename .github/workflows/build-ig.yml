@@ -3,7 +3,7 @@ name: IG Publisher
 on:
   push:
     branches:
-      - master
+      #- master
       - main
       - dev
   pull_request:
