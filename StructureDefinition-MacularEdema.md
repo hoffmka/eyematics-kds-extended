@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-MacularEdema.csv), [
   "name" : "MII_EyeMatics_MacularEdema",
   "title" : "Macular Edema",
   "status" : "draft",
-  "date" : "2025-10-17T07:01:09+00:00",
+  "date" : "2025-10-17T07:12:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

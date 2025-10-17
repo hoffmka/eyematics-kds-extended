@@ -3,8 +3,8 @@
 ## Pages
 
 * [Home](index.md)
-* [Artifacts Summary](artifacts.md)
 * [Medication](medication.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 

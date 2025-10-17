@@ -61,14 +61,14 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-oct-dril.html" : "OCT Biomarker DRIL",
       "StructureDefinition-IrisSynechiae.html" : "Synechiae of Iris",
-      "StructureDefinition-PapillEdema.html" : "Papill Edema",
-      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
       "StructureDefinition-RetinalVasculitis.html" : "Retinal Vasculitis",
-      "StructureDefinition-oct-hrf.html" : "OCT Biomarker HRF",
+      "StructureDefinition-mii-eyematics-ivom-hand-movement-perception.html" : "IVI-HandMovementPerception",
+      "StructureDefinition-MacularEdema.html" : "Macular Edema",
       "StructureDefinition-oct-vmt.html" : "OCT Biomarker VMT",
-      "StructureDefinition-MacularEdema.html" : "Macular Edema"
+      "StructureDefinition-PapillEdema.html" : "Papill Edema",
+      "StructureDefinition-oct-dril.html" : "OCT Biomarker DRIL",
+      "StructureDefinition-oct-hrf.html" : "OCT Biomarker HRF"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells",
@@ -95,8 +95,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "ValueSet-SUNCells.html" : "SUN Cells",
-      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare"
+      "StructureDefinition-AnteriorChamberFlare.html" : "Anterior Chamber Flare",
+      "ValueSet-SUNCells.html" : "SUN Cells"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed",
@@ -120,10 +120,10 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
       "StructureDefinition-mii-eyematics-ivom-medicationadministration.html" : "IVI-MedicationAdministration",
-      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile",
-      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung"
+      "StructureDefinition-mii-eyematics-ivi-medicationrequest.html" : "IVI-Medikationsverordnung",
+      "StructureDefinition-observation-visual-acuity.html" : "Visual Acuity (VA)",
+      "StructureDefinition-OphthalmicObservation.html" : "Ophthalmic Observation Base Profile"
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/imaging-methods",
