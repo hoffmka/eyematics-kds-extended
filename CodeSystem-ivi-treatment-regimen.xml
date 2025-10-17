@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ivi-treatment-regimen"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ivi-treatment-regimen</b></p><a name="ivi-treatment-regimen"> </a><a name="hcivi-treatment-regimen"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Fixed<a name="ivi-treatment-regimen-Fixed"> </a></td><td>Fixed Interval</td></tr><tr><td style="white-space:nowrap">PRN<a name="ivi-treatment-regimen-PRN"> </a></td><td>Pro Re Nata</td></tr><tr><td style="white-space:nowrap">TE<a name="ivi-treatment-regimen-TE"> </a></td><td>Treat-and-Extend</td></tr></table></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="IVI_TreatmentRegimen"/>
+  <title value="IVI Treatment Regimen"/>
+  <status value="draft"/>
+  <date value="2025-04-17"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="IVI Treatment Regimen or Protocol"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="MII"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <versionNeeded value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Fixed"/>
+    <display value="Fixed Interval"/>
+  </concept>
+  <concept>
+    <code value="PRN"/>
+    <display value="Pro Re Nata"/>
+  </concept>
+  <concept>
+    <code value="TE"/>
+    <display value="Treat-and-Extend"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="vs-va-correction-methods"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem vs-va-correction-methods</b></p><a name="vs-va-correction-methods"> </a><a name="hcvs-va-correction-methods"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">trial-lenses-autorefraction<a name="vs-va-correction-methods-trial-lenses-autorefraction"> </a></td><td>Trial Lenses - Values from Autorefraction</td><td>Trial lenses used for visual acuity testing based on values obtained from an autorefractor.</td></tr><tr><td style="white-space:nowrap">trial-lenses-manifest-without-cycloplegia<a name="vs-va-correction-methods-trial-lenses-manifest-without-cycloplegia"> </a></td><td>Trial Lenses - Values from Manifest Refraction without Cycloplegia</td><td>Trial lenses used for visual acuity testing based on values from manifest refraction without cycloplegia.</td></tr><tr><td style="white-space:nowrap">trial-lenses-manifest-with-cycloplegia<a name="vs-va-correction-methods-trial-lenses-manifest-with-cycloplegia"> </a></td><td>Trial Lenses - Values from Manifest Refraction with Cycloplegia</td><td>Trial lenses used for visual acuity testing based on values from manifest refraction with cycloplegia.</td></tr><tr><td style="white-space:nowrap">trial-lenses-retinoscopy<a name="vs-va-correction-methods-trial-lenses-retinoscopy"> </a></td><td>Trial Lenses - Values from Retinoscopy</td><td>Trial lenses used for visual acuity testing based on values from retinoscopy.</td></tr><tr><td style="white-space:nowrap">trial-lenses-unspecified-origin<a name="vs-va-correction-methods-trial-lenses-unspecified-origin"> </a></td><td>Trial Lenses - Values of Unspecified Origin</td><td>Trial lenses used for visual acuity testing where the origin of the refractive values is unspecified.</td></tr></table></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="CS_VA_Correction_Methods"/>
+  <title value="Visual Acuity Correction Methods"/>
+  <status value="draft"/>
+  <date value="2025-02-26"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Correction Methods not covered by snomed"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="MII"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <versionNeeded value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="trial-lenses-autorefraction"/>
+    <display value="Trial Lenses - Values from Autorefraction"/>
+    <definition value="Trial lenses used for visual acuity testing based on values obtained from an autorefractor."/>
+  </concept>
+  <concept>
+    <code value="trial-lenses-manifest-without-cycloplegia"/>
+    <display value="Trial Lenses - Values from Manifest Refraction without Cycloplegia"/>
+    <definition value="Trial lenses used for visual acuity testing based on values from manifest refraction without cycloplegia."/>
+  </concept>
+  <concept>
+    <code value="trial-lenses-manifest-with-cycloplegia"/>
+    <display value="Trial Lenses - Values from Manifest Refraction with Cycloplegia"/>
+    <definition value="Trial lenses used for visual acuity testing based on values from manifest refraction with cycloplegia."/>
+  </concept>
+  <concept>
+    <code value="trial-lenses-retinoscopy"/>
+    <display value="Trial Lenses - Values from Retinoscopy"/>
+    <definition value="Trial lenses used for visual acuity testing based on values from retinoscopy."/>
+  </concept>
+  <concept>
+    <code value="trial-lenses-unspecified-origin"/>
+    <display value="Trial Lenses - Values of Unspecified Origin"/>
+    <definition value="Trial lenses used for visual acuity testing where the origin of the refractive values is unspecified."/>
+  </concept>
+</CodeSystem>

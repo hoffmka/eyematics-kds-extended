@@ -1,0 +1,82 @@
+# eyematics-kerndatensatz#2025.0.0-alpha: Eyematics Core Data Set
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Medication](medication.md)
+
+## Resources
+
+### CodeSystems
+
+* [IOP Methods Code System](CodeSystem-iop-methods.md)
+* [IVI Treatment Regimen](CodeSystem-ivi-treatment-regimen.md)
+* [OCT Biomarker](CodeSystem-oct-biomarker.md)
+* [SUN Grades](CodeSystem-sun-grades.md)
+* [Visual Acuity Optotypes](CodeSystem-va-optotypes.md)
+* [Visual Acuity Units](CodeSystem-vs-units.md)
+* [Visual Acuity Correction Methods](CodeSystem-vs-va-correction-methods.md)
+
+### ValueSets
+
+* [IVI Medication Form](ValueSet-IVIMedicationForm.md)
+* [IVI Treatment Regimen](ValueSet-IVITeatmentRegimen.md)
+* [Performed NotPerformed](ValueSet-Performed-NotPerformed.md)
+* [Present Absent](ValueSet-Present-Absent.md)
+* [SUN Cells](ValueSet-SUNCells.md)
+* [SUN Flare](ValueSet-SUNFlare.md)
+* [Used NotUsed](ValueSet-Used-NotUsed.md)
+* [Eye Laterality](ValueSet-eye-laterality.md)
+* [Imaging Methods](ValueSet-imaging-methods.md)
+* [IOP Code](ValueSet-iop-code.md)
+* [IOP Methods](ValueSet-iop-methods.md)
+* [IVOM Medication](ValueSet-ivom-medication.md)
+* [VA Lens Types](ValueSet-lens-types.md)
+* [Visual Acuity Categorial Values](ValueSet-va-categorial-values.md)
+* [Visual Acuity Code](ValueSet-va-code.md)
+* [Visual Acuity Correction Methods](ValueSet-va-correction-method.md)
+* [VA Methods](ValueSet-va-methods.md)
+* [Visual Acuity Optotypes](ValueSet-va-optotypes.md)
+* [Visual Acuity Units](ValueSet-va-quantity-units.md)
+* [Visual Acuity Special Testing Parameters](ValueSet-va-special-testing-parameters.md)
+* [Visual Acuity Test Distance](ValueSet-va-test-distance.md)
+* [Method of finding a macular edema](ValueSet-vs-macular-edema-method.md)
+* [Macular OCT Thickness Map](ValueSet-vs-macular-oct-thickness-map.md)
+* [Normal Abnormal](ValueSet-vs-normal-abnormal.md)
+* [Retinal nerve fiber layer OCT Thickness Map](ValueSet-vs-rnfl-oct-thickness-map.md)
+
+### Resource Profiles
+
+* [Angiography](StructureDefinition-Angiography.md)
+* [Anterior Chamber Cells](StructureDefinition-AnteriorChamberCells.md)
+* [Anterior Chamber Flare](StructureDefinition-AnteriorChamberFlare.md)
+* [Intraocular Pressure](StructureDefinition-IOP.md)
+* [Synechiae of Iris](StructureDefinition-IrisSynechiae.md)
+* [Macular Edema](StructureDefinition-MacularEdema.md)
+* [Ophthalmic Diagnostic Report](StructureDefinition-OphthalmicDiagnosticReport.md)
+* [Ophthalmic Observation Base Profile](StructureDefinition-OphthalmicObservation.md)
+* [Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md)
+* [Papill Edema](StructureDefinition-PapillEdema.md)
+* [RNFL Thickness](StructureDefinition-RNFLThickness.md)
+* [Retinal Thickness](StructureDefinition-RetinalThickness.md)
+* [Retinal Vasculitis](StructureDefinition-RetinalVasculitis.md)
+* [IVI-Medikationsverordnung](StructureDefinition-mii-eyematics-ivi-medicationrequest.md)
+* [IVI-HandMovementPerception](StructureDefinition-mii-eyematics-ivom-hand-movement-perception.md)
+* [IVI-Medikament](StructureDefinition-mii-eyematics-ivom-medication.md)
+* [IVI-MedicationAdministration](StructureDefinition-mii-eyematics-ivom-medicationadministration.md)
+* [IVI-Paracentesis](StructureDefinition-mii-eyematics-ivom-paracentesis.md)
+* [ELM disruption](StructureDefinition-observation-elm-disruption.md)
+* [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
+* [OCT Biomarker DRIL](StructureDefinition-oct-dril.md)
+* [OCT Biomarker HRF](StructureDefinition-oct-hrf.md)
+* [OCT Biomarker VMT](StructureDefinition-oct-vmt.md)
+
+### Extensions
+
+* [LensDuringVATestSpecification](StructureDefinition-LensDuringVATestSpecification.md)
+* [IVI Treatment Regimen Extension](StructureDefinition-extension-ivi-treatment-regimen.md)
+
+### ImplementationGuides
+
+* [Eyematics Core Data Set](index.md)

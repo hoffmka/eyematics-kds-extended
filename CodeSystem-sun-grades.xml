@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sun-grades"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sun-grades</b></p><a name="sun-grades"> </a><a name="hcsun-grades"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">(+)<a name="sun-grades-.40.43.41"> </a></td><td>Present (+) out of ++++ (qualifier value)</td></tr></table></div>
+  </text>
+  <url value="https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades"/>
+  <version value="2025.0.0-alpha"/>
+  <name value="SUN_Grades"/>
+  <title value="SUN Grades"/>
+  <status value="draft"/>
+  <date value="2025-03-13"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Grades of the Standardization of uveitis nomenclature"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="MII"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <versionNeeded value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="(+)"/>
+    <display value="(+)"/>
+    <definition value="Present (+) out of ++++ (qualifier value)"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "sun-grades",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sun-grades</b></p><a name=\"sun-grades\"> </a><a name=\"hcsun-grades\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">(+)<a name=\"sun-grades-.40.43.41\"> </a></td><td>Present (+) out of ++++ (qualifier value)</td></tr></table></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades",
+  "version" : "2025.0.0-alpha",
+  "name" : "SUN_Grades",
+  "title" : "SUN Grades",
+  "status" : "draft",
+  "date" : "2025-03-13",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Grades of the Standardization of uveitis nomenclature",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "copyright" : "MII",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "versionNeeded" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "(+)",
+    "display" : "(+)",
+    "definition" : "Present (+) out of ++++ (qualifier value)"
+  }]
+}

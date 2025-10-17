@@ -1,0 +1,91 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-normal-abnormal",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-normal-abnormal</b></p><a name=\"vs-normal-abnormal\"> </a><a name=\"hcvs-normal-abnormal\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/263654008\">263654008</a></td><td>Abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/43261007\">43261007</a></td><td>Abnormal presence of (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371879000\">371879000</a></td><td>Abnormally high (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371880002\">371880002</a></td><td>Abnormally low (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/260377000\">260377000</a></td><td>Exaggerated (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/1340204007\">1340204007</a></td><td>Slightly abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371932001\">371932001</a></td><td>Borderline normal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/17621005\">17621005</a></td><td>Normal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/371934000\">371934000</a></td><td>Normality undetermined (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264909001\">264909001</a></td><td>Post-receptor abnormality (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/394845008\">394845008</a></td><td>Potentially abnormal (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264914002\">264914002</a></td><td>Receptor abnormality (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/264916000\">264916000</a></td><td>Receptor defective (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/40885006\">40885006</a></td><td>Variant (qualifier value)</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_Normal_Abnormal",
+  "title" : "Normal Abnormal",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-16",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ValueSet containing codes that indicate the normality status of a clinical finding or condition. It includes codes from system Snomed CT where concept descendant-of $SCT#276800000 (Normality findings (qualifier value)).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "263654008",
+        "display" : "Abnormal (qualifier value)"
+      },
+      {
+        "code" : "43261007",
+        "display" : "Abnormal presence of (qualifier value)"
+      },
+      {
+        "code" : "371879000",
+        "display" : "Abnormally high (qualifier value)"
+      },
+      {
+        "code" : "371880002",
+        "display" : "Abnormally low (qualifier value)"
+      },
+      {
+        "code" : "260377000",
+        "display" : "Exaggerated (qualifier value)"
+      },
+      {
+        "code" : "1340204007",
+        "display" : "Slightly abnormal (qualifier value)"
+      },
+      {
+        "code" : "371932001",
+        "display" : "Borderline normal (qualifier value)"
+      },
+      {
+        "code" : "17621005",
+        "display" : "Normal (qualifier value)"
+      },
+      {
+        "code" : "371934000",
+        "display" : "Normality undetermined (qualifier value)"
+      },
+      {
+        "code" : "264909001",
+        "display" : "Post-receptor abnormality (qualifier value)"
+      },
+      {
+        "code" : "394845008",
+        "display" : "Potentially abnormal (qualifier value)"
+      },
+      {
+        "code" : "264914002",
+        "display" : "Receptor abnormality (qualifier value)"
+      },
+      {
+        "code" : "264916000",
+        "display" : "Receptor defective (qualifier value)"
+      },
+      {
+        "code" : "40885006",
+        "display" : "Variant (qualifier value)"
+      }]
+    }]
+  }
+}

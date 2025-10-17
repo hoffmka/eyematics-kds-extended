@@ -1,0 +1,192 @@
+{
+  "package": "eyematics-kerndatensatz",
+  "version": "2025.0.0-alpha",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "276",
+  "extensions": [
+    {
+      "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/LensDuringVATestSpecification",
+      "title": "LensDuringVATestSpecification",
+      "types": [
+        "Reference",
+        "CodeableConcept",
+        "decimal",
+        "decimal",
+        "Quantity",
+        "integer",
+        "decimal",
+        "CodeableConcept",
+        "decimal",
+        "decimal",
+        "decimal",
+        "decimal",
+        "Quantity",
+        "string",
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/extension-ivi-treatment-regimen",
+      "title": "IVI Treatment Regimen Extension",
+      "types": [
+        "code"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-visual-acuity",
+        "title": "Visual Acuity (VA)"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/OphthalmicDiagnosticReport",
+        "title": "Ophthalmic Diagnostic Report"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivi-medicationrequest",
+        "title": "IVI-Medikationsverordnung"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medication",
+        "title": "IVI-Medikament"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medicationadministration",
+        "title": "IVI-MedicationAdministration"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-paracentesis",
+        "title": "IVI-Paracentesis"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "StructureDefinition.snapshot.element.definition",
+      "StructureDefinition.snapshot.element.short"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/LensDuringVATestSpecification": [
+      "Observation.component"
+    ],
+    "https://eyematics.org/fhir/eyematics-kds/StructureDefinition/extension-ivi-treatment-regimen": [
+      "MedicationRequest.dosageInstruction"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/wirkstoffrelation": [
+      "Medication.ingredient"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/wirkstofftyp": [
+      "Medication.ingredient"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable": [
+      "StructureDefinition"
+    ]
+  }
+}

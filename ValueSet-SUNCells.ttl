@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SUNCells"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SUNCells</b></p><a name=\"SUNCells\"> </a><a name=\"hcSUNCells\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-SUNFlare.html\">SUN Flare</a></li><li>Include all codes defined in <a href=\"CodeSystem-sun-grades.html\"><code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.0.0-alpha</span></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNCells"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
+  fhir:name [ fhir:v "VS_SUN_Cells"] ; # 
+  fhir:title [ fhir:v "SUN Cells"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-03-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet of the allowed values for the Standardization of uveitis nomenclature (SUN) for Anterior Chamber Cells."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "276" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:valueSet ( [
+         fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare"^^xsd:anyURI ;
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/ValueSet/SUNFlare>
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

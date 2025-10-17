@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://eyematics.org/fhir/eyematics-kds/ValueSet/va-test-distance> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "va-test-distance"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet va-test-distance</b></p><a name=\"va-test-distance\"> </a><a name=\"hcva-test-distance\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA32578-9/\">LA32578-9</a></td><td>Near</td></tr><tr><td><a href=\"https://loinc.org/LA32577-1/\">LA32577-1</a></td><td>Far</td></tr><tr><td><a href=\"https://loinc.org/LA16550-8/\">LA16550-8</a></td><td>Intermediate</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/va-test-distance"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
+  fhir:name [ fhir:v "VS_VA_Test_Distance"] ; # 
+  fhir:title [ fhir:v "Visual Acuity Test Distance"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-02-26"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet representing different test distances."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "276" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "LA32578-9" ] ;
+         fhir:display [ fhir:v "Near" ]
+       ] [
+         fhir:code [ fhir:v "LA32577-1" ] ;
+         fhir:display [ fhir:v "Far" ]
+       ] [
+         fhir:code [ fhir:v "LA16550-8" ] ;
+         fhir:display [ fhir:v "Intermediate" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
