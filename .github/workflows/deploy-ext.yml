@@ -2,7 +2,7 @@ name: Build and Deploy FHIR IG
 
 on:
   push:
-    branches: [ oct-biomarkers ]
+    branches: [ ext ]
   workflow_dispatch:
 
 jobs:
