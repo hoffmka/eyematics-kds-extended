@@ -29,7 +29,7 @@
   fhir:name [ fhir:v "MII_EyeMatics_IVI_Medication"] ; # 
   fhir:title [ fhir:v "IVI-Medikament"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-17T06:16:58+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T07:01:09+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;

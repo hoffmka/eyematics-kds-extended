@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-mii-eyematics-ivom-p
   "name" : "MII_EyeMatics_IVI_Paracentesis",
   "title" : "IVI-Paracentesis",
   "status" : "draft",
-  "date" : "2025-10-17T06:16:58+00:00",
+  "date" : "2025-10-17T07:01:09+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

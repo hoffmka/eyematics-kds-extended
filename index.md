@@ -10,9 +10,23 @@
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz | *Version*:2025.0.0-alpha |
 | Draft as of 2025-10-17 | *Computable Name*:EyeMatics_KDS |
 
-# EyeMatics-Kerndatensatz
+# EyeMatics-Erweiterter-Kerndatensatz
 
-Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/), welcher im Laufe der Zeit durch die Zuarbeit von ganz vielen tollen Menschen immer mehr erweitert und verbessert wird!
+Dies ist der erweiterte Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/), welcher im Laufe der Zeit durch die Zuarbeit von ganz vielen tollen Menschen immer mehr erweitert und verbessert wird!
+
+## Zusätzliche Resourcen
+
+### Profile
+
+[OCT Biomarker DRIL](https://hoffmka.github.io/eyematics-kds-extended/StructureDefinition-oct-dril.html) [OCT Biomarker HRF](https://hoffmka.github.io/eyematics-kds-extended/StructureDefinition-oct-hrf.html) [OCT Biomarker VMT](https://hoffmka.github.io/eyematics-kds-extended/StructureDefinition-oct-vmt.html) [ELM disruption](https://hoffmka.github.io/eyematics-kds-extended/StructureDefinition-observation-elm-disruption.html)
+
+### Valuesets
+
+[Normal Abnormal](https://hoffmka.github.io/eyematics-kds-extended/ValueSet-vs-normal-abnormal.html)
+
+### Codesysteme
+
+[OCT Biomarker](https://hoffmka.github.io/eyematics-kds-extended/CodeSystem-oct-biomarker.html)
 
 
 
@@ -28,7 +42,7 @@ Dies ist der Kerndatensatz des [EyeMatics-Projektes](https://www.eyematics.org/)
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-17T06:16:58+00:00",
+  "date" : "2025-10-17T07:01:09+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
