@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-macular-edema-method",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-macular-edema-method</b></p><a name=\"vs-macular-edema-method\"> </a><a name=\"hcvs-macular-edema-method\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/53524009\">53524009</a></td><td>Ophthalmoscopy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/410450009\">410450009</a></td><td>Direct ophthalmoscopy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/416369006\">416369006</a></td><td>Integrated optical coherence tomography and scanning laser ophthalmoscopy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/1303746000\">1303746000</a></td><td>Optical coherence tomography of posterior segment of eye (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/700070005\">700070005</a></td><td>Optical coherence tomography of retina (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/392010000\">392010000</a></td><td>Optical coherence tomography (procedure)</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://eyematics.org/fhir/eyematics-kds/ValueSet/vs-macular-edema-method",
+  "version" : "2025.0.0-alpha",
+  "name" : "VS_MacularEdema_Method",
+  "title" : "Method of finding a macular edema",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-08-16",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ValueSet representing the methods for discovering a macular edema.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "53524009",
+        "display" : "Ophthalmoscopy (procedure)"
+      },
+      {
+        "code" : "410450009",
+        "display" : "Direct ophthalmoscopy (procedure)"
+      },
+      {
+        "code" : "416369006",
+        "display" : "Integrated optical coherence tomography and scanning laser ophthalmoscopy (procedure)"
+      },
+      {
+        "code" : "1303746000",
+        "display" : "Optical coherence tomography of posterior segment of eye (procedure)"
+      },
+      {
+        "code" : "700070005",
+        "display" : "Optical coherence tomography of retina (procedure)"
+      },
+      {
+        "code" : "392010000",
+        "display" : "Optical coherence tomography (procedure)"
+      }]
+    }]
+  }
+}

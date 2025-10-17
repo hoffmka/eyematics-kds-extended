@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/iop-methods,2025.0.0-alpha,draft,,IOPMethods,IOP Methods Code System,"IOP additional method types",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen,2025.0.0-alpha,draft,,IVI_TreatmentRegimen,IVI Treatment Regimen,"IVI Treatment Regimen or Protocol",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker,2025.0.0-alpha,draft,,OCT_Biomarker,OCT Biomarker,"Local codes for OCT-based biomarkers not yet represented in SNOMED CT.",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades,2025.0.0-alpha,draft,,SUN_Grades,SUN Grades,"Grades of the Standardization of uveitis nomenclature",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/va-optotypes,2025.0.0-alpha,draft,,VA_Optotypes,Visual Acuity Optotypes,"A CodeSystem that includes codes representing optotype used during visual acuity testing, that are not covered by loinc or snomed",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-units,2025.0.0-alpha,draft,,VA_Units,Visual Acuity Units,"Units for quantitive measurement",
+https://eyematics.org/fhir/eyematics-kds/CodeSystem/vs-va-correction-methods,2025.0.0-alpha,draft,,CS_VA_Correction_Methods,Visual Acuity Correction Methods,"Correction Methods not covered by snomed",

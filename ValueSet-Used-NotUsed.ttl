@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Used-NotUsed"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet Used-NotUsed</b></p><a name=\"Used-NotUsed\"> </a><a name=\"hcUsed-NotUsed\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/373062004\">373062004</a></td><td>Device used (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/262009000\">262009000</a></td><td>Not used (qualifier value)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://eyematics.org/fhir/eyematics-kds/ValueSet/Used-NotUsed"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
+  fhir:name [ fhir:v "VS_Used_NotUsed"] ; # 
+  fhir:title [ fhir:v "Used NotUsed"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-03-24"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet representing the status of a device, indicating whether it has been used or not."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "276" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "373062004" ] ;
+         fhir:display [ fhir:v "Device used (finding)" ]
+       ] [
+         fhir:code [ fhir:v "262009000" ] ;
+         fhir:display [ fhir:v "Not used (qualifier value)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
