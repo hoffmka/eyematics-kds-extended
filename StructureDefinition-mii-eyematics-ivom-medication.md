@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-medication | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_IVI_Medication |
+| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_IVI_Medication |
 
  
 Die Medikation, die angesetzt, geplant oder verabreicht wird. Es kann sich um ein Fertigarzneimittel oder eine Rezeptur handeln. Auch die Angabe nur des Wirkstoffes ist möglich. Mindestens ein Wirkstoff MUSS angegeben werden. 
@@ -55,7 +55,7 @@ Other representations of profile: [CSV](StructureDefinition-mii-eyematics-ivom-m
   "name" : "MII_EyeMatics_IVI_Medication",
   "title" : "IVI-Medikament",
   "status" : "draft",
-  "date" : "2025-10-16T21:17:38+00:00",
+  "date" : "2025-10-17T06:16:58+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

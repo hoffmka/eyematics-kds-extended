@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_OCT_ELM_Disruption |
+| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_OCT_ELM_Disruption |
 
  
 OCT finding describing disruption of the external limiting membrane (ELM) in the retina. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-elm-disr
   "name" : "MII_EyeMatics_OCT_ELM_Disruption",
   "title" : "ELM disruption",
   "status" : "draft",
-  "date" : "2025-10-16T21:17:38+00:00",
+  "date" : "2025-10-17T06:16:58+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

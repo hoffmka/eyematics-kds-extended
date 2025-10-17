@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "2025.0.0-alpha"] ; # 
   fhir:name [ fhir:v "LensDuringVATestSpecification"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T21:17:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T06:16:58+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;

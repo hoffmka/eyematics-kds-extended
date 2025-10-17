@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/IOP | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-16 | *Computable Name*:MII_EyeMatics_IOP |
+| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_IOP |
 
  
 A measurement of a patient's intraocular pressure (in mmHg). 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-IOP.csv), [Excel](St
   "name" : "MII_EyeMatics_IOP",
   "title" : "Intraocular Pressure",
   "status" : "draft",
-  "date" : "2025-10-16T21:17:38+00:00",
+  "date" : "2025-10-17T06:16:58+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
