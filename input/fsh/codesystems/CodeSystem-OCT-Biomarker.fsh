@@ -2,6 +2,7 @@ CodeSystem: OCT_Biomarker
 Id: oct-biomarker
 Title: "OCT Biomarker"
 Description: "Local codes for OCT-based biomarkers not yet represented in SNOMED CT."
+* ^url = "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2025-10-10"
@@ -16,3 +17,4 @@ Description: "Local codes for OCT-based biomarkers not yet represented in SNOMED
 * #DRIL "Disorganization of Retinal Inner Layers"
 * #HRF "Hyperreflective Foci"
 * #VMT "Vitreomacular Traction"
+* #EZ "Ellipsoid zone"
