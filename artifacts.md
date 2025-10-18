@@ -33,6 +33,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Optic Disc Diameter](StructureDefinition-OpticDiscDiameter.md) | Optic disc diameter measured via OCT. |
 | [Papill Edema](StructureDefinition-PapillEdema.md) | An observation determining the presence or absence of papilledema (swelling of the optic disc). |
 | [RNFL Thickness](StructureDefinition-RNFLThickness.md) | Retinal nerve fiber layer thickness measured via OCT. |
+| [RPE disruption](StructureDefinition-observation-rpe-disruption.md) | OCT finding describing disruption of the retinal pigment epithelium (RPE) in the retina. |
 | [Retinal Thickness](StructureDefinition-RetinalThickness.md) | Retinal thickness measured via OCT. |
 | [Retinal Vasculitis](StructureDefinition-RetinalVasculitis.md) | An observation determining the presence or absence of retinal vasculitis. |
 | [Synechiae of Iris](StructureDefinition-IrisSynechiae.md) | An observation determining the presence or absence of iris synechiae (adhesions involving the iris). |

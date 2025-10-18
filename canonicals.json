@@ -35,6 +35,13 @@
     "name" : "MII_EyeMatics_OCT_HRF"
   },
   {
+    "id" : "observation-rpe-disruption",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OCT_RPE_Disruption"
+  },
+  {
     "id" : "oct-vmt",
     "type" : "StructureDefinition",
     "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-VMT",

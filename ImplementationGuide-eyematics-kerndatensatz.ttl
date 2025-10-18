@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-18T07:06:25+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-18T07:16:41+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -1559,6 +1559,24 @@
        ] ;
        fhir:name [ fhir:v "RNFL Thickness" ] ;
        fhir:description [ fhir:v "Retinal nerve fiber layer thickness measured via OCT." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-rpe-disruption> ;
+         fhir:reference [ fhir:v "StructureDefinition/observation-rpe-disruption" ]
+       ] ;
+       fhir:name [ fhir:v "RPE disruption" ] ;
+       fhir:description [ fhir:v "OCT finding describing disruption of the retinal pigment epithelium (RPE) in the retina." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

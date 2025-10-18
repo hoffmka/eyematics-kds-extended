@@ -12,7 +12,7 @@
   <name value="EyeMatics_KDS"/>
   <title value="Eyematics Core Data Set"/>
   <status value="draft"/>
-  <date value="2025-10-18T07:06:25+00:00"/>
+  <date value="2025-10-18T07:16:41+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -899,6 +899,17 @@
       </reference>
       <name value="RNFL Thickness"/>
       <description value="Retinal nerve fiber layer thickness measured via OCT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-rpe-disruption"/>
+      </reference>
+      <name value="RPE disruption"/>
+      <description value="OCT finding describing disruption of the retinal pigment epithelium (RPE) in the retina."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

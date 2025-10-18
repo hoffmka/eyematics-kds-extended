@@ -11,7 +11,7 @@
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-18T07:06:25+00:00",
+  "date" : "2025-10-18T07:16:41+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -1095,6 +1095,18 @@
       },
       "name" : "RNFL Thickness",
       "description" : "Retinal nerve fiber layer thickness measured via OCT.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/observation-rpe-disruption"
+      },
+      "name" : "RPE disruption",
+      "description" : "OCT finding describing disruption of the retinal pigment epithelium (RPE) in the retina.",
       "exampleBoolean" : false
     },
     {

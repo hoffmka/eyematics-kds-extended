@@ -1,7 +1,7 @@
 EyeMatics_KDS : Validation Results
 =========================================
 
-err = 22, warn = 141, info = 147
+err = 25, warn = 146, info = 151
 $--
 Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = https://eyematics.org/fhir/eyematics-kds)
  Build Errors : 0 / 4 / 0
@@ -34,6 +34,7 @@ Generated $--. FHIR version $-- for eyematics-kerndatensatz#$-- (canonical = htt
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-medicationadministration : 1 / 3 / 9
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-mii-eyematics-ivom-paracentesis : 0 / 3 / 1
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption : 3 / 5 / 5
+ /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-rpe-disruption : 3 / 5 / 5
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-visual-acuity : 0 / 15 / 17
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-ze : 3 / 7 / 3
  /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-oct-dril : 3 / 7 / 3
@@ -320,6 +321,19 @@ INFORMATION: StructureDefinition/observation-elm-disruption: StructureDefinition
 WARNING: StructureDefinition/observation-elm-disruption: StructureDefinition.snapshot.element[38].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption'): The Implementation Guide contains no examples for this profile
 ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-elm-disruption: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-elm-disruption vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption
+== fsh-generated/resources/StructureDefinition-observation-rpe-disruption.json ==
+ERROR: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption'): Conformance resource /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-rpe-disruption.json - the canonical URL (https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-rpe-disruption) does not match the URL (https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption). Use the special-url parameter if you really mean for it not to match
+ERROR: StructureDefinition.url: Resource id/url mismatch: observation-rpe-disruption/https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption
+INFORMATION: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of retinal pigment epithelium (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+INFORMATION: StructureDefinition/observation-rpe-disruption: StructureDefinition.differential.element[6].fixed.ofType(CodeableConcept).coding[0].display: 'Structure of retinal pigment epithelium (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
+WARNING: StructureDefinition/observation-rpe-disruption: StructureDefinition.differential.element[8].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[23].fixed.ofType(CodeableConcept): Für den komplexen Typ CodeableConcept sollte eher ein Pattern als ein fester Wert verwendet werden, um die Instanz nicht zu sehr einzuschränken
+WARNING: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[30].binding: The definition for the element 'Observation.value[x]' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/Normal-Abnormal' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/observation-rpe-disruption: StructureDefinition.snapshot.element[38].binding: The definition for the element 'Observation.bodySite.coding' binds to the value set 'https://eyematics.org/fhir/eyematics-kds/ValueSet/eye-laterality' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption'): The Implementation Guide contains no examples for this profile
+ERROR: /home/runner/work/eyematics-kds-extended/eyematics-kds-extended/fsh-generated/resources/StructureDefinition-observation-rpe-disruption: URL Mismatch https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-rpe-disruption vs https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-RPE-Disruption
 == fsh-generated/resources/StructureDefinition-observation-visual-acuity.json ==
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept).coding[0].display: 'Visual Acuity finding' is the default display; the code system http://snomed.info/sct has no Display Names for the language de-DE
 INFORMATION: StructureDefinition/observation-visual-acuity: StructureDefinition.snapshot.element[80].fixed.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#29073-4 for language(s) 'de-DE'. The display is 'Right eye Position' the default language display
