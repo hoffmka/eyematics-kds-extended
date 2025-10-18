@@ -3,9 +3,9 @@
   "id" : "oct-biomarker",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem oct-biomarker</b></p><a name=\"oct-biomarker\"> </a><a name=\"hcoct-biomarker\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DRIL<a name=\"oct-biomarker-DRIL\"> </a></td><td>Disorganization of Retinal Inner Layers</td></tr><tr><td style=\"white-space:nowrap\">HRF<a name=\"oct-biomarker-HRF\"> </a></td><td>Hyperreflective Foci</td></tr><tr><td style=\"white-space:nowrap\">VMT<a name=\"oct-biomarker-VMT\"> </a></td><td>Vitreomacular Traction</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem oct-biomarker</b></p><a name=\"oct-biomarker\"> </a><a name=\"hcoct-biomarker\"> </a><p>This case-sensitive code system <code>https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DRIL<a name=\"oct-biomarker-DRIL\"> </a></td><td>Disorganization of Retinal Inner Layers</td></tr><tr><td style=\"white-space:nowrap\">HRF<a name=\"oct-biomarker-HRF\"> </a></td><td>Hyperreflective Foci</td></tr><tr><td style=\"white-space:nowrap\">VMT<a name=\"oct-biomarker-VMT\"> </a></td><td>Vitreomacular Traction</td></tr><tr><td style=\"white-space:nowrap\">EZ<a name=\"oct-biomarker-EZ\"> </a></td><td>Ellipsoid zone</td></tr></table></div>"
   },
-  "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
+  "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker",
   "version" : "2025.0.0-alpha",
   "name" : "OCT_Biomarker",
   "title" : "OCT Biomarker",
@@ -31,7 +31,7 @@
   "compositional" : false,
   "versionNeeded" : true,
   "content" : "complete",
-  "count" : 3,
+  "count" : 4,
   "concept" : [{
     "code" : "DRIL",
     "display" : "Disorganization of Retinal Inner Layers"
@@ -43,5 +43,9 @@
   {
     "code" : "VMT",
     "display" : "Vitreomacular Traction"
+  },
+  {
+    "code" : "EZ",
+    "display" : "Ellipsoid zone"
   }]
 }

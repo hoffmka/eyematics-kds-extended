@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-HRF | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_OCT_HRF |
+| Draft as of 2025-10-18 | *Computable Name*:MII_EyeMatics_OCT_HRF |
 
  
 OCT biomarker HRF indicating presence or absence measured by OCT 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-oct-hrf.csv), [Excel
   "name" : "MII_EyeMatics_OCT_HRF",
   "title" : "OCT Biomarker HRF",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

@@ -1,6 +1,14 @@
 {
   "codeSystems" : [
     {
+      "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker",
+      "version" : "2025.0.0-alpha",
+      "status" : "draft",
+      "name" : "OCT_Biomarker",
+      "title" : "OCT Biomarker",
+      "description" : "Local codes for OCT-based biomarkers not yet represented in SNOMED CT."
+    },
+    {
       "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/iop-methods",
       "version" : "2025.0.0-alpha",
       "status" : "draft",
@@ -15,14 +23,6 @@
       "name" : "IVI_TreatmentRegimen",
       "title" : "IVI Treatment Regimen",
       "description" : "IVI Treatment Regimen or Protocol"
-    },
-    {
-      "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
-      "version" : "2025.0.0-alpha",
-      "status" : "draft",
-      "name" : "OCT_Biomarker",
-      "title" : "OCT Biomarker",
-      "description" : "Local codes for OCT-based biomarkers not yet represented in SNOMED CT."
     },
     {
       "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/sun-grades",

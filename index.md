@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/ImplementationGuide/eyematics-kerndatensatz | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:EyeMatics_KDS |
+| Draft as of 2025-10-18 | *Computable Name*:EyeMatics_KDS |
 
 # EyeMatics-Erweiterter-Kerndatensatz
 
@@ -48,7 +48,7 @@ Dies ist der **erweiterte** Kerndatensatz des [EyeMatics-Projektes](https://www.
   "name" : "EyeMatics_KDS",
   "title" : "Eyematics Core Data Set",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {
@@ -811,6 +811,20 @@ Dies ist der **erweiterte** Kerndatensatz des [EyeMatics-Projektes](https://www.
         },
         "name" : "Anterior Chamber Flare",
         "description" : "A profile to capture anterior chamber flare observations in ophthalmology.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/observation-ze"
+        },
+        "name" : "Ellipsoid zone disruption",
+        "description" : "OCT finding describing the disruption of the ellipsoid zone (EZ) in the retina.",
         "exampleBoolean" : false
       },
       {

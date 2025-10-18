@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/extension-ivi-treatment-regimen | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:IVI_TreatmentRegimen |
+| Draft as of 2025-10-18 | *Computable Name*:IVI_TreatmentRegimen |
 
 TODO
 
@@ -48,7 +48,7 @@ Other representations of profile: [CSV](StructureDefinition-extension-ivi-treatm
   "name" : "IVI_TreatmentRegimen",
   "title" : "IVI Treatment Regimen Extension",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

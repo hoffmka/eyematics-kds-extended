@@ -12,7 +12,7 @@
   <name value="EyeMatics_KDS"/>
   <title value="Eyematics Core Data Set"/>
   <status value="draft"/>
-  <date value="2025-10-17T15:10:32+00:00"/>
+  <date value="2025-10-18T07:06:25+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -492,6 +492,17 @@
       </reference>
       <name value="Anterior Chamber Flare"/>
       <description value="A profile to capture anterior chamber flare observations in ophthalmology."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-ze"/>
+      </reference>
+      <name value="Ellipsoid zone disruption"/>
+      <description value="OCT finding describing the disruption of the ellipsoid zone (EZ) in the retina."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

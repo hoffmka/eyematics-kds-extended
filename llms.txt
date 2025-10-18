@@ -68,6 +68,7 @@
 * [IVI-Paracentesis](StructureDefinition-mii-eyematics-ivom-paracentesis.md)
 * [ELM disruption](StructureDefinition-observation-elm-disruption.md)
 * [Visual Acuity (VA)](StructureDefinition-observation-visual-acuity.md)
+* [Ellipsoid zone disruption](StructureDefinition-observation-ze.md)
 * [OCT Biomarker DRIL](StructureDefinition-oct-dril.md)
 * [OCT Biomarker HRF](StructureDefinition-oct-hrf.md)
 * [OCT Biomarker VMT](StructureDefinition-oct-vmt.md)

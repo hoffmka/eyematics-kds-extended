@@ -17,6 +17,7 @@ ValueSet containing codes that indicate the normality status of a clinical findi
  **References** 
 
 * [ELM disruption](StructureDefinition-observation-elm-disruption.md)
+* [Ellipsoid zone disruption](StructureDefinition-observation-ze.md)
 
 ### Logical Definition (CLD)
 

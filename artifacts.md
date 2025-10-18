@@ -17,6 +17,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Anterior Chamber Cells](StructureDefinition-AnteriorChamberCells.md) | A profile to capture anterior chamber cells observations in ophthalmology. |
 | [Anterior Chamber Flare](StructureDefinition-AnteriorChamberFlare.md) | A profile to capture anterior chamber flare observations in ophthalmology. |
 | [ELM disruption](StructureDefinition-observation-elm-disruption.md) | OCT finding describing disruption of the external limiting membrane (ELM) in the retina. |
+| [Ellipsoid zone disruption](StructureDefinition-observation-ze.md) | OCT finding describing the disruption of the ellipsoid zone (EZ) in the retina. |
 | [IVI-HandMovementPerception](StructureDefinition-mii-eyematics-ivom-hand-movement-perception.md) | After IVI, it is checked if the patient can see his hand movements, otherwise Paracentesis might be necessary |
 | [IVI-MedicationAdministration](StructureDefinition-mii-eyematics-ivom-medicationadministration.md) | A MedicationAdministration resource describes that a drug (in our case in form of an IVI) has actually been administred. |
 | [IVI-Medikament](StructureDefinition-mii-eyematics-ivom-medication.md) | Die Medikation, die angesetzt, geplant oder verabreicht wird. Es kann sich um ein Fertigarzneimittel oder eine Rezeptur handeln. Auch die Angabe nur des Wirkstoffes ist möglich. Mindestens ein Wirkstoff MUSS angegeben werden. |

@@ -1,5 +1,12 @@
 [
   {
+    "id" : "oct-biomarker",
+    "type" : "CodeSystem",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker",
+    "version" : "2025.0.0-alpha",
+    "name" : "OCT_Biomarker"
+  },
+  {
     "id" : "oct-dril",
     "type" : "StructureDefinition",
     "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-DRIL",
@@ -12,6 +19,13 @@
     "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-ELM-Disruption",
     "version" : "2025.0.0-alpha",
     "name" : "MII_EyeMatics_OCT_ELM_Disruption"
+  },
+  {
+    "id" : "observation-ze",
+    "type" : "StructureDefinition",
+    "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-EZ-Disruption",
+    "version" : "2025.0.0-alpha",
+    "name" : "MII_EyeMatics_OCT_EZDisruption"
   },
   {
     "id" : "oct-hrf",
@@ -40,13 +54,6 @@
     "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/ivi-treatment-regimen",
     "version" : "2025.0.0-alpha",
     "name" : "IVI_TreatmentRegimen"
-  },
-  {
-    "id" : "oct-biomarker",
-    "type" : "CodeSystem",
-    "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
-    "version" : "2025.0.0-alpha",
-    "name" : "OCT_Biomarker"
   },
   {
     "id" : "sun-grades",

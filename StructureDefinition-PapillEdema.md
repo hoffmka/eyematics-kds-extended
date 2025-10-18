@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/PapillEdema | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_PapillEdema |
+| Draft as of 2025-10-18 | *Computable Name*:MII_EyeMatics_PapillEdema |
 
  
 An observation determining the presence or absence of papilledema (swelling of the optic disc). 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-PapillEdema.csv), [E
   "name" : "MII_EyeMatics_PapillEdema",
   "title" : "Papill Edema",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

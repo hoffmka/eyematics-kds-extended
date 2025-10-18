@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/AnteriorChamberCells | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_Anterior_Chamber_Cells |
+| Draft as of 2025-10-18 | *Computable Name*:MII_EyeMatics_Anterior_Chamber_Cells |
 
  
 A profile to capture anterior chamber cells observations in ophthalmology. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-AnteriorChamberCells
   "name" : "MII_EyeMatics_Anterior_Chamber_Cells",
   "title" : "Anterior Chamber Cells",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

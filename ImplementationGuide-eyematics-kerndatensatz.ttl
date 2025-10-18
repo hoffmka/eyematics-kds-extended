@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "EyeMatics_KDS"] ; # 
   fhir:title [ fhir:v "Eyematics Core Data Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-17T15:10:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-18T07:06:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik-Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik-Initiative" ] ;
@@ -893,6 +893,24 @@
        ] ;
        fhir:name [ fhir:v "Anterior Chamber Flare" ] ;
        fhir:description [ fhir:v "A profile to capture anterior chamber flare observations in ophthalmology." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://eyematics.org/fhir/eyematics-kds/StructureDefinition/observation-ze> ;
+         fhir:reference [ fhir:v "StructureDefinition/observation-ze" ]
+       ] ;
+       fhir:name [ fhir:v "Ellipsoid zone disruption" ] ;
+       fhir:description [ fhir:v "OCT finding describing the disruption of the ellipsoid zone (EZ) in the retina." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

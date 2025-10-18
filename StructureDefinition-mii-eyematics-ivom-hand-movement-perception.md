@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://eyematics.org/fhir/eyematics-kds/StructureDefinition/mii-eyematics-ivom-hand-movement-perception | *Version*:2025.0.0-alpha |
-| Draft as of 2025-10-17 | *Computable Name*:MII_EyeMatics_IVI_HandMovementPerception |
+| Draft as of 2025-10-18 | *Computable Name*:MII_EyeMatics_IVI_HandMovementPerception |
 
  
 After IVI, it is checked if the patient can see his hand movements, otherwise Paracentesis might be necessary 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-mii-eyematics-ivom-h
   "name" : "MII_EyeMatics_IVI_HandMovementPerception",
   "title" : "IVI-HandMovementPerception",
   "status" : "draft",
-  "date" : "2025-10-17T15:10:32+00:00",
+  "date" : "2025-10-18T07:06:25+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [
     {

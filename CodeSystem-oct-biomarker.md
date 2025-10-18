@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker | *Version*:2025.0.0-alpha |
+| *Official URL*:https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker | *Version*:2025.0.0-alpha |
 | Draft as of 2025-10-10 | *Computable Name*:OCT_Biomarker |
 | **Copyright/Legal**: MII | |
 
@@ -27,7 +27,7 @@ Local codes for OCT-based biomarkers not yet represented in SNOMED CT.
 {
   "resourceType" : "CodeSystem",
   "id" : "oct-biomarker",
-  "url" : "https://eyematics.org/fhir/eyematics-kds/CodeSystem/oct-biomarker",
+  "url" : "https://eyematics.org/fhir/eyematics-kds-extended/StructureDefinition/OCT-Biomarker",
   "version" : "2025.0.0-alpha",
   "name" : "OCT_Biomarker",
   "title" : "OCT Biomarker",
@@ -61,7 +61,7 @@ Local codes for OCT-based biomarkers not yet represented in SNOMED CT.
   "compositional" : false,
   "versionNeeded" : true,
   "content" : "complete",
-  "count" : 3,
+  "count" : 4,
   "concept" : [
     {
       "code" : "DRIL",
@@ -74,6 +74,10 @@ Local codes for OCT-based biomarkers not yet represented in SNOMED CT.
     {
       "code" : "VMT",
       "display" : "Vitreomacular Traction"
+    },
+    {
+      "code" : "EZ",
+      "display" : "Ellipsoid zone"
     }
   ]
 }
